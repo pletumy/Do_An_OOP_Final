@@ -64,7 +64,6 @@ D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.csproj.AssemblyReference.cache
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.AccountGV.resources
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.AccountHS.resources
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.DangNhap.resources
-D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.GiaoVien.resources
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.NhapDiem.resources
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.Properties.Resources.resources
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.NhapLop.resources
@@ -81,3 +80,4 @@ D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.csproj.GenerateResource.cache
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.csproj.CoreCompileInputs.cache
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.exe
 D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.pdb
+D:\github_repo\Do_An_OOP_Final\obj\Debug\Thiet_ke.QuanLyDiem.resources

@@ -16,7 +16,7 @@ namespace Thiet_ke
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SuaLop());
+            Application.Run(new QuanLyDiem());
         }
     }
 }

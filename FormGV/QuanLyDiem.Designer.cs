@@ -1,6 +1,6 @@
 ﻿namespace Thiet_ke
 {
-    partial class GiaoVien
+    partial class QuanLyDiem
     {
         /// <summary>
         /// Required designer variable.
@@ -34,7 +34,7 @@
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             ""}, -1);
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GiaoVien));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuanLyDiem));
             this.btnXoaMon = new System.Windows.Forms.Button();
             this.clnGioiTinh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnSodt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -78,10 +78,10 @@
             // btnXoaMon
             // 
             this.btnXoaMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnXoaMon.Location = new System.Drawing.Point(380, 606);
-            this.btnXoaMon.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnXoaMon.Location = new System.Drawing.Point(253, 388);
+            this.btnXoaMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoaMon.Name = "btnXoaMon";
-            this.btnXoaMon.Size = new System.Drawing.Size(180, 69);
+            this.btnXoaMon.Size = new System.Drawing.Size(120, 44);
             this.btnXoaMon.TabIndex = 2;
             this.btnXoaMon.Text = "Xóa";
             this.btnXoaMon.UseVisualStyleBackColor = true;
@@ -105,11 +105,11 @@
             this.grbDssv.Controls.Add(this.grbSinhVien);
             this.grbDssv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDssv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(191)))), ((int)(((byte)(139)))));
-            this.grbDssv.Location = new System.Drawing.Point(884, 317);
-            this.grbDssv.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.grbDssv.Location = new System.Drawing.Point(589, 203);
+            this.grbDssv.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grbDssv.Name = "grbDssv";
-            this.grbDssv.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.grbDssv.Size = new System.Drawing.Size(1172, 690);
+            this.grbDssv.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grbDssv.Size = new System.Drawing.Size(781, 442);
             this.grbDssv.TabIndex = 12;
             this.grbDssv.TabStop = false;
             this.grbDssv.Text = "Danh sách học sinh";
@@ -128,10 +128,10 @@
             this.lvSinhVien.HideSelection = false;
             this.lvSinhVien.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1});
-            this.lvSinhVien.Location = new System.Drawing.Point(12, 52);
-            this.lvSinhVien.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.lvSinhVien.Location = new System.Drawing.Point(8, 33);
+            this.lvSinhVien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lvSinhVien.Name = "lvSinhVien";
-            this.lvSinhVien.Size = new System.Drawing.Size(1142, 477);
+            this.lvSinhVien.Size = new System.Drawing.Size(763, 307);
             this.lvSinhVien.TabIndex = 0;
             this.lvSinhVien.UseCompatibleStateImageBehavior = false;
             this.lvSinhVien.View = System.Windows.Forms.View.Details;
@@ -154,10 +154,10 @@
             // btnXoaSv
             // 
             this.btnXoaSv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnXoaSv.Location = new System.Drawing.Point(734, 598);
-            this.btnXoaSv.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnXoaSv.Location = new System.Drawing.Point(489, 383);
+            this.btnXoaSv.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoaSv.Name = "btnXoaSv";
-            this.btnXoaSv.Size = new System.Drawing.Size(180, 69);
+            this.btnXoaSv.Size = new System.Drawing.Size(120, 44);
             this.btnXoaSv.TabIndex = 2;
             this.btnXoaSv.Text = "Xóa";
             this.btnXoaSv.UseVisualStyleBackColor = true;
@@ -165,10 +165,10 @@
             // btnSuaSv
             // 
             this.btnSuaSv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnSuaSv.Location = new System.Drawing.Point(214, 598);
-            this.btnSuaSv.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSuaSv.Location = new System.Drawing.Point(143, 383);
+            this.btnSuaSv.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSuaSv.Name = "btnSuaSv";
-            this.btnSuaSv.Size = new System.Drawing.Size(180, 69);
+            this.btnSuaSv.Size = new System.Drawing.Size(120, 44);
             this.btnSuaSv.TabIndex = 1;
             this.btnSuaSv.Text = "Sửa";
             this.btnSuaSv.UseVisualStyleBackColor = true;
@@ -177,11 +177,11 @@
             // 
             this.grbSinhVien.BackColor = System.Drawing.Color.Transparent;
             this.grbSinhVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.grbSinhVien.Location = new System.Drawing.Point(166, 688);
-            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.grbSinhVien.Location = new System.Drawing.Point(111, 440);
+            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.grbSinhVien.Name = "grbSinhVien";
-            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.grbSinhVien.Size = new System.Drawing.Size(698, 185);
+            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbSinhVien.Size = new System.Drawing.Size(465, 118);
             this.grbSinhVien.TabIndex = 13;
             this.grbSinhVien.TabStop = false;
             this.grbSinhVien.Text = "Sinh viên";
@@ -198,10 +198,10 @@
             this.lvLop.HideSelection = false;
             this.lvLop.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem2});
-            this.lvLop.Location = new System.Drawing.Point(12, 52);
-            this.lvLop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.lvLop.Location = new System.Drawing.Point(8, 33);
+            this.lvLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lvLop.Name = "lvLop";
-            this.lvLop.Size = new System.Drawing.Size(762, 477);
+            this.lvLop.Size = new System.Drawing.Size(509, 307);
             this.lvLop.TabIndex = 0;
             this.lvLop.UseCompatibleStateImageBehavior = false;
             this.lvLop.View = System.Windows.Forms.View.Details;
@@ -229,11 +229,11 @@
             this.grbDsLop.Controls.Add(this.btnSuaLop);
             this.grbDsLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDsLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.grbDsLop.Location = new System.Drawing.Point(92, 317);
-            this.grbDsLop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.grbDsLop.Location = new System.Drawing.Point(61, 203);
+            this.grbDsLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grbDsLop.Name = "grbDsLop";
-            this.grbDsLop.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.grbDsLop.Size = new System.Drawing.Size(778, 690);
+            this.grbDsLop.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grbDsLop.Size = new System.Drawing.Size(519, 442);
             this.grbDsLop.TabIndex = 9;
             this.grbDsLop.TabStop = false;
             this.grbDsLop.Text = "Danh sách Lớp";
@@ -242,10 +242,10 @@
             // btnXoaLop
             // 
             this.btnXoaLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnXoaLop.Location = new System.Drawing.Point(538, 598);
-            this.btnXoaLop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnXoaLop.Location = new System.Drawing.Point(359, 383);
+            this.btnXoaLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoaLop.Name = "btnXoaLop";
-            this.btnXoaLop.Size = new System.Drawing.Size(180, 69);
+            this.btnXoaLop.Size = new System.Drawing.Size(120, 44);
             this.btnXoaLop.TabIndex = 2;
             this.btnXoaLop.Text = "Xóa";
             this.btnXoaLop.UseVisualStyleBackColor = true;
@@ -253,10 +253,10 @@
             // btnSuaLop
             // 
             this.btnSuaLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnSuaLop.Location = new System.Drawing.Point(100, 598);
-            this.btnSuaLop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSuaLop.Location = new System.Drawing.Point(67, 383);
+            this.btnSuaLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSuaLop.Name = "btnSuaLop";
-            this.btnSuaLop.Size = new System.Drawing.Size(180, 69);
+            this.btnSuaLop.Size = new System.Drawing.Size(120, 44);
             this.btnSuaLop.TabIndex = 1;
             this.btnSuaLop.Text = "Sửa";
             this.btnSuaLop.UseVisualStyleBackColor = true;
@@ -269,11 +269,11 @@
             this.grbDsMon.Controls.Add(this.btnSuaMon);
             this.grbDsMon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDsMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(191)))), ((int)(((byte)(139)))));
-            this.grbDsMon.Location = new System.Drawing.Point(2064, 317);
-            this.grbDsMon.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.grbDsMon.Location = new System.Drawing.Point(1376, 203);
+            this.grbDsMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grbDsMon.Name = "grbDsMon";
-            this.grbDsMon.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.grbDsMon.Size = new System.Drawing.Size(596, 690);
+            this.grbDsMon.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grbDsMon.Size = new System.Drawing.Size(397, 442);
             this.grbDsMon.TabIndex = 14;
             this.grbDsMon.TabStop = false;
             this.grbDsMon.Text = "Danh sách môn";
@@ -289,10 +289,10 @@
             this.lvDsMon.FullRowSelect = true;
             this.lvDsMon.GridLines = true;
             this.lvDsMon.HideSelection = false;
-            this.lvDsMon.Location = new System.Drawing.Point(16, 52);
-            this.lvDsMon.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.lvDsMon.Location = new System.Drawing.Point(11, 33);
+            this.lvDsMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lvDsMon.Name = "lvDsMon";
-            this.lvDsMon.Size = new System.Drawing.Size(558, 477);
+            this.lvDsMon.Size = new System.Drawing.Size(373, 307);
             this.lvDsMon.TabIndex = 0;
             this.lvDsMon.UseCompatibleStateImageBehavior = false;
             this.lvDsMon.View = System.Windows.Forms.View.Details;
@@ -320,10 +320,10 @@
             // btnSuaMon
             // 
             this.btnSuaMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnSuaMon.Location = new System.Drawing.Point(62, 606);
-            this.btnSuaMon.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSuaMon.Location = new System.Drawing.Point(41, 388);
+            this.btnSuaMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSuaMon.Name = "btnSuaMon";
-            this.btnSuaMon.Size = new System.Drawing.Size(180, 69);
+            this.btnSuaMon.Size = new System.Drawing.Size(120, 44);
             this.btnSuaMon.TabIndex = 1;
             this.btnSuaMon.Text = "Sửa";
             this.btnSuaMon.UseVisualStyleBackColor = true;
@@ -332,10 +332,10 @@
             // 
             this.btnNhapLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnNhapLop.Location = new System.Drawing.Point(192, 1027);
-            this.btnNhapLop.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.btnNhapLop.Location = new System.Drawing.Point(128, 657);
+            this.btnNhapLop.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnNhapLop.Name = "btnNhapLop";
-            this.btnNhapLop.Size = new System.Drawing.Size(620, 83);
+            this.btnNhapLop.Size = new System.Drawing.Size(413, 53);
             this.btnNhapLop.TabIndex = 0;
             this.btnNhapLop.Text = "Nhập lớp";
             this.btnNhapLop.UseVisualStyleBackColor = true;
@@ -346,10 +346,10 @@
             this.lblPhanMem.BackColor = System.Drawing.Color.Transparent;
             this.lblPhanMem.Font = new System.Drawing.Font("Arial", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPhanMem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(191)))), ((int)(((byte)(139)))));
-            this.lblPhanMem.Location = new System.Drawing.Point(-664, -321);
-            this.lblPhanMem.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.lblPhanMem.Location = new System.Drawing.Point(-443, -205);
+            this.lblPhanMem.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblPhanMem.Name = "lblPhanMem";
-            this.lblPhanMem.Size = new System.Drawing.Size(1311, 88);
+            this.lblPhanMem.Size = new System.Drawing.Size(815, 55);
             this.lblPhanMem.TabIndex = 10;
             this.lblPhanMem.Text = "Phần Mềm Quản Lí Điểm Sinh Viên ";
             // 
@@ -357,10 +357,10 @@
             // 
             this.btnNhapHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapHS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnNhapHS.Location = new System.Drawing.Point(1096, 1027);
-            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.btnNhapHS.Location = new System.Drawing.Point(731, 657);
+            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnNhapHS.Name = "btnNhapHS";
-            this.btnNhapHS.Size = new System.Drawing.Size(700, 83);
+            this.btnNhapHS.Size = new System.Drawing.Size(467, 53);
             this.btnNhapHS.TabIndex = 0;
             this.btnNhapHS.Text = "Nhập học sinh";
             this.btnNhapHS.UseVisualStyleBackColor = true;
@@ -371,11 +371,11 @@
             this.grbDiemSo.Controls.Add(this.btnNhapDiem);
             this.grbDiemSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDiemSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.grbDiemSo.Location = new System.Drawing.Point(956, 1131);
-            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.grbDiemSo.Location = new System.Drawing.Point(637, 724);
+            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.grbDiemSo.Name = "grbDiemSo";
-            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.grbDiemSo.Size = new System.Drawing.Size(1042, 162);
+            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbDiemSo.Size = new System.Drawing.Size(695, 104);
             this.grbDiemSo.TabIndex = 16;
             this.grbDiemSo.TabStop = false;
             this.grbDiemSo.Text = "Điểm số";
@@ -384,10 +384,10 @@
             // 
             this.btnNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapDiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnNhapDiem.Location = new System.Drawing.Point(236, 42);
-            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.btnNhapDiem.Location = new System.Drawing.Point(157, 27);
+            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnNhapDiem.Name = "btnNhapDiem";
-            this.btnNhapDiem.Size = new System.Drawing.Size(562, 83);
+            this.btnNhapDiem.Size = new System.Drawing.Size(375, 53);
             this.btnNhapDiem.TabIndex = 0;
             this.btnNhapDiem.Text = "Nhập điểm";
             this.btnNhapDiem.UseVisualStyleBackColor = true;
@@ -396,10 +396,10 @@
             // 
             this.btnNhapMon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnNhapMon.Location = new System.Drawing.Point(2126, 1027);
-            this.btnNhapMon.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.btnNhapMon.Location = new System.Drawing.Point(1417, 657);
+            this.btnNhapMon.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnNhapMon.Name = "btnNhapMon";
-            this.btnNhapMon.Size = new System.Drawing.Size(496, 83);
+            this.btnNhapMon.Size = new System.Drawing.Size(331, 53);
             this.btnNhapMon.TabIndex = 0;
             this.btnNhapMon.Text = "Nhập môn học";
             this.btnNhapMon.UseVisualStyleBackColor = true;
@@ -410,12 +410,12 @@
             this.groupBox1.Controls.Add(this.lblGv);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.SandyBrown;
-            this.groupBox1.Location = new System.Drawing.Point(92, 75);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.groupBox1.Location = new System.Drawing.Point(61, 48);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox1.Size = new System.Drawing.Size(2568, 180);
+            this.groupBox1.Size = new System.Drawing.Size(1712, 115);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PHẦN MỀM QUẢN LÝ ĐIỂM";
@@ -425,20 +425,19 @@
             this.lblGv.AutoSize = true;
             this.lblGv.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGv.ForeColor = System.Drawing.Color.SandyBrown;
-            this.lblGv.Location = new System.Drawing.Point(1120, 71);
-            this.lblGv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblGv.Location = new System.Drawing.Point(747, 45);
             this.lblGv.Name = "lblGv";
-            this.lblGv.Size = new System.Drawing.Size(271, 56);
+            this.lblGv.Size = new System.Drawing.Size(169, 35);
             this.lblGv.TabIndex = 0;
             this.lblGv.Text = "GIÁO VIÊN";
             this.lblGv.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // GiaoVien
+            // QuanLyDiem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(2740, 1335);
+            this.ClientSize = new System.Drawing.Size(1832, 883);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnNhapMon);
             this.Controls.Add(this.btnNhapHS);
@@ -449,8 +448,8 @@
             this.Controls.Add(this.lblPhanMem);
             this.Controls.Add(this.grbDiemSo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.Name = "GiaoVien";
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "QuanLyDiem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Giáo viên";
             this.Load += new System.EventHandler(this.GiaoVien_Load);
