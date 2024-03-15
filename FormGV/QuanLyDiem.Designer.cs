@@ -35,7 +35,6 @@
             "",
             ""}, -1);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuanLyDiem));
-            this.btnXoaMon = new System.Windows.Forms.Button();
             this.clnGioiTinh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnSodt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.grbDssv = new System.Windows.Forms.GroupBox();
@@ -53,38 +52,18 @@
             this.grbDsLop = new System.Windows.Forms.GroupBox();
             this.btnXoaLop = new System.Windows.Forms.Button();
             this.btnSuaLop = new System.Windows.Forms.Button();
-            this.grbDsMon = new System.Windows.Forms.GroupBox();
-            this.lvDsMon = new System.Windows.Forms.ListView();
-            this.clnMaMonHoc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clnTenMonHoc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clnSTCLT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clnSTCTH = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnSuaMon = new System.Windows.Forms.Button();
             this.btnNhapLop = new System.Windows.Forms.Button();
             this.lblPhanMem = new System.Windows.Forms.Label();
             this.btnNhapHS = new System.Windows.Forms.Button();
             this.grbDiemSo = new System.Windows.Forms.GroupBox();
             this.btnNhapDiem = new System.Windows.Forms.Button();
-            this.btnNhapMon = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblGv = new System.Windows.Forms.Label();
             this.grbDssv.SuspendLayout();
             this.grbDsLop.SuspendLayout();
-            this.grbDsMon.SuspendLayout();
             this.grbDiemSo.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnXoaMon
-            // 
-            this.btnXoaMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnXoaMon.Location = new System.Drawing.Point(253, 388);
-            this.btnXoaMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnXoaMon.Name = "btnXoaMon";
-            this.btnXoaMon.Size = new System.Drawing.Size(120, 44);
-            this.btnXoaMon.TabIndex = 2;
-            this.btnXoaMon.Text = "Xóa";
-            this.btnXoaMon.UseVisualStyleBackColor = true;
             // 
             // clnGioiTinh
             // 
@@ -178,9 +157,9 @@
             this.grbSinhVien.BackColor = System.Drawing.Color.Transparent;
             this.grbSinhVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.grbSinhVien.Location = new System.Drawing.Point(111, 440);
-            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(5);
             this.grbSinhVien.Name = "grbSinhVien";
-            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(5);
             this.grbSinhVien.Size = new System.Drawing.Size(465, 118);
             this.grbSinhVien.TabIndex = 13;
             this.grbSinhVien.TabStop = false;
@@ -261,73 +240,6 @@
             this.btnSuaLop.Text = "Sửa";
             this.btnSuaLop.UseVisualStyleBackColor = true;
             // 
-            // grbDsMon
-            // 
-            this.grbDsMon.BackColor = System.Drawing.Color.Transparent;
-            this.grbDsMon.Controls.Add(this.lvDsMon);
-            this.grbDsMon.Controls.Add(this.btnXoaMon);
-            this.grbDsMon.Controls.Add(this.btnSuaMon);
-            this.grbDsMon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbDsMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(191)))), ((int)(((byte)(139)))));
-            this.grbDsMon.Location = new System.Drawing.Point(1376, 203);
-            this.grbDsMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.grbDsMon.Name = "grbDsMon";
-            this.grbDsMon.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.grbDsMon.Size = new System.Drawing.Size(397, 442);
-            this.grbDsMon.TabIndex = 14;
-            this.grbDsMon.TabStop = false;
-            this.grbDsMon.Text = "Danh sách môn";
-            // 
-            // lvDsMon
-            // 
-            this.lvDsMon.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.clnMaMonHoc,
-            this.clnTenMonHoc,
-            this.clnSTCLT,
-            this.clnSTCTH});
-            this.lvDsMon.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvDsMon.FullRowSelect = true;
-            this.lvDsMon.GridLines = true;
-            this.lvDsMon.HideSelection = false;
-            this.lvDsMon.Location = new System.Drawing.Point(11, 33);
-            this.lvDsMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.lvDsMon.Name = "lvDsMon";
-            this.lvDsMon.Size = new System.Drawing.Size(373, 307);
-            this.lvDsMon.TabIndex = 0;
-            this.lvDsMon.UseCompatibleStateImageBehavior = false;
-            this.lvDsMon.View = System.Windows.Forms.View.Details;
-            // 
-            // clnMaMonHoc
-            // 
-            this.clnMaMonHoc.Text = "Mã môn học";
-            this.clnMaMonHoc.Width = 120;
-            // 
-            // clnTenMonHoc
-            // 
-            this.clnTenMonHoc.Text = "Tên môn học";
-            this.clnTenMonHoc.Width = 180;
-            // 
-            // clnSTCLT
-            // 
-            this.clnSTCLT.Text = "STCLT";
-            this.clnSTCLT.Width = 70;
-            // 
-            // clnSTCTH
-            // 
-            this.clnSTCTH.Text = "STCTH";
-            this.clnSTCTH.Width = 90;
-            // 
-            // btnSuaMon
-            // 
-            this.btnSuaMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnSuaMon.Location = new System.Drawing.Point(41, 388);
-            this.btnSuaMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnSuaMon.Name = "btnSuaMon";
-            this.btnSuaMon.Size = new System.Drawing.Size(120, 44);
-            this.btnSuaMon.TabIndex = 1;
-            this.btnSuaMon.Text = "Sửa";
-            this.btnSuaMon.UseVisualStyleBackColor = true;
-            // 
             // btnNhapLop
             // 
             this.btnNhapLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -358,7 +270,7 @@
             this.btnNhapHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapHS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapHS.Location = new System.Drawing.Point(731, 657);
-            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(5);
             this.btnNhapHS.Name = "btnNhapHS";
             this.btnNhapHS.Size = new System.Drawing.Size(467, 53);
             this.btnNhapHS.TabIndex = 0;
@@ -372,9 +284,9 @@
             this.grbDiemSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDiemSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.grbDiemSo.Location = new System.Drawing.Point(637, 724);
-            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(5);
             this.grbDiemSo.Name = "grbDiemSo";
-            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(5);
             this.grbDiemSo.Size = new System.Drawing.Size(695, 104);
             this.grbDiemSo.TabIndex = 16;
             this.grbDiemSo.TabStop = false;
@@ -385,24 +297,12 @@
             this.btnNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapDiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapDiem.Location = new System.Drawing.Point(157, 27);
-            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(5);
             this.btnNhapDiem.Name = "btnNhapDiem";
             this.btnNhapDiem.Size = new System.Drawing.Size(375, 53);
             this.btnNhapDiem.TabIndex = 0;
             this.btnNhapDiem.Text = "Nhập điểm";
             this.btnNhapDiem.UseVisualStyleBackColor = true;
-            // 
-            // btnNhapMon
-            // 
-            this.btnNhapMon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNhapMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnNhapMon.Location = new System.Drawing.Point(1417, 657);
-            this.btnNhapMon.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnNhapMon.Name = "btnNhapMon";
-            this.btnNhapMon.Size = new System.Drawing.Size(331, 53);
-            this.btnNhapMon.TabIndex = 0;
-            this.btnNhapMon.Text = "Nhập môn học";
-            this.btnNhapMon.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -415,7 +315,7 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox1.Size = new System.Drawing.Size(1712, 115);
+            this.groupBox1.Size = new System.Drawing.Size(1309, 115);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PHẦN MỀM QUẢN LÝ ĐIỂM";
@@ -437,14 +337,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1832, 883);
+            this.ClientSize = new System.Drawing.Size(1375, 883);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnNhapMon);
             this.Controls.Add(this.btnNhapHS);
             this.Controls.Add(this.grbDssv);
             this.Controls.Add(this.btnNhapLop);
             this.Controls.Add(this.grbDsLop);
-            this.Controls.Add(this.grbDsMon);
             this.Controls.Add(this.lblPhanMem);
             this.Controls.Add(this.grbDiemSo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -455,7 +353,6 @@
             this.Load += new System.EventHandler(this.GiaoVien_Load);
             this.grbDssv.ResumeLayout(false);
             this.grbDsLop.ResumeLayout(false);
-            this.grbDsMon.ResumeLayout(false);
             this.grbDiemSo.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -465,8 +362,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnXoaMon;
         private System.Windows.Forms.ColumnHeader clnGioiTinh;
         private System.Windows.Forms.ColumnHeader clnSodt;
         private System.Windows.Forms.GroupBox grbDssv;
@@ -483,19 +378,11 @@
         private System.Windows.Forms.ColumnHeader clnNamNhapHoc;
         private System.Windows.Forms.Button btnXoaLop;
         private System.Windows.Forms.Button btnSuaLop;
-        private System.Windows.Forms.GroupBox grbDsMon;
-        public System.Windows.Forms.ListView lvDsMon;
-        private System.Windows.Forms.ColumnHeader clnMaMonHoc;
-        private System.Windows.Forms.ColumnHeader clnTenMonHoc;
-        private System.Windows.Forms.ColumnHeader clnSTCLT;
-        private System.Windows.Forms.ColumnHeader clnSTCTH;
-        private System.Windows.Forms.Button btnSuaMon;
         private System.Windows.Forms.Button btnNhapLop;
         private System.Windows.Forms.Label lblPhanMem;
         private System.Windows.Forms.Button btnNhapHS;
         private System.Windows.Forms.GroupBox grbDiemSo;
         private System.Windows.Forms.Button btnNhapDiem;
-        private System.Windows.Forms.Button btnNhapMon;
         private System.Windows.Forms.GroupBox grbSinhVien;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblGv;

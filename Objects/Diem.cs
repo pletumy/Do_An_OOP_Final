@@ -9,16 +9,16 @@ using System.Xml.Linq;
 
 namespace Thiet_ke.Objects
 {
-    public class Diem : ISerializable
+    public class Diem 
     {
-        private double diemGiuaKy {  get; set; }
+        private double diemGiuaKy {  get; set; } //0.0 - 10.0
         private double diemCuoiKy { get; set; }
         private double diemTongKet { get; set; }
 
         public Diem()
         {
         }
-
+        //Slide 
         public Diem(SerializationInfo info, StreamingContext context)
         {
             // Đọc dữ liệu từ SerializationInfo và khôi phục các thuộc tính của đối tượng Student

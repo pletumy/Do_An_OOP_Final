@@ -25,6 +25,11 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
+        public HocSinh TimKiem()
+        {
+            throw new NotImplementedException();
+        }
+
         public HocSinh Xoa()
         {
             throw new NotImplementedException();

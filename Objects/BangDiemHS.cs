@@ -22,6 +22,6 @@ namespace Thiet_ke.Objects
         }
 
         protected override void xemBangDiem() { }
-        protected override void inBangDiem() { }
+        //protected override void inBangDiem() { }
     }
 }

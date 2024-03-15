@@ -8,12 +8,19 @@ namespace Thiet_ke.Objects
 {
     public class LopHoc
     {
-        private string maLop { get; set; }
-        private string tenLop { get; set; }
-        private string maMonHoc { get; set; }
-        private string maNamHoc { get; set; }   
-        private string maHocKy { get; set ; }
-        private string maGV { get; set; }
+        /* 
+         * 1 năm => 6 Lớp
+         * mỗi khối 2 lớp:
+         * Lớp 10: 2L
+         * Lớp 11: 2L
+         * Lớp 12: 2L
+         */
+        private string maLop { get; set; } //2024L10A1; 2024L10A2
+        private string tenLop { get; set; } //10A1
+        private string maMonHoc { get; set; } //
+        private string maNamHoc { get; set; } //NH2024  
+        private string maHocKy { get; set ; } //2024HK1
+        private string maGV { get; set; } 
 
         public LopHoc(string maLop, string tenLop, string maMonHoc, string maHocKy, string maGV)
         {

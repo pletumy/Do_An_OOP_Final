@@ -8,8 +8,10 @@ namespace Thiet_ke.Objects
 {
     public class TaiKhoanGV : ITaiKhoan
     {
+        
         public void DangNhap(string tenDangNhap, string matKhau)
         {
+
         }
     }
 }

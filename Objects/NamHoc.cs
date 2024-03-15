@@ -7,8 +7,8 @@ namespace Thiet_ke.Objects
 {
     public class NamHoc
     {
-        private string maNamHoc;
-        private string tenNamHoc;
+        private string maNamHoc; //NH2024
+        private int tenNamHoc; //2024
         public NamHoc(string maNamHoc, string tenNamHoc)
         {
             this.maNamHoc = maNamHoc;

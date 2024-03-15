@@ -8,8 +8,9 @@ namespace Thiet_ke.Objects
 {
     public interface DSDieuChinh<T>
     {
-       public T Nhap();
-       public T Sua();
-       public T Xoa();
+       T Nhap();
+       T Sua();
+       T Xoa();
+       T TimKiem();
     }
 }

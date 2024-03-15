@@ -9,7 +9,7 @@ namespace Thiet_ke.Objects
 {
     public abstract class BangDiem
     {
-        protected string maMonHoc;
+        protected string maMonHoc; 
         protected string tenMonHoc;
         protected string maLopHoc;
         protected double diemGiuaKy;
@@ -17,7 +17,7 @@ namespace Thiet_ke.Objects
         protected double diemTongKet;
 
         protected abstract void xemBangDiem();
-        protected abstract void inBangDiem();
+        //protected abstract void inBangDiem();
 
     }
 }

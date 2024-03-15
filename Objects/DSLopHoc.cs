@@ -23,6 +23,11 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
+        public LopHoc TimKiem()
+        {
+            throw new NotImplementedException();
+        }
+
         public LopHoc Xoa()
         {
             throw new NotImplementedException();

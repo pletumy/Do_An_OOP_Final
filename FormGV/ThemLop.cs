@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Thiet_ke
 {
-    public partial class NhapLop : Form
+    public partial class ThemLop : Form
     {
-        public NhapLop()
+        public ThemLop()
         {
             InitializeComponent();
         }

@@ -21,6 +21,11 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
+        public MonHoc TimKiem()
+        {
+            throw new NotImplementedException();
+        }
+
         public MonHoc Xoa()
         {
             throw new NotImplementedException();
