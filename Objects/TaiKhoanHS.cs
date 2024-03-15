@@ -8,7 +8,8 @@ namespace Thiet_ke.Objects
 {
     public class TaiKhoanHS : ITaiKhoan
     {
-        string ITaiKhoan.tenDangNhap { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        string ITaiKhoan.matKhau { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public void DangNhap(string tenDangNhap, string matKhau)
+        {
+        }
     }
 }

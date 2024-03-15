@@ -8,9 +8,6 @@ namespace Thiet_ke.Objects
 {
     public interface ITaiKhoan
     {
-        string tenDangNhap { get; set; }
-        string matKhau { get; set; }
-
-
+        public void DangNhap(string tenDangNhap, string matKhau);
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    internal interface DieuChinh
+    public interface DSDieuChinh<T>
     {
+       public T Nhap();
+       public T Sua();
+       public T Xoa();
     }
 }

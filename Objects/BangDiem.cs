@@ -9,15 +9,15 @@ namespace Thiet_ke.Objects
 {
     public abstract class BangDiem
     {
-        protected Diem diem { get; set; }
+        protected string maMonHoc;
+        protected string tenMonHoc;
+        protected string maLopHoc;
+        protected double diemGiuaKy;
+        protected double diemCuoiKy;
+        protected double diemTongKet;
 
-        protected HocKy hocKy { get; set; }
-        protected NamHoc namHoc { get; set; }
-        protected LopHoc lop { get; set; }
-        protected MonHoc monHoc { get; set; }
-
-        protected void xemBangDiem() { }
-        protected void inBangDiem() { }
+        protected abstract void xemBangDiem();
+        protected abstract void inBangDiem();
 
     }
 }

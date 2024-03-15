@@ -8,15 +8,15 @@ namespace Thiet_ke.Objects
 {
     public class HocKy
     {
-        private string maHK { get; set; }
-        private string tenHK { get; set; }
-        private NamHoc namHoc { get; set; }
+        private string maHK { get; set; } //2024HK1
+        private string tenHK { get; set; } //HK1 -> 
+        private string maNamHoc { get; set; } //NH2024
 
-        public HocKy(string maHK, string tenHK, NamHoc namHoc)
+        public HocKy(string maHK, string tenHK, string maNamHoc)
         {
             this.maHK = maHK;
             this.tenHK = tenHK;
-            this.namHoc = namHoc;
+            this.maNamHoc = maNamHoc;
         }
     }
 }

@@ -11,13 +11,10 @@ namespace Thiet_ke.Objects
         private string maMonHoc { get; set; }
         private string tenMonHoc { get; set; }
 
-        private string[] maLop { get; set; }
-
-        public MonHoc(string maMonHoc, string tenMonHoc, string[] maLop)
+        public MonHoc(string maMonHoc, string tenMonHoc)
         {
             this.maMonHoc = maMonHoc;
             this.tenMonHoc = tenMonHoc;
-            this.maLop = maLop;
         }
     }
 }

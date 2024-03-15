@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    internal class DSLopHoc
+    public class DSLopHoc : DSDieuChinh<LopHoc>
     {
+        // trả về DS Lớp học
+        public string maLop { get; set; }
+        public string maGV { get; set; }
+        public string maMonHoc { get; set; }
+
+        public LopHoc Nhap()
+        {
+            throw new NotImplementedException();
+        }
+
+        public LopHoc Sua()
+        {
+            throw new NotImplementedException();
+        }
+
+        public LopHoc Xoa()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class DSHocSinh : DSDieuChinh<HocSinh>, ISerializable
+    public class DSHocSinh : DSDieuChinh<HocSinh>
     {
-        private List<HocSinh> hocSinhs = new List<HocSinh>();
-        public List<HocSinh> HocSinhs { get => hocSinhs; set => hocSinhs = value; }
-        public DSHocSinh() { }
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("HocSinhs", hocSinhs);
-        }
-        public DSHocSinh(SerializationInfo info, StreamingContext context)
-        {
-            HocSinhs = (List<HocSinh>)info.GetValue("HocSinhs", typeof(List<HocSinh>));
-        }
+        //trả về DS học sinh với các thao tác thêm xóa sửa
+        public string maLop { get; set; }
+        public string maGV { get; set; }
+        public string maMonHoc { get; set; }
+
+        
         public HocSinh Nhap()
         {
             throw new NotImplementedException();

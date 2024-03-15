@@ -9,6 +9,7 @@ namespace Thiet_ke.Objects
 {
     public class BangDiemGV : BangDiem
     {
+        //thực hiện thao tác chỉnh sửa nhập điểm
         public string maGiaoVien { get; set; }
 
         protected BangDiemGV(string maGV, string maMonHoc, string tenMonHoc, string maLopHoc, double diemGiuaKy, double diemCuoiKy, double diemTongKet)

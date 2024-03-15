@@ -15,6 +15,10 @@ namespace Thiet_ke.Objects
         private double diemCuoiKy { get; set; }
         private double diemTongKet { get; set; }
 
+        public Diem()
+        {
+        }
+
         public Diem(SerializationInfo info, StreamingContext context)
         {
             // Đọc dữ liệu từ SerializationInfo và khôi phục các thuộc tính của đối tượng Student
