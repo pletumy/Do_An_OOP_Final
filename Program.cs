@@ -42,30 +42,14 @@ namespace Thiet_ke
         {
             string filePath = "students.json";
 
-            // Ghi danh sách học sinh vào file JSON
-            HocSinh[] hocSinhs = new HocSinh[]
-            {
-            new HocSinh { maHS = "HS001", hoVaTenLot = "Nguyen Van", ten = "A", gioiTinh = 1, soDienThoai = "123456789", tenDangNhap = "user1", matKhau = "password1" },
-            new HocSinh { maHS = "HS002", hoVaTenLot = "Tran Thi", ten = "B", gioiTinh = 0, soDienThoai = "987654321", tenDangNhap = "user2", matKhau = "password2" }
-            };
+            // Ghi danh sách học sinh vào file JSON => 18 bạn, một lớp 3 bạn
+            DSHocSinh dsHocSinh = new DSHocSinh();
+            HocSinh[] hocSinhs = dsHocSinh.taoDSHocSinh();
+
             GhiFile(filePath, hocSinhs);
 
             // Đọc danh sách học sinh từ file JSON
             HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-
-            // In danh sách học sinh đã được đọc
-            Console.WriteLine("\nDanh sách học sinh:");
-            foreach (HocSinh hocSinh in danhSachHocSinhs)
-            {
-                Console.WriteLine("Mã HS: " + hocSinh.maHS);
-                Console.WriteLine("Họ và tên lót: " + hocSinh.hoVaTenLot);
-                Console.WriteLine("Tên: " + hocSinh.ten);
-                Console.WriteLine("Giới tính: " + hocSinh.gioiTinh);
-                Console.WriteLine("Số điện thoại: " + hocSinh.soDienThoai);
-                Console.WriteLine("Tên đăng nhập: " + hocSinh.tenDangNhap);
-                Console.WriteLine("Mật khẩu: " + hocSinh.matKhau);
-                Console.WriteLine();
-            }
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

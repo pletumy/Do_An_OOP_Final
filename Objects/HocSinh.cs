@@ -15,6 +15,7 @@ namespace Thiet_ke.Objects
     public class HocSinh : ConNguoi, ISerializable
     {
         public string maHS { get; set; }
+        public string maLop { get; set; }
 
         public HocSinh()
         {
@@ -35,6 +36,7 @@ namespace Thiet_ke.Objects
         {
             // Đọc dữ liệu từ SerializationInfo và khôi phục các thuộc tính của đối tượng Student
             maHS = info.GetString("maHS");
+            maLop = info.GetString("maLop");
             hoVaTenLot = info.GetString("hoVaTenLot");
             ten = info.GetString("ten");
             gioiTinh = info.GetInt32("gioiTinh");
@@ -46,6 +48,7 @@ namespace Thiet_ke.Objects
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("maHS", maHS);
+            info.AddValue("maLop", maLop);
             info.AddValue("hoVaTenLot", hoVaTenLot);
             info.AddValue("ten", ten);
             info.AddValue("gioiTinh", gioiTinh);

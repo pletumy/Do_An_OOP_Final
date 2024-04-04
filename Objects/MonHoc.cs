@@ -9,19 +9,20 @@ namespace Thiet_ke.Objects
     public class MonHoc
     {
         /*
-        Toán
-        Vật Lý
-        Hóa
-        Ngữ Văn
-        Lịch Sử
-        Địa Lí
-        Sinh học
-        Tiếng Anh
-        Giáo dục công dân
-        Công nghệ
-        Giáo dục quốc phòng
-        Giáo dục thể chất
-        Tin học 
+         * Mỗi môn 1 giáo viên
+        Toán --> GVTOAN
+        Vật Lý --> GVVATLY
+        Hóa --> GVHOA
+        Ngữ Văn --> GVNGUVAN
+        Lịch Sử --> GVLICHSU
+        Địa Lí --> GVDIALY
+        Sinh học --> GVSINHHOC
+        Tiếng Anh --> GVTIENGANH
+        Giáo dục công dân --> GVCONGDAN
+        Công nghệ --> GVCONGNGHE
+        Giáo dục quốc phòng --> GVQUOCPHONG
+        Giáo dục thể chất --> GVTHECHAT
+        Tin học --> GVTINHOC
          */
         private string maMonHoc { get; set; }  //2024HK1TO10
         private string tenMonHoc { get; set; } //TOAN 10

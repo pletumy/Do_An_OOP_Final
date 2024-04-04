@@ -87,7 +87,6 @@
     <Compile Include="Objects\DSDieuChinh.cs" />
     <Compile Include="Objects\DSHocSinh.cs" />
     <Compile Include="Objects\DSLopHoc.cs" />
-    <Compile Include="Objects\DSMonHoc.cs" />
     <Compile Include="Objects\GiaoVien.cs" />
     <Compile Include="Objects\HocKy.cs" />
     <Compile Include="Objects\HocSinh.cs" />
