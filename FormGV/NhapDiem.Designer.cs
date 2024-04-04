@@ -68,10 +68,10 @@
             this.clnCK,
             this.clnTB});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(24, 100);
-            this.listView1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.listView1.Location = new System.Drawing.Point(16, 64);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1574, 417);
+            this.listView1.Size = new System.Drawing.Size(1051, 268);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -113,10 +113,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SandyBrown;
-            this.label1.Location = new System.Drawing.Point(168, 42);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(112, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 30);
+            this.label1.Size = new System.Drawing.Size(97, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Môn: Toán";
             // 
@@ -125,110 +125,110 @@
             this.lblLop.AutoSize = true;
             this.lblLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLop.ForeColor = System.Drawing.Color.SandyBrown;
-            this.lblLop.Location = new System.Drawing.Point(966, 41);
-            this.lblLop.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblLop.Location = new System.Drawing.Point(644, 26);
+            this.lblLop.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLop.Name = "lblLop";
-            this.lblLop.Size = new System.Drawing.Size(139, 30);
+            this.lblLop.Size = new System.Drawing.Size(95, 20);
             this.lblLop.TabIndex = 2;
             this.lblLop.Text = "Chọn Lớp:";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1130, 39);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.comboBox1.Location = new System.Drawing.Point(753, 25);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(238, 33);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 3;
             // 
             // lblNhapMHS
             // 
             this.lblNhapMHS.AutoSize = true;
-            this.lblNhapMHS.Location = new System.Drawing.Point(82, 63);
-            this.lblNhapMHS.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblNhapMHS.Location = new System.Drawing.Point(55, 40);
+            this.lblNhapMHS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNhapMHS.Name = "lblNhapMHS";
-            this.lblNhapMHS.Size = new System.Drawing.Size(235, 30);
+            this.lblNhapMHS.Size = new System.Drawing.Size(160, 20);
             this.lblNhapMHS.TabIndex = 4;
             this.lblNhapMHS.Text = "Nhập mã học sinh";
             // 
             // lblNhapTen
             // 
             this.lblNhapTen.AutoSize = true;
-            this.lblNhapTen.Location = new System.Drawing.Point(82, 163);
-            this.lblNhapTen.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblNhapTen.Location = new System.Drawing.Point(55, 104);
+            this.lblNhapTen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNhapTen.Name = "lblNhapTen";
-            this.lblNhapTen.Size = new System.Drawing.Size(124, 30);
+            this.lblNhapTen.Size = new System.Drawing.Size(84, 20);
             this.lblNhapTen.TabIndex = 5;
             this.lblNhapTen.Text = "Nhập tên";
             // 
             // lblGK
             // 
             this.lblGK.AutoSize = true;
-            this.lblGK.Location = new System.Drawing.Point(82, 213);
-            this.lblGK.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblGK.Location = new System.Drawing.Point(55, 136);
+            this.lblGK.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGK.Name = "lblGK";
-            this.lblGK.Size = new System.Drawing.Size(242, 30);
+            this.lblGK.Size = new System.Drawing.Size(163, 20);
             this.lblGK.TabIndex = 6;
             this.lblGK.Text = "Nhập điểm giữa kỳ";
             // 
             // lblCK
             // 
             this.lblCK.AutoSize = true;
-            this.lblCK.Location = new System.Drawing.Point(82, 263);
-            this.lblCK.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblCK.Location = new System.Drawing.Point(55, 168);
+            this.lblCK.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCK.Name = "lblCK";
-            this.lblCK.Size = new System.Drawing.Size(241, 30);
+            this.lblCK.Size = new System.Drawing.Size(163, 20);
             this.lblCK.TabIndex = 7;
             this.lblCK.Text = "Nhập điểm cuối kỳ";
             // 
             // lblNhapHo
             // 
             this.lblNhapHo.AutoSize = true;
-            this.lblNhapHo.Location = new System.Drawing.Point(82, 113);
-            this.lblNhapHo.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblNhapHo.Location = new System.Drawing.Point(55, 72);
+            this.lblNhapHo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNhapHo.Name = "lblNhapHo";
-            this.lblNhapHo.Size = new System.Drawing.Size(116, 30);
+            this.lblNhapHo.Size = new System.Drawing.Size(78, 20);
             this.lblNhapHo.TabIndex = 8;
             this.lblNhapHo.Text = "Nhập họ";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(380, 58);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox1.Location = new System.Drawing.Point(253, 37);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(394, 37);
+            this.textBox1.Size = new System.Drawing.Size(264, 26);
             this.textBox1.TabIndex = 9;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(380, 158);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox2.Location = new System.Drawing.Point(253, 101);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(394, 37);
+            this.textBox2.Size = new System.Drawing.Size(264, 26);
             this.textBox2.TabIndex = 10;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(380, 208);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox3.Location = new System.Drawing.Point(253, 133);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(394, 37);
+            this.textBox3.Size = new System.Drawing.Size(264, 26);
             this.textBox3.TabIndex = 11;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(380, 258);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox4.Location = new System.Drawing.Point(253, 165);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(394, 37);
+            this.textBox4.Size = new System.Drawing.Size(264, 26);
             this.textBox4.TabIndex = 12;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(380, 108);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox5.Location = new System.Drawing.Point(253, 69);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(394, 37);
+            this.textBox5.Size = new System.Drawing.Size(264, 26);
             this.textBox5.TabIndex = 13;
             // 
             // grbNhapDiem
@@ -246,11 +246,11 @@
             this.grbNhapDiem.Controls.Add(this.textBox3);
             this.grbNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbNhapDiem.ForeColor = System.Drawing.Color.SandyBrown;
-            this.grbNhapDiem.Location = new System.Drawing.Point(24, 558);
-            this.grbNhapDiem.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.grbNhapDiem.Location = new System.Drawing.Point(16, 357);
+            this.grbNhapDiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grbNhapDiem.Name = "grbNhapDiem";
-            this.grbNhapDiem.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.grbNhapDiem.Size = new System.Drawing.Size(1578, 356);
+            this.grbNhapDiem.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbNhapDiem.Size = new System.Drawing.Size(1052, 228);
             this.grbNhapDiem.TabIndex = 14;
             this.grbNhapDiem.TabStop = false;
             this.grbNhapDiem.Text = "Nhập điểm";
@@ -263,10 +263,10 @@
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuu.ImageIndex = 0;
             this.btnLuu.ImageList = this.imageList1;
-            this.btnLuu.Location = new System.Drawing.Point(1106, 136);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnLuu.Location = new System.Drawing.Point(737, 87);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(248, 81);
+            this.btnLuu.Size = new System.Drawing.Size(165, 52);
             this.btnLuu.TabIndex = 14;
             this.btnLuu.Text = "    Lưu";
             this.btnLuu.UseVisualStyleBackColor = false;
@@ -280,10 +280,10 @@
             // 
             // NhapDiem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1636, 1029);
+            this.ClientSize = new System.Drawing.Size(1091, 659);
             this.Controls.Add(this.grbNhapDiem);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblLop);
@@ -291,10 +291,11 @@
             this.Controls.Add(this.listView1);
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "NhapDiem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhập Điểm";
+            this.Load += new System.EventHandler(this.NhapDiem_Load);
             this.grbNhapDiem.ResumeLayout(false);
             this.grbNhapDiem.PerformLayout();
             this.ResumeLayout(false);

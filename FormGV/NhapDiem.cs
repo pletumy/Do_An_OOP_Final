@@ -16,5 +16,10 @@ namespace Thiet_ke
         {
             InitializeComponent();
         }
+
+        private void NhapDiem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

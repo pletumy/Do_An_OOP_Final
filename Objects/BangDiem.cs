@@ -12,6 +12,8 @@ namespace Thiet_ke.Objects
         protected string maMonHoc; 
         protected string tenMonHoc;
         protected string maLopHoc;
+        protected string maHK;
+        protected string maNamHoc;
         protected double diemGiuaKy;
         protected double diemCuoiKy;
         protected double diemTongKet;

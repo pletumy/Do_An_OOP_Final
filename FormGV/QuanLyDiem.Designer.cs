@@ -151,6 +151,7 @@
             this.btnSuaSv.TabIndex = 1;
             this.btnSuaSv.Text = "Sửa";
             this.btnSuaSv.UseVisualStyleBackColor = true;
+            this.btnSuaSv.Click += new System.EventHandler(this.btnSuaSv_Click);
             // 
             // grbSinhVien
             // 
@@ -303,6 +304,7 @@
             this.btnNhapDiem.TabIndex = 0;
             this.btnNhapDiem.Text = "Nhập điểm";
             this.btnNhapDiem.UseVisualStyleBackColor = true;
+            this.btnNhapDiem.Click += new System.EventHandler(this.btnNhapDiem_Click);
             // 
             // groupBox1
             // 

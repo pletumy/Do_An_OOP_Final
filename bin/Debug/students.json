@@ -1,0 +1,20 @@
+[
+  {
+    "maHS": "HS001",
+    "hoVaTenLot": "Nguyen Van",
+    "ten": "A",
+    "gioiTinh": 1,
+    "soDienThoai": "123456789",
+    "tenDangNhap": "user1",
+    "matKhau": "password1"
+  },
+  {
+    "maHS": "HS002",
+    "hoVaTenLot": "Tran Thi",
+    "ten": "B",
+    "gioiTinh": 0,
+    "soDienThoai": "987654321",
+    "tenDangNhap": "user2",
+    "matKhau": "password2"
+  }
+]

@@ -10,7 +10,7 @@ namespace Thiet_ke.Objects
     {
         private string maGV { get; set; }
 
-        public GiaoVien(string maGV, string hoVaTenLot, string ten, bool gioiTinh, string soDienThoai, string tenDangNhap, string matKhau)
+        public GiaoVien(string maGV, string hoVaTenLot, string ten, int gioiTinh, string soDienThoai, string tenDangNhap, string matKhau)
         {
             this.maGV = maGV;
             this.hoVaTenLot = hoVaTenLot;

@@ -7,12 +7,12 @@ namespace Thiet_ke.Objects
 {
     public abstract class ConNguoi 
     {
-        protected string hoVaTenLot { get; set; }
-        protected string ten { get; set; }
-        protected bool gioiTinh { get; set; }
-        protected string soDienThoai { get; set; }
-        protected string tenDangNhap { get; set; }
-        protected string matKhau { get; set; }
+        public string hoVaTenLot { get; set; }
+        public string ten { get; set; }
+        public int gioiTinh { get; set; } //nam 1, nu 0
+        public string soDienThoai { get; set; }
+        public string tenDangNhap { get; set; }
+        public string matKhau { get; set; }
 
 
     }

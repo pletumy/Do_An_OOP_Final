@@ -9,7 +9,7 @@ namespace Thiet_ke.Objects
     {
         private string maNamHoc; //NH2024
         private int tenNamHoc; //2024
-        public NamHoc(string maNamHoc, string tenNamHoc)
+        public NamHoc(string maNamHoc, int tenNamHoc)
         {
             this.maNamHoc = maNamHoc;
             this.tenNamHoc = tenNamHoc;
