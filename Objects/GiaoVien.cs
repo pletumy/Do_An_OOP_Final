@@ -12,25 +12,25 @@ namespace Thiet_ke.Objects
     {
         /*
         * Mỗi môn 1 giáo viên
-       Toán --> GVTOAN
-       Vật Lý --> GVVATLY
-       Hóa --> GVHOA
-       Ngữ Văn --> GVNGUVAN
-       Lịch Sử --> GVLICHSU
-       Địa Lí --> GVDIALY
-       Sinh học --> GVSINHHOC
-       Tiếng Anh --> GVTIENGANH
-       Giáo dục công dân --> GVCONGDAN
-       Công nghệ --> GVCONGNGHE
-       Giáo dục quốc phòng --> GVQUOCPHONG
-       Giáo dục thể chất --> GVTHECHAT
-       Tin học --> GVTINHOC
+        GVTOAN
+        GVLY
+        GVHOA
+        GVVAN
+        GVSU
+        GVDIA
+        GVSINH
+        GVANH
+        GVCD - cong dan
+        GVCN - cong nghe
+        GVQP - quoc phong
+        GVTC - the chat
+        GVTIN
         */
         public string maGV { get; set; }
+
         public GiaoVien()
         {
         }
-
 
         public GiaoVien(SerializationInfo info, StreamingContext context)
         {
@@ -45,7 +45,7 @@ namespace Thiet_ke.Objects
         }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
-            info.AddValue("maHS", maGV);
+            info.AddValue("maGV", maGV);
             info.AddValue("hoVaTenLot", hoVaTenLot);
             info.AddValue("ten", ten);
             info.AddValue("gioiTinh", gioiTinh);

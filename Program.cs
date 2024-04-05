@@ -40,17 +40,29 @@ namespace Thiet_ke
         }
         static void Main()
         {
-            string filePath = "students.json";
+            string filePath_students = "students.json";
+            string filePath_teachers = "teachers.json";
+            string filePath_monHocs = "monHocs.json";
 
             // Ghi danh sách học sinh vào file JSON => 18 bạn, một lớp 3 bạn
             DSHocSinh dsHocSinh = new DSHocSinh();
             HocSinh[] hocSinhs = dsHocSinh.taoDSHocSinh();
+            //Ghi danh sách giáo viên vào file JSON => 13 giáo viên, một giáo viên dạy một môn
+            DSGiaoVien dSGiaoVien = new DSGiaoVien();
+            GiaoVien[] giaoViens = dSGiaoVien.taoDSGiaoVien();
+            //Ghi danh sách môn học vào file JSON => 13 môn học, nhưng chỉ lấy 2 môn của 1 khối thoy
+            DSMonHoc dsMonHoc = new DSMonHoc();
+            MonHoc[] monHocs = dsMonHoc.taoDSMonHoc();
 
-            GhiFile(filePath, hocSinhs);
+            GhiFile(filePath_students, hocSinhs);
+            GhiFile(filePath_teachers, giaoViens);
+            GhiFile(filePath_monHocs, monHocs);
 
             // Đọc danh sách học sinh từ file JSON
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-            
+            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath_students);
+            GiaoVien[] danhSachGiaoViens = DocFile<GiaoVien[]>(filePath_teachers);
+            MonHoc[] danhSachMonHocs = DocFile<MonHoc[]>(filePath_monHocs);
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new QuanLyDiem());
