@@ -159,9 +159,9 @@
             this.grbSinhVien.BackColor = System.Drawing.Color.Transparent;
             this.grbSinhVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.grbSinhVien.Location = new System.Drawing.Point(111, 440);
-            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(5);
             this.grbSinhVien.Name = "grbSinhVien";
-            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(5);
             this.grbSinhVien.Size = new System.Drawing.Size(465, 118);
             this.grbSinhVien.TabIndex = 13;
             this.grbSinhVien.TabStop = false;
@@ -187,6 +187,7 @@
             this.lvLop.TabIndex = 0;
             this.lvLop.UseCompatibleStateImageBehavior = false;
             this.lvLop.View = System.Windows.Forms.View.Details;
+            this.lvLop.SelectedIndexChanged += new System.EventHandler(this.lvLop_SelectedIndexChanged);
             // 
             // clnMaLop
             // 
@@ -279,7 +280,7 @@
             this.btnNhapHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapHS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapHS.Location = new System.Drawing.Point(731, 657);
-            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(5);
             this.btnNhapHS.Name = "btnNhapHS";
             this.btnNhapHS.Size = new System.Drawing.Size(467, 53);
             this.btnNhapHS.TabIndex = 0;
@@ -293,9 +294,9 @@
             this.grbDiemSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDiemSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.grbDiemSo.Location = new System.Drawing.Point(637, 724);
-            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(5);
             this.grbDiemSo.Name = "grbDiemSo";
-            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(5);
             this.grbDiemSo.Size = new System.Drawing.Size(695, 104);
             this.grbDiemSo.TabIndex = 16;
             this.grbDiemSo.TabStop = false;
@@ -306,7 +307,7 @@
             this.btnNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapDiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapDiem.Location = new System.Drawing.Point(157, 27);
-            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(5);
             this.btnNhapDiem.Name = "btnNhapDiem";
             this.btnNhapDiem.Size = new System.Drawing.Size(375, 53);
             this.btnNhapDiem.TabIndex = 0;

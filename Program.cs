@@ -71,7 +71,7 @@ namespace Thiet_ke
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NhapDiem());
+            Application.Run(new QuanLyDiem());
             
         }
     }

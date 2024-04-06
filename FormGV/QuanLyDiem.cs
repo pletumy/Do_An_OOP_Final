@@ -15,6 +15,11 @@ namespace Thiet_ke
 {
     public partial class QuanLyDiem : Form
     {
+        // Thêm dữ liệu học sinh
+        public string filePath = "students.json";
+
+        
+
         public QuanLyDiem()
         {
             InitializeComponent();
@@ -27,28 +32,7 @@ namespace Thiet_ke
 
         private void GiaoVien_Load(object sender, EventArgs e)
         {
-            // Thêm dữ liệu học sinh
-            string filePath = "students.json";
 
-            // Đọc dữ liệu từ tệp JSON
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-
-            // Hiển thị dữ liệu trong ListView
-            foreach (HocSinh hocSinh in danhSachHocSinhs)
-            {
-                // Lấy mã ớp được chọn trong listViewStudents
-                ListViewItem selectedItem = lvSinhVien.SelectedItems[0];
-                string maHocSinh = selectedItem.SubItems[0].Text;
-
-                ListViewItem item = new ListViewItem(hocSinh.maHS);
-                item.SubItems.Add(hocSinh.hoVaTenLot);
-                item.SubItems.Add(hocSinh.ten);
-                item.SubItems.Add(hocSinh.gioiTinh.ToString());
-                item.SubItems.Add(hocSinh.soDienThoai);
-                item.SubItems.Add(hocSinh.tenDangNhap);
-                item.SubItems.Add(hocSinh.matKhau);
-                lvSinhVien.Items.Add(item);
-            }
             // thêm dữ liệu lớp học
             string FilePath = "lophocs.json";
             //Đọc dữ liệu lớp học từ tệp Json
@@ -121,5 +105,65 @@ namespace Thiet_ke
             }
         }
 
+
+
+        private void lvLop_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lvLop.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = lvLop.SelectedItems[0];
+                string maLop = selectedItem.SubItems[0].Text;
+
+                HienThiDanhSachHocSinhTheoLop(maLop);
+            }
+        }
+
+        // Hàm để hiển thị danh sách học sinh có cùng mã lớp trong ListView lvSinhVien
+        private void HienThiDanhSachHocSinhTheoLop(string maLop)
+        {
+            lvSinhVien.Items.Clear();
+            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
+            foreach (HocSinh hocSinh in danhSachHocSinhs)
+            {
+                if (hocSinh.maLop == maLop)
+                {
+                    ListViewItem item = new ListViewItem(hocSinh.maHS);
+                    item.SubItems.Add(hocSinh.hoVaTenLot);
+                    item.SubItems.Add(hocSinh.ten);
+                    item.SubItems.Add(hocSinh.gioiTinh.ToString());
+                    item.SubItems.Add(hocSinh.soDienThoai);
+                    item.SubItems.Add(hocSinh.tenDangNhap);
+                    item.SubItems.Add(hocSinh.matKhau);
+                    lvSinhVien.Items.Add(item);
+                }
+            }
+        }
+        /*
+
+        private void lvLop_SelectedIndexChanged(object sender, EventArgs e)
+        {   
+            lvSinhVien.Items.Clear();
+            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
+
+            // Lấy học sinh được chọn trong listViewStudents
+            ListViewItem selectedItem = lvLop.SelectedItems[0];
+            string maLop = selectedItem.SubItems[0].Text;
+
+            foreach (HocSinh hocSinh in danhSachHocSinhs)
+            {
+                if (hocSinh.maLop == maLop)
+                {
+                    ListViewItem item = new ListViewItem(hocSinh.maHS);
+                    item.SubItems.Add(hocSinh.hoVaTenLot);
+                    item.SubItems.Add(hocSinh.ten);
+                    item.SubItems.Add(hocSinh.gioiTinh.ToString());
+                    item.SubItems.Add(hocSinh.soDienThoai);
+                    item.SubItems.Add(hocSinh.tenDangNhap);
+                    item.SubItems.Add(hocSinh.matKhau);
+                    lvSinhVien.Items.Add(item);
+                }
+            }
+        }
+        */
     }
 }
