@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -80,17 +83,15 @@
     <Compile Include="Objects\BangDiemHS.cs" />
     <Compile Include="Objects\ConNguoi.cs" />
     <Compile Include="Objects\BangDiem.cs" />
-    <Compile Include="Objects\Diem.cs" />
     <Compile Include="Objects\DSDieuChinh.cs" />
+    <Compile Include="Objects\DSGiaoVien.cs" />
     <Compile Include="Objects\DSHocSinh.cs" />
     <Compile Include="Objects\DSLopHoc.cs" />
     <Compile Include="Objects\DSMonHoc.cs" />
     <Compile Include="Objects\GiaoVien.cs" />
-    <Compile Include="Objects\HocKy.cs" />
     <Compile Include="Objects\HocSinh.cs" />
     <Compile Include="Objects\LopHoc.cs" />
     <Compile Include="Objects\MonHoc.cs" />
-    <Compile Include="Objects\NamHoc.cs" />
     <Compile Include="Objects\ITaiKhoan.cs" />
     <Compile Include="Objects\TaiKhoanGV.cs" />
     <Compile Include="Objects\TaiKhoanHS.cs" />
@@ -184,6 +185,7 @@
     <EmbeddedResource Include="FormGV\XoaLop.resx">
       <DependentUpon>XoaLop.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

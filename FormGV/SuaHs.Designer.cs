@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SuaHs));
             this.btnThoat = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnSua = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cbNu = new System.Windows.Forms.CheckBox();
@@ -45,7 +46,6 @@
             this.txtho = new System.Windows.Forms.TextBox();
             this.txtMahs = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,10 +59,18 @@
             this.btnThoat.ImageList = this.imageList1;
             this.btnThoat.Location = new System.Drawing.Point(513, 555);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(208, 68);
+            this.btnThoat.Size = new System.Drawing.Size(208, 69);
             this.btnThoat.TabIndex = 20;
             this.btnThoat.Text = "       Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Lưu");
+            this.imageList1.Images.SetKeyName(1, "Thoát");
+            this.imageList1.Images.SetKeyName(2, "Sửa");
             // 
             // btnSua
             // 
@@ -73,9 +81,9 @@
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSua.ImageKey = "Sửa";
             this.btnSua.ImageList = this.imageList1;
-            this.btnSua.Location = new System.Drawing.Point(149, 555);
+            this.btnSua.Location = new System.Drawing.Point(148, 555);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(208, 68);
+            this.btnSua.Size = new System.Drawing.Size(208, 69);
             this.btnSua.TabIndex = 19;
             this.btnSua.Text = "      Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
@@ -168,7 +176,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.ForeColor = System.Drawing.Color.SandyBrown;
-            this.label4.Location = new System.Drawing.Point(72, 229);
+            this.label4.Location = new System.Drawing.Point(72, 230);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 51);
             this.label4.TabIndex = 15;
@@ -207,7 +215,7 @@
             // 
             // txtMahs
             // 
-            this.txtMahs.Location = new System.Drawing.Point(303, 60);
+            this.txtMahs.Location = new System.Drawing.Point(303, 59);
             this.txtMahs.Multiline = true;
             this.txtMahs.Name = "txtMahs";
             this.txtMahs.Size = new System.Drawing.Size(450, 46);
@@ -219,32 +227,26 @@
             this.label1.Font = new System.Drawing.Font("Arial", 25.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.ForeColor = System.Drawing.Color.SandyBrown;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Location = new System.Drawing.Point(232, 90);
+            this.label1.Location = new System.Drawing.Point(232, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 80);
             this.label1.TabIndex = 21;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Lưu");
-            this.imageList1.Images.SetKeyName(1, "Thoát");
-            this.imageList1.Images.SetKeyName(2, "Sửa");
             // 
             // SuaHs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(853, 654);
+            this.ClientSize = new System.Drawing.Size(854, 655);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnSua);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SuaHs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sửa lớp";
+            this.Load += new System.EventHandler(this.SuaHs_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
