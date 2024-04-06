@@ -67,7 +67,6 @@ namespace Thiet_ke
             HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath_students);
             GiaoVien[] danhSachGiaoViens = DocFile<GiaoVien[]>(filePath_teachers);
             MonHoc[] danhSachMonHocs = DocFile<MonHoc[]>(filePath_monHocs);
-            LopHoc[] danhsachLopHocs = DocFile<LopHoc[]>(filePath_lophocs);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

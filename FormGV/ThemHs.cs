@@ -31,5 +31,10 @@ namespace Thiet_ke
         {
 
         }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

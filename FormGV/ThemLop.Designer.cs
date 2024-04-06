@@ -37,12 +37,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.CBNamhoc = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtTenlop = new System.Windows.Forms.TextBox();
             this.txtMalop = new System.Windows.Forms.TextBox();
+            this.txtNamHoc = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,9 +97,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtNamHoc);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.CBNamhoc);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -116,7 +116,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(364, 252);
+            this.textBox1.Location = new System.Drawing.Point(364, 244);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(200, 46);
@@ -132,17 +132,6 @@
             this.label5.Size = new System.Drawing.Size(184, 51);
             this.label5.TabIndex = 17;
             this.label5.Text = "Học Kỳ:";
-            // 
-            // CBNamhoc
-            // 
-            this.CBNamhoc.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.CBNamhoc.FormattingEnabled = true;
-            this.CBNamhoc.IntegralHeight = false;
-            this.CBNamhoc.ItemHeight = 22;
-            this.CBNamhoc.Location = new System.Drawing.Point(364, 348);
-            this.CBNamhoc.Name = "CBNamhoc";
-            this.CBNamhoc.Size = new System.Drawing.Size(200, 28);
-            this.CBNamhoc.TabIndex = 16;
             // 
             // label4
             // 
@@ -180,7 +169,7 @@
             // 
             // txtTenlop
             // 
-            this.txtTenlop.Location = new System.Drawing.Point(364, 156);
+            this.txtTenlop.Location = new System.Drawing.Point(364, 152);
             this.txtTenlop.Multiline = true;
             this.txtTenlop.Name = "txtTenlop";
             this.txtTenlop.Size = new System.Drawing.Size(200, 46);
@@ -193,6 +182,14 @@
             this.txtMalop.Name = "txtMalop";
             this.txtMalop.Size = new System.Drawing.Size(200, 46);
             this.txtMalop.TabIndex = 11;
+            // 
+            // txtNamHoc
+            // 
+            this.txtNamHoc.Location = new System.Drawing.Point(364, 336);
+            this.txtNamHoc.Multiline = true;
+            this.txtNamHoc.Name = "txtNamHoc";
+            this.txtNamHoc.Size = new System.Drawing.Size(200, 46);
+            this.txtNamHoc.TabIndex = 19;
             // 
             // ThemLop
             // 
@@ -229,11 +226,11 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox CBNamhoc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtTenlop;
         private System.Windows.Forms.TextBox txtMalop;
+        private System.Windows.Forms.TextBox txtNamHoc;
     }
 }

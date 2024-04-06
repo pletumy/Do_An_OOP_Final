@@ -23,9 +23,7 @@ namespace Thiet_ke.Objects
                                           //2022L12A1; 2022L12A2
         public string tenLop { get; set; } //10A1
        // public string maMonHoc { get; set; } //
-        public string maNamHoc { get; set; } //NH2024
         public int tenNamHoc { get; set; }  //2024 2023 2022
-        public string maHocKy { get; set ; } //2024HK1
         public string tenHK { get; set; } 
         //public string maGV { get; set; } 
 
@@ -37,8 +35,6 @@ namespace Thiet_ke.Objects
             // Đọc dữ liệu từ SerializationInfo và khôi phục các thuộc tính của đối tượng Student
             maLop = info.GetString("maLop");
             tenLop = info.GetString("tenLop");
-            maHocKy = info.GetString("maHocKy");
-            maNamHoc = info.GetString("maNamHoc");
             tenHK = info.GetString("tenHK");
             tenNamHoc = info.GetInt32("tenNamHoc");
         }
@@ -47,8 +43,6 @@ namespace Thiet_ke.Objects
         {
             info.AddValue("maLop", maLop);
             info.AddValue("tenLop", tenLop);
-            info.AddValue("maHocKy", maHocKy);
-            info.AddValue("maNamHoc", maNamHoc);
             info.AddValue("tenHK", tenHK);
             info.AddValue("tenNamHoc", tenNamHoc);
         }

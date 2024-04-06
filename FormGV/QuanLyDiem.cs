@@ -45,8 +45,6 @@ namespace Thiet_ke
                 item.SubItems.Add(lophoc.tenLop);
                 item.SubItems.Add(lophoc.tenHK);
                 item.SubItems.Add(lophoc.tenNamHoc.ToString());
-                item.SubItems.Add(lophoc.maNamHoc);
-                item.SubItems.Add(lophoc.maHocKy);
 
                 lvLop.Items.Add(item);
             }
@@ -94,10 +92,15 @@ namespace Thiet_ke
                 // Lấy lớp được chọn trong listViewStudents
                 ListViewItem selectedItem = lvLop.SelectedItems[0];
                 string maLop = selectedItem.SubItems[0].Text;
+                string tenHK = selectedItem.SubItems[2].Text;
 
                 // Hiển thị form EditForm và truyền maLop vào
-                SuaLop suaLop = new SuaLop(maLop);
+                SuaLop suaLop = new SuaLop(maLop,tenHK,this);
                 suaLop.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Chưa chọn lớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -132,6 +135,6 @@ namespace Thiet_ke
                 }
             }
         }
-        
+
     }
 }

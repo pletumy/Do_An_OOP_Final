@@ -33,7 +33,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtHocKy = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.CBNamhoc = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,14 +42,15 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnSua = new System.Windows.Forms.Button();
+            this.txtNamHoc = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtNamHoc);
             this.groupBox1.Controls.Add(this.txtHocKy);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.CBNamhoc);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -67,7 +67,7 @@
             // 
             // txtHocKy
             // 
-            this.txtHocKy.Location = new System.Drawing.Point(364, 252);
+            this.txtHocKy.Location = new System.Drawing.Point(364, 240);
             this.txtHocKy.Multiline = true;
             this.txtHocKy.Name = "txtHocKy";
             this.txtHocKy.Size = new System.Drawing.Size(200, 46);
@@ -78,29 +78,18 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.ForeColor = System.Drawing.Color.SandyBrown;
-            this.label5.Location = new System.Drawing.Point(67, 239);
+            this.label5.Location = new System.Drawing.Point(67, 235);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(184, 51);
             this.label5.TabIndex = 17;
             this.label5.Text = "Học Kỳ:";
-            // 
-            // CBNamhoc
-            // 
-            this.CBNamhoc.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.CBNamhoc.FormattingEnabled = true;
-            this.CBNamhoc.IntegralHeight = false;
-            this.CBNamhoc.ItemHeight = 22;
-            this.CBNamhoc.Location = new System.Drawing.Point(364, 348);
-            this.CBNamhoc.Name = "CBNamhoc";
-            this.CBNamhoc.Size = new System.Drawing.Size(200, 28);
-            this.CBNamhoc.TabIndex = 16;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.ForeColor = System.Drawing.Color.SandyBrown;
-            this.label4.Location = new System.Drawing.Point(67, 331);
+            this.label4.Location = new System.Drawing.Point(67, 325);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(217, 51);
             this.label4.TabIndex = 15;
@@ -111,7 +100,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.ForeColor = System.Drawing.Color.SandyBrown;
-            this.label3.Location = new System.Drawing.Point(67, 147);
+            this.label3.Location = new System.Drawing.Point(67, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(194, 51);
             this.label3.TabIndex = 14;
@@ -131,7 +120,7 @@
             // 
             // txtTenlop
             // 
-            this.txtTenlop.Location = new System.Drawing.Point(364, 156);
+            this.txtTenlop.Location = new System.Drawing.Point(364, 150);
             this.txtTenlop.Multiline = true;
             this.txtTenlop.Name = "txtTenlop";
             this.txtTenlop.Size = new System.Drawing.Size(200, 46);
@@ -139,9 +128,11 @@
             // 
             // txtMalop
             // 
+            this.txtMalop.Enabled = false;
             this.txtMalop.Location = new System.Drawing.Point(364, 60);
             this.txtMalop.Multiline = true;
             this.txtMalop.Name = "txtMalop";
+            this.txtMalop.ReadOnly = true;
             this.txtMalop.Size = new System.Drawing.Size(200, 46);
             this.txtMalop.TabIndex = 11;
             // 
@@ -168,7 +159,7 @@
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(208, 68);
             this.btnThoat.TabIndex = 18;
-            this.btnThoat.Text = "       Thoát";
+            this.btnThoat.Text = "  Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             // 
             // imageList1
@@ -192,8 +183,17 @@
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(208, 68);
             this.btnSua.TabIndex = 17;
-            this.btnSua.Text = "      Sửa";
+            this.btnSua.Text = " Lưu";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // txtNamHoc
+            // 
+            this.txtNamHoc.Location = new System.Drawing.Point(364, 330);
+            this.txtNamHoc.Multiline = true;
+            this.txtNamHoc.Name = "txtNamHoc";
+            this.txtNamHoc.Size = new System.Drawing.Size(200, 46);
+            this.txtNamHoc.TabIndex = 19;
             // 
             // SuaLop
             // 
@@ -220,7 +220,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CBNamhoc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -232,5 +231,6 @@
         public System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtHocKy;
+        private System.Windows.Forms.TextBox txtNamHoc;
     }
 }
