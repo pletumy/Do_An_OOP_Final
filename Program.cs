@@ -43,6 +43,7 @@ namespace Thiet_ke
             string filePath_students = "students.json";
             string filePath_teachers = "teachers.json";
             string filePath_monHocs = "monHocs.json";
+            string filePath_lophocs = "lophocs.json";
 
             // Ghi danh sách học sinh vào file JSON => 18 bạn, một lớp 3 bạn
             DSHocSinh dsHocSinh = new DSHocSinh();
@@ -53,15 +54,20 @@ namespace Thiet_ke
             //Ghi danh sách môn học vào file JSON => 13 môn học, nhưng chỉ lấy 2 môn của 1 khối thoy
             DSMonHoc dsMonHoc = new DSMonHoc();
             MonHoc[] monHocs = dsMonHoc.taoDSMonHoc();
+            // Ghi danh sách lớp học vào file JSON => 6 bạn, 3 lớp 10, 2 lớp 11, 1 lớp 12
+            DSLopHoc dsLopHoc = new DSLopHoc();
+            LopHoc[] lophocs = dsLopHoc.taoDSLopHoc();
 
             GhiFile(filePath_students, hocSinhs);
             GhiFile(filePath_teachers, giaoViens);
             GhiFile(filePath_monHocs, monHocs);
+            GhiFile(filePath_lophocs, lophocs);
 
             // Đọc danh sách học sinh từ file JSON
             HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath_students);
             GiaoVien[] danhSachGiaoViens = DocFile<GiaoVien[]>(filePath_teachers);
             MonHoc[] danhSachMonHocs = DocFile<MonHoc[]>(filePath_monHocs);
+            LopHoc[] danhsachLopHocs = DocFile<LopHoc[]>(filePath_lophocs);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

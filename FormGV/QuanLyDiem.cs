@@ -27,6 +27,7 @@ namespace Thiet_ke
 
         private void GiaoVien_Load(object sender, EventArgs e)
         {
+            // Thêm dữ liệu học sinh
             string filePath = "students.json";
 
             // Đọc dữ liệu từ tệp JSON
@@ -44,6 +45,22 @@ namespace Thiet_ke
                 item.SubItems.Add(hocSinh.matKhau);
 
                 lvSinhVien.Items.Add(item);
+            }
+            // thêm dữ liệu lớp học
+            string FilePath = "lophocs.json";
+            //Đọc dữ liệu lớp học từ tệp Json
+            LopHoc[] danhsachLophocs = DocFile<LopHoc[]>(FilePath);
+            //Hiển thị lên ListView
+            foreach (LopHoc lophoc in danhsachLophocs)
+            {
+                ListViewItem item = new ListViewItem(lophoc.maLop);
+                item.SubItems.Add(lophoc.tenLop);
+                item.SubItems.Add(lophoc.tenHK);
+                item.SubItems.Add(lophoc.tenNamHoc.ToString());
+                item.SubItems.Add(lophoc.maNamHoc);
+                item.SubItems.Add(lophoc.maHocKy);
+
+                lvLop.Items.Add(item);
             }
         }
         static T DocFile<T>(string filePath)
@@ -85,5 +102,20 @@ namespace Thiet_ke
                 // ...
             }
         }
+
+        private void btnSuaLop_Click(object sender, EventArgs e)
+        {
+            if (lvLop.SelectedItems.Count > 0)
+            {
+                // Lấy lớp được chọn trong listViewStudents
+                ListViewItem selectedItem = lvLop.SelectedItems[0];
+                string maLop = selectedItem.SubItems[0].Text;
+
+                // Hiển thị form EditForm và truyền maLop vào
+                SuaLop suaLop = new SuaLop(maLop);
+                suaLop.ShowDialog();
+            }
+        }
+
     }
 }

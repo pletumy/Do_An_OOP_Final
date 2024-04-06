@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class LopHoc
+    [Serializable]
+    public class LopHoc: ISerializable
     {
         /* 
          * 1 năm => 6 Lớp
@@ -16,22 +18,39 @@ namespace Thiet_ke.Objects
          * Lớp 11: 2L
          * Lớp 12: 2L
          */
-        public string maLop { get; set; } //2024L10A1; 2024L10A2;
-                                          //2023L11A1; 2023L11A2;
+        public string maLop { get; set; } //2024K1L10A1; 2024K1L10A2;
+                                          //2023K1L11A1; 2023L11A2;
                                           //2022L12A1; 2022L12A2
         public string tenLop { get; set; } //10A1
-        public string maMonHoc { get; set; } //
-        public string maNamHoc { get; set; } //NH2024  
+       // public string maMonHoc { get; set; } //
+        public string maNamHoc { get; set; } //NH2024
+        public int tenNamHoc { get; set; }  //2024 2023 2022
         public string maHocKy { get; set ; } //2024HK1
-        public string maGV { get; set; } 
+        public string tenHK { get; set; } 
+        //public string maGV { get; set; } 
 
-        public LopHoc(string maLop, string tenLop, string maMonHoc, string maHocKy, string maGV)
+        public LopHoc()
         {
-            this.maLop = maLop;
-            this.tenLop = tenLop;
-            this.maMonHoc = maMonHoc;
-            this.maHocKy = maHocKy;
-            this.maGV = maGV;
+        }
+        public LopHoc(SerializationInfo info, StreamingContext context)
+        {
+            // Đọc dữ liệu từ SerializationInfo và khôi phục các thuộc tính của đối tượng Student
+            maLop = info.GetString("maLop");
+            tenLop = info.GetString("tenLop");
+            maHocKy = info.GetString("maHocKy");
+            maNamHoc = info.GetString("maNamHoc");
+            tenHK = info.GetString("tenHK");
+            tenNamHoc = info.GetInt32("tenNamHoc");
+        }
+
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("maLop", maLop);
+            info.AddValue("tenLop", tenLop);
+            info.AddValue("maHocKy", maHocKy);
+            info.AddValue("maNamHoc", maNamHoc);
+            info.AddValue("tenHK", tenHK);
+            info.AddValue("tenNamHoc", tenNamHoc);
         }
     }
 }

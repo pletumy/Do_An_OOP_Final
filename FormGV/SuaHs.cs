@@ -35,6 +35,7 @@ namespace Thiet_ke
 
             // Tìm đối tượng HocSinh có maHocSinh trùng với maHocSinh được truyền vào
             HocSinh hocSinh = danhSachHocSinhs.FirstOrDefault(hs => hs.maHS == maHS);
+
             //tét
             if (hocSinh != null)
             {
