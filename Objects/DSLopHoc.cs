@@ -26,12 +26,18 @@ namespace Thiet_ke.Objects
         {
             LopHoc[] lophoc = new LopHoc[]
             {
-                  new LopHoc { maLop = "2024K1L10A1", tenLop = "10A1",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
-                  new LopHoc { maLop = "2024K1L10A2", tenLop = "10A2",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
-                  new LopHoc { maLop = "2024K1L11A1", tenLop = "11A1",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
-                  new LopHoc { maLop = "2024K1L11A2", tenLop = "11A2",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
-                  new LopHoc { maLop = "2024K1L12A1", tenLop = "12A1",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
-                  new LopHoc { maLop = "2024K1L12A2", tenLop = "12A2",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"}
+                  new LopHoc { maLop = "2024L10A1", tenLop = "10A1",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L10A2", tenLop = "10A2",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L11A1", tenLop = "11A1",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L11A2", tenLop = "11A2",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L12A1", tenLop = "12A1",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L12A2", tenLop = "12A2",maHocKy="HK12024",tenHK="HK1" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L10A1", tenLop = "10A1",maHocKy="HK12024",tenHK="HK2" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L10A2", tenLop = "10A2",maHocKy="HK12024",tenHK="HK2" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L11A1", tenLop = "11A1",maHocKy="HK12024",tenHK="HK2" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L11A2", tenLop = "11A2",maHocKy="HK12024",tenHK="HK2" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L12A1", tenLop = "12A1",maHocKy="HK12024",tenHK="HK2" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
+                  new LopHoc { maLop = "2024L12A2", tenLop = "12A2",maHocKy="HK12024",tenHK="HK2" ,tenNamHoc = 2024, maNamHoc = "NH2024"},
             };
             return lophoc;
         }

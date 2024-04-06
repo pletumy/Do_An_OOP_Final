@@ -36,6 +36,10 @@ namespace Thiet_ke
             // Hiển thị dữ liệu trong ListView
             foreach (HocSinh hocSinh in danhSachHocSinhs)
             {
+                // Lấy mã ớp được chọn trong listViewStudents
+                ListViewItem selectedItem = lvSinhVien.SelectedItems[0];
+                string maHocSinh = selectedItem.SubItems[0].Text;
+
                 ListViewItem item = new ListViewItem(hocSinh.maHS);
                 item.SubItems.Add(hocSinh.hoVaTenLot);
                 item.SubItems.Add(hocSinh.ten);
@@ -43,13 +47,13 @@ namespace Thiet_ke
                 item.SubItems.Add(hocSinh.soDienThoai);
                 item.SubItems.Add(hocSinh.tenDangNhap);
                 item.SubItems.Add(hocSinh.matKhau);
-
                 lvSinhVien.Items.Add(item);
             }
             // thêm dữ liệu lớp học
             string FilePath = "lophocs.json";
             //Đọc dữ liệu lớp học từ tệp Json
             LopHoc[] danhsachLophocs = DocFile<LopHoc[]>(FilePath);
+
             //Hiển thị lên ListView
             foreach (LopHoc lophoc in danhsachLophocs)
             {
