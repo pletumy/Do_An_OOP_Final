@@ -1,142 +1,171 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OOP\\Do_An_OOP_Final\\",
+  "WorkspaceRootPath": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\themhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\xoahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\xoahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_oop_final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\formgv\\nhapdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\formgv\\nhapdiem.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_oop_final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\namhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\namhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\dslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\dsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_An_OOP_Final\\formgv\\xoalop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\formgv\\accountgv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\objects\\dsgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\dsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\objects\\dsbangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsbangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final2\\do_an_oop_final\\objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\themhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\xoahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\xoahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\objects\\dslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\xoalop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\xoalop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_oop_final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_oop_final\\resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,7 +175,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,326 +191,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuanLyDiem.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
-              "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs [Design]*",
-              "RelativeToolTip": "FormGV\\QuanLyDiem.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:35.937Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThemHs.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemHs.cs",
-              "RelativeDocumentMoniker": "FormGV\\ThemHs.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemHs.cs [Design]",
-              "RelativeToolTip": "FormGV\\ThemHs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.105Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NhapDiem.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
+              "DocumentIndex": 0,
+              "Title": "NhapDiem.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
               "RelativeDocumentMoniker": "FormGV\\NhapDiem.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs [Design]*",
-              "RelativeToolTip": "FormGV\\NhapDiem.cs [Design]*",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
+              "RelativeToolTip": "FormGV\\NhapDiem.cs",
+              "ViewState": "AQIAABMAAAAAZGZmZmYMwJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:59:20.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhapDiem.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
+              "RelativeDocumentMoniker": "FormGV\\NhapDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs [Design]",
+              "RelativeToolTip": "FormGV\\NhapDiem.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T09:16:36.06Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThemLop.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
-              "RelativeDocumentMoniker": "FormGV\\ThemLop.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemLop.cs [Design]",
-              "RelativeToolTip": "FormGV\\ThemLop.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "NhapDiem.Designer.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.Designer.cs",
+              "RelativeDocumentMoniker": "FormGV\\NhapDiem.Designer.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.Designer.cs",
+              "RelativeToolTip": "FormGV\\NhapDiem.Designer.cs",
+              "ViewState": "AQIAADUAAAAAyszMzMz6v0gAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.096Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-06T06:57:18.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "XoaHs.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\XoaHs.cs",
-              "RelativeDocumentMoniker": "FormGV\\XoaHs.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\XoaHs.cs [Design]",
-              "RelativeToolTip": "FormGV\\XoaHs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.1Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DSMonHoc.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\DSMonHoc.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
-              "RelativeToolTip": "Objects\\DSMonHoc.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MonHoc.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\MonHoc.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
-              "RelativeToolTip": "Objects\\MonHoc.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBkAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AccountGV.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
               "RelativeDocumentMoniker": "FormGV\\AccountGV.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\AccountGV.cs [Design]*",
-              "RelativeToolTip": "FormGV\\AccountGV.cs [Design]*",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\AccountGV.cs [Design]",
+              "RelativeToolTip": "FormGV\\AccountGV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T09:16:36.109Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SuaLop.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
-              "RelativeDocumentMoniker": "FormGV\\SuaLop.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\SuaLop.cs [Design]",
-              "RelativeToolTip": "FormGV\\SuaLop.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.108Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 4,
+              "Title": "NhapDiem.resx",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.resx",
+              "RelativeDocumentMoniker": "FormGV\\NhapDiem.resx",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\NhapDiem.resx",
+              "RelativeToolTip": "FormGV\\NhapDiem.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-06T06:57:47.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SuaHs.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\SuaHs.cs",
-              "RelativeDocumentMoniker": "FormGV\\SuaHs.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\SuaHs.cs [Design]",
-              "RelativeToolTip": "FormGV\\SuaHs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.104Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TaiKhoanGV.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
-              "RelativeDocumentMoniker": "Objects\\TaiKhoanGV.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
-              "RelativeToolTip": "Objects\\TaiKhoanGV.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\DangNhap.cs*",
-              "RelativeToolTip": "DangNhap.cs*",
-              "ViewState": "AQIAAAEAAAAAAAAAAAASwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T06:55:19.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\DangNhap.cs [Design]*",
-              "RelativeToolTip": "DangNhap.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.118Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "XemDiem(HS).cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
-              "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs [Design]*",
-              "RelativeToolTip": "FormHS\\XemDiem(HS).cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.065Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Diem.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs",
-              "RelativeDocumentMoniker": "Objects\\Diem.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs",
-              "RelativeToolTip": "Objects\\Diem.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DSHocSinh.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
-              "RelativeDocumentMoniker": "Objects\\DSHocSinh.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
-              "RelativeToolTip": "Objects\\DSHocSinh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LopHoc.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\LopHoc.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
-              "RelativeToolTip": "Objects\\LopHoc.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBEAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "TaiKhoanHS.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
               "RelativeDocumentMoniker": "Objects\\TaiKhoanHS.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
               "RelativeToolTip": "Objects\\TaiKhoanHS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwDcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T09:16:36.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NamHoc.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\NamHoc.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
-              "RelativeToolTip": "Objects\\NamHoc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEEAAAAAAQAAAEAkwEkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.081Z",
+              "WhenOpened": "2024-04-02T09:16:36.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ITaiKhoan.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
-              "RelativeDocumentMoniker": "Objects\\ITaiKhoan.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
-              "RelativeToolTip": "Objects\\ITaiKhoan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentIndex": 7,
+              "Title": "AccountGV.Designer.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\AccountGV.Designer.cs",
+              "RelativeDocumentMoniker": "FormGV\\AccountGV.Designer.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\AccountGV.Designer.cs",
+              "RelativeToolTip": "FormGV\\AccountGV.Designer.cs",
+              "ViewState": "AQIAACgAAAAA//////8AwBgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.089Z",
+              "WhenOpened": "2024-04-06T06:52:15.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HocSinh.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
-              "RelativeDocumentMoniker": "Objects\\HocSinh.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
-              "RelativeToolTip": "Objects\\HocSinh.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAArwBgAAAArAAAA",
+              "DocumentIndex": 11,
+              "Title": "DSGiaoVien.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSGiaoVien.cs",
+              "RelativeDocumentMoniker": "Objects\\DSGiaoVien.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSGiaoVien.cs",
+              "RelativeToolTip": "Objects\\DSGiaoVien.cs",
+              "ViewState": "AQIAACgAAAAAmpmZmZkWwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.098Z",
+              "WhenOpened": "2024-04-06T06:50:01.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HocKy.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs",
-              "RelativeDocumentMoniker": "Objects\\HocKy.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs",
-              "RelativeToolTip": "Objects\\HocKy.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GiaoVien.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
-              "RelativeDocumentMoniker": "Objects\\GiaoVien.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
-              "RelativeToolTip": "Objects\\GiaoVien.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DSLopHoc.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSLopHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\DSLopHoc.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSLopHoc.cs",
-              "RelativeToolTip": "Objects\\DSLopHoc.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwA0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 12,
               "Title": "DSDieuChinh.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
               "RelativeDocumentMoniker": "Objects\\DSDieuChinh.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
               "RelativeToolTip": "Objects\\DSDieuChinh.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -490,88 +318,377 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ConNguoi.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\ConNguoi.cs",
-              "RelativeDocumentMoniker": "Objects\\ConNguoi.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\ConNguoi.cs*",
-              "RelativeToolTip": "Objects\\ConNguoi.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BangDiemHS.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
-              "RelativeDocumentMoniker": "Objects\\BangDiemHS.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
-              "RelativeToolTip": "Objects\\BangDiemHS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BangDiemGV.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
-              "RelativeDocumentMoniker": "Objects\\BangDiemGV.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
-              "RelativeToolTip": "Objects\\BangDiemGV.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BangDiem.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
-              "RelativeDocumentMoniker": "Objects\\BangDiem.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
-              "RelativeToolTip": "Objects\\BangDiem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 6,
               "Title": "AccountHS.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
               "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormHS\\AccountHS.cs [Design]*",
-              "RelativeToolTip": "FormHS\\AccountHS.cs [Design]*",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormHS\\AccountHS.cs [Design]",
+              "RelativeToolTip": "FormHS\\AccountHS.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T09:16:36.112Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "XoaLop.cs [Design]",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\XoaLop.cs",
-              "RelativeDocumentMoniker": "FormGV\\XoaLop.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\XoaLop.cs [Design]",
-              "RelativeToolTip": "FormGV\\XoaLop.cs [Design]",
+              "DocumentIndex": 10,
+              "Title": "TaiKhoanGV.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
+              "RelativeDocumentMoniker": "Objects\\TaiKhoanGV.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
+              "RelativeToolTip": "Objects\\TaiKhoanGV.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwDIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.102Z",
+              "WhenOpened": "2024-04-02T09:16:36.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountGV.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeDocumentMoniker": "FormGV\\AccountGV.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeToolTip": "FormGV\\AccountGV.cs",
+              "ViewState": "AQIAAAYAAAAAMzMzM3MjwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:46:36.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DSBangDiemGV.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSBangDiemGV.cs",
+              "RelativeDocumentMoniker": "Objects\\DSBangDiemGV.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSBangDiemGV.cs",
+              "RelativeToolTip": "Objects\\DSBangDiemGV.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:49:49.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BangDiemGV.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
+              "RelativeDocumentMoniker": "Objects\\BangDiemGV.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
+              "RelativeToolTip": "Objects\\BangDiemGV.cs",
+              "ViewState": "AQIAABAAAACAAAAAAIAkwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BangDiemHS.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
+              "RelativeDocumentMoniker": "Objects\\BangDiemHS.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
+              "RelativeToolTip": "Objects\\BangDiemHS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConNguoi.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\ConNguoi.cs",
+              "RelativeDocumentMoniker": "Objects\\ConNguoi.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\ConNguoi.cs",
+              "RelativeToolTip": "Objects\\ConNguoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BangDiem.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
+              "RelativeDocumentMoniker": "Objects\\BangDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
+              "RelativeToolTip": "Objects\\BangDiem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "XemDiem(HS).cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
+              "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs [Design]",
+              "RelativeToolTip": "FormHS\\XemDiem(HS).cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.065Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "QuanLyDiem.cs",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
+              "DocumentIndex": 19,
+              "Title": "AccountHS.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeToolTip": "FormHS\\AccountHS.cs",
+              "ViewState": "AQIAAAoAAABAzczMzAwgwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:47:40.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SuaLop.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
+              "RelativeDocumentMoniker": "FormGV\\SuaLop.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\SuaLop.cs [Design]",
+              "RelativeToolTip": "FormGV\\SuaLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.108Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuanLyDiem.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
               "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs*",
-              "RelativeToolTip": "FormGV\\QuanLyDiem.cs*",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs [Design]",
+              "RelativeToolTip": "FormGV\\QuanLyDiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:35.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MonHoc.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
+              "RelativeDocumentMoniker": "Objects\\MonHoc.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
+              "RelativeToolTip": "Objects\\MonHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.118Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DSMonHoc.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
+              "RelativeDocumentMoniker": "Objects\\DSMonHoc.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
+              "RelativeToolTip": "Objects\\DSMonHoc.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "XoaHs.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\XoaHs.cs",
+              "RelativeDocumentMoniker": "FormGV\\XoaHs.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\XoaHs.cs [Design]",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\FormGV\\XoaHs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ThemLop.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
+              "RelativeDocumentMoniker": "FormGV\\ThemLop.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemLop.cs [Design]",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\FormGV\\ThemLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThemHs.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\ThemHs.cs",
+              "RelativeDocumentMoniker": "FormGV\\ThemHs.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemHs.cs [Design]",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\FormGV\\ThemHs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SuaHs.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\SuaHs.cs",
+              "RelativeDocumentMoniker": "FormGV\\SuaHs.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\SuaHs.cs [Design]",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\FormGV\\SuaHs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\DangNhap.cs",
+              "RelativeToolTip": "DangNhap.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAASwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T06:55:19.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Diem.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs",
+              "RelativeDocumentMoniker": "..\\..\\Do_An_OOP_Final\\Objects\\Diem.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\Objects\\Diem.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DSHocSinh.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
+              "RelativeDocumentMoniker": "Objects\\DSHocSinh.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
+              "RelativeToolTip": "Objects\\DSHocSinh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LopHoc.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
+              "RelativeDocumentMoniker": "Objects\\LopHoc.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
+              "RelativeToolTip": "Objects\\LopHoc.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NamHoc.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
+              "RelativeDocumentMoniker": "..\\..\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITaiKhoan.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
+              "RelativeDocumentMoniker": "Objects\\ITaiKhoan.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
+              "RelativeToolTip": "Objects\\ITaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HocSinh.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
+              "RelativeDocumentMoniker": "Objects\\HocSinh.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
+              "RelativeToolTip": "Objects\\HocSinh.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAArwBgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "HocKy.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs",
+              "RelativeDocumentMoniker": "..\\..\\Do_An_OOP_Final\\Objects\\HocKy.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\Objects\\HocKy.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GiaoVien.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
+              "RelativeDocumentMoniker": "Objects\\GiaoVien.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
+              "RelativeToolTip": "Objects\\GiaoVien.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DSLopHoc.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSLopHoc.cs",
+              "RelativeDocumentMoniker": "Objects\\DSLopHoc.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Objects\\DSLopHoc.cs",
+              "RelativeToolTip": "Objects\\DSLopHoc.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "XoaLop.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\XoaLop.cs",
+              "RelativeDocumentMoniker": "FormGV\\XoaLop.cs",
+              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\XoaLop.cs [Design]",
+              "RelativeToolTip": "..\\..\\Do_An_OOP_Final\\FormGV\\XoaLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "QuanLyDiem.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
+              "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
+              "RelativeToolTip": "FormGV\\QuanLyDiem.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAjwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T15:31:39.791Z",
@@ -579,15 +696,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
-              "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
               "RelativeDocumentMoniker": "Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
+              "ToolTip": "D:\\OOP\\Do_an_final2\\Do_An_OOP_Final\\Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
               "RelativeToolTip": "Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-02T09:17:01.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T09:17:01.182Z"
             }
           ]
         }

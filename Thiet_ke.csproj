@@ -83,6 +83,7 @@
     <Compile Include="Objects\BangDiemHS.cs" />
     <Compile Include="Objects\ConNguoi.cs" />
     <Compile Include="Objects\BangDiem.cs" />
+    <Compile Include="Objects\DSBangDiemGV.cs" />
     <Compile Include="Objects\DSDieuChinh.cs" />
     <Compile Include="Objects\DSGiaoVien.cs" />
     <Compile Include="Objects\DSHocSinh.cs" />
