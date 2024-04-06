@@ -40,10 +40,9 @@
             this.btnThoat.BackColor = System.Drawing.Color.MediumPurple;
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnThoat.Location = new System.Drawing.Point(686, 446);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnThoat.Location = new System.Drawing.Point(343, 232);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(304, 112);
+            this.btnThoat.Size = new System.Drawing.Size(152, 58);
             this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -53,51 +52,48 @@
             this.btnDangNhap.BackColor = System.Drawing.Color.MediumPurple;
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDangNhap.Location = new System.Drawing.Point(216, 446);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnDangNhap.Location = new System.Drawing.Point(108, 232);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(290, 112);
+            this.btnDangNhap.Size = new System.Drawing.Size(145, 58);
             this.btnDangNhap.TabIndex = 6;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(602, 290);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.txtMatKhau.MaximumSize = new System.Drawing.Size(478, 60);
-            this.txtMatKhau.MinimumSize = new System.Drawing.Size(478, 30);
+            this.txtMatKhau.Location = new System.Drawing.Point(301, 151);
+            this.txtMatKhau.MaximumSize = new System.Drawing.Size(241, 60);
+            this.txtMatKhau.MinimumSize = new System.Drawing.Size(241, 30);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(478, 31);
+            this.txtMatKhau.Size = new System.Drawing.Size(241, 20);
             this.txtMatKhau.TabIndex = 5;
             // 
             // txtTenDangNhap
             // 
-            this.txtTenDangNhap.Location = new System.Drawing.Point(602, 121);
-            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.txtTenDangNhap.MaximumSize = new System.Drawing.Size(478, 30);
-            this.txtTenDangNhap.MinimumSize = new System.Drawing.Size(478, 30);
+            this.txtTenDangNhap.Location = new System.Drawing.Point(301, 63);
+            this.txtTenDangNhap.MaximumSize = new System.Drawing.Size(241, 30);
+            this.txtTenDangNhap.MinimumSize = new System.Drawing.Size(241, 30);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
-            this.txtTenDangNhap.Size = new System.Drawing.Size(478, 31);
+            this.txtTenDangNhap.Size = new System.Drawing.Size(241, 20);
             this.txtTenDangNhap.TabIndex = 4;
             // 
             // AccountGV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1248, 669);
+            this.ClientSize = new System.Drawing.Size(624, 348);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTenDangNhap);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "AccountGV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AccountGV";
+            this.Load += new System.EventHandler(this.AccountGV_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
