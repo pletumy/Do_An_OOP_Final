@@ -20,26 +20,6 @@ namespace Thiet_ke.Objects
             info.AddValue("Teachers", teachers);
         }
 
-        public GiaoVien Nhap()
-        {
-            throw new NotImplementedException();
-        }
-
-        public GiaoVien Sua()
-        {
-            throw new NotImplementedException();
-        }
-
-        public GiaoVien Xoa()
-        {
-            throw new NotImplementedException();
-        }
-
-        public GiaoVien TimKiem()
-        {
-            throw new NotImplementedException();
-        }
-
         public DSGiaoVien(SerializationInfo info, StreamingContext context)
         {
             Teachers = (GiaoVien[])info.GetValue("Teachers", typeof(GiaoVien[]));
@@ -66,5 +46,24 @@ namespace Thiet_ke.Objects
             return giaoViens;
         }
 
+        public GiaoVien Nhap()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Sua()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Xoa()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TimKiem()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

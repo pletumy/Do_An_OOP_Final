@@ -73,21 +73,17 @@ namespace Thiet_ke
 
         private void btnSuaSv_Click(object sender, EventArgs e)
         {
-            if (lvSinhVien.SelectedItems.Count > 0)
+
+            if (lvSinhVien.SelectedItems.Count > 0 && lvLop.SelectedItems.Count > 0)
             {
-                // Lấy học sinh được chọn trong listViewStudents
                 ListViewItem selectedItem = lvSinhVien.SelectedItems[0];
                 string maHocSinh = selectedItem.SubItems[0].Text;
 
-                // Hiển thị form EditForm và truyền maHocSinh vào
                 SuaHs suaHS = new SuaHs(maHocSinh);
                 suaHS.ShowDialog();
-
-                // Sau khi form EditForm đóng, bạn có thể cập nhật hoặc làm gì đó với dữ liệu đã chỉnh sửa
-                // Ví dụ: cập nhật lại dữ liệu trong listViewStudents
-                // danhSachHocSinhs = ... (cập nhật lại danh sách học sinh từ nguồn dữ liệu)
-                // Hiển thị lại danh sách học sinh trong listViewStudents
-                // ...
+            }
+            else {
+                MessageBox.Show("Vui lòng chọn Lớp và Học Sinh cần chỉnh sửa", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -117,8 +113,6 @@ namespace Thiet_ke
                 HienThiDanhSachHocSinhTheoLop(maLop);
             }
         }
-
-        // Hàm để hiển thị danh sách học sinh có cùng mã lớp trong ListView lvSinhVien
         private void HienThiDanhSachHocSinhTheoLop(string maLop)
         {
             lvSinhVien.Items.Clear();
@@ -130,7 +124,7 @@ namespace Thiet_ke
                     ListViewItem item = new ListViewItem(hocSinh.maHS);
                     item.SubItems.Add(hocSinh.hoVaTenLot);
                     item.SubItems.Add(hocSinh.ten);
-                    item.SubItems.Add(hocSinh.gioiTinh.ToString());
+                    item.SubItems.Add(hocSinh.gioiTinh == 0 ? "Nữ" : "Nam");
                     item.SubItems.Add(hocSinh.soDienThoai);
                     item.SubItems.Add(hocSinh.tenDangNhap);
                     item.SubItems.Add(hocSinh.matKhau);
@@ -138,32 +132,6 @@ namespace Thiet_ke
                 }
             }
         }
-        /*
-
-        private void lvLop_SelectedIndexChanged(object sender, EventArgs e)
-        {   
-            lvSinhVien.Items.Clear();
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-
-            // Lấy học sinh được chọn trong listViewStudents
-            ListViewItem selectedItem = lvLop.SelectedItems[0];
-            string maLop = selectedItem.SubItems[0].Text;
-
-            foreach (HocSinh hocSinh in danhSachHocSinhs)
-            {
-                if (hocSinh.maLop == maLop)
-                {
-                    ListViewItem item = new ListViewItem(hocSinh.maHS);
-                    item.SubItems.Add(hocSinh.hoVaTenLot);
-                    item.SubItems.Add(hocSinh.ten);
-                    item.SubItems.Add(hocSinh.gioiTinh.ToString());
-                    item.SubItems.Add(hocSinh.soDienThoai);
-                    item.SubItems.Add(hocSinh.tenDangNhap);
-                    item.SubItems.Add(hocSinh.matKhau);
-                    lvSinhVien.Items.Add(item);
-                }
-            }
-        }
-        */
+        
     }
 }

@@ -16,5 +16,20 @@ namespace Thiet_ke
         {
             InitializeComponent();
         }
+
+        private void ThemHs_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rBtnNam_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -19,26 +19,7 @@ namespace Thiet_ke.Objects
             info.AddValue("Teachers", teachers);
         }
 
-        public DSBangDiemGV Nhap()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DSBangDiemGV Sua()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DSBangDiemGV Xoa()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DSBangDiemGV TimKiem()
-        {
-            throw new NotImplementedException();
-        }
-
+      
         public DSBangDiemGV(SerializationInfo info, StreamingContext context)
         {
             Teachers = (BangDiemGV[])info.GetValue("Teachers", typeof(BangDiemGV[]));
@@ -52,6 +33,26 @@ namespace Thiet_ke.Objects
                     new BangDiemGV { maGiaoVien = "GVLY", maLop = "2023K1L10A2 ", diemGiuaKy = 5.5, diemCuoiKy = 5},
                 };
             return giaoViens;
+        }
+
+        public DSBangDiemGV Nhap()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Sua()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Xoa()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TimKiem()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -41,22 +41,23 @@ namespace Thiet_ke.Objects
             };
             return lophoc;
         }
+
         public LopHoc Nhap()
         {
             throw new NotImplementedException();
         }
 
-        public LopHoc Sua()
+        public void Sua()
         {
             throw new NotImplementedException();
         }
 
-        public LopHoc TimKiem()
+        public void Xoa()
         {
             throw new NotImplementedException();
         }
 
-        public LopHoc Xoa()
+        public void TimKiem()
         {
             throw new NotImplementedException();
         }
