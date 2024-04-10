@@ -70,7 +70,7 @@ namespace Thiet_ke
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuanLyDiem());
+            Application.Run(new AccountGV());
             
         }
     }

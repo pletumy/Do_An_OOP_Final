@@ -18,11 +18,14 @@ namespace Thiet_ke
         // Thêm dữ liệu học sinh
         public string filePath = "students.json";
 
-        
+        private GiaoVien CurrentTeacher;
 
-        public QuanLyDiem()
+        public QuanLyDiem(GiaoVien teacher)
         {
             InitializeComponent();
+            CurrentTeacher = teacher;
+            lblTenGV.Text = CurrentTeacher.hoVaTenLot + " " + CurrentTeacher.ten;
+            lblMon.Text = CurrentTeacher.maGV;
         }
 
         private void grbDsLop_Enter(object sender, EventArgs e)
@@ -123,7 +126,7 @@ namespace Thiet_ke
             foreach (HocSinh hocSinh in danhSachHocSinhs)
             {
                 if (hocSinh.maLop == maLop)
-                {
+                { 
                     ListViewItem item = new ListViewItem(hocSinh.maHS);
                     item.SubItems.Add(hocSinh.hoVaTenLot);
                     item.SubItems.Add(hocSinh.ten);

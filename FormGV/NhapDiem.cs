@@ -19,13 +19,13 @@ namespace Thiet_ke
         {
             InitializeComponent();
         }
-
+        string filePath = "students.json";
         private void NhapDiem_Load(object sender, EventArgs e)
         {
-            string filePath = "students.json";
+
 
             // Đọc dữ liệu từ tệp JSON
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
+      /*      HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
 
             // Hiển thị dữ liệu trong ListView
             foreach (HocSinh hocSinh in danhSachHocSinhs)
@@ -35,7 +35,8 @@ namespace Thiet_ke
                 item.SubItems.Add(hocSinh.ten);
 
                 lvDiem.Items.Add(item);
-            }
+            }*/
+           
         }
         static T DocFile<T>(string filePath)
         {
@@ -51,29 +52,20 @@ namespace Thiet_ke
                 return default(T);
             }
         }
-
-        private void btnNhapDiem_Click(object sender, EventArgs e)
+        
+        private void HienThiDanhSachHocSinhTheoLop(string maLop)
         {
-
-        }
-
-        private void btnSuaSv_Click(object sender, EventArgs e)
-        {
-            if (lvDiem.SelectedItems.Count > 0)
+            lvDiem.Items.Clear();
+            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
+            foreach (HocSinh hocSinh in danhSachHocSinhs)
             {
-                // Lấy học sinh được chọn trong listViewStudents
-                ListViewItem selectedItem = lvDiem.SelectedItems[0];
-                string maHocSinh = selectedItem.SubItems[0].Text;
-
-                // Hiển thị form EditForm và truyền maHocSinh vào
-                SuaHs suaHS = new SuaHs(maHocSinh);
-                suaHS.ShowDialog();
-
-                // Sau khi form EditForm đóng, bạn có thể cập nhật hoặc làm gì đó với dữ liệu đã chỉnh sửa
-                // Ví dụ: cập nhật lại dữ liệu trong listViewStudents
-                // danhSachHocSinhs = ... (cập nhật lại danh sách học sinh từ nguồn dữ liệu)
-                // Hiển thị lại danh sách học sinh trong listViewStudents
-                // ...
+                if (hocSinh.maLop == maLop)
+                {
+                    ListViewItem item = new ListViewItem(hocSinh.maHS);
+                    item.SubItems.Add(hocSinh.hoVaTenLot);
+                    item.SubItems.Add(hocSinh.ten);
+                    lvDiem.Items.Add(item);
+                }
             }
         }
 
@@ -145,6 +137,12 @@ namespace Thiet_ke
         private void MaLop_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            string maLop = (string)MaLop.Text;
+            HienThiDanhSachHocSinhTheoLop(maLop);
         }
     }
 }

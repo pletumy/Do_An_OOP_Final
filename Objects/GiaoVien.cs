@@ -53,5 +53,17 @@ namespace Thiet_ke.Objects
             info.AddValue("tenDangNhap", tenDangNhap);
             info.AddValue("matKhau", matKhau);
         }
+        public GiaoVien DangNhap(string tenDangNhap, string matKhau)
+        {
+            // Check if the entered login credentials match this GiaoVien object
+            if (tenDangNhap == this.tenDangNhap && matKhau == this.matKhau)
+            {
+                // If the login credentials match this GiaoVien object, return this object
+                return this;
+            }
+
+            // If the login credentials do not match this GiaoVien object, return null
+            return null;
+        }
     }
 }

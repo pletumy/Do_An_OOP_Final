@@ -37,7 +37,6 @@
             this.clnGK = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnCK = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnTB = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label1 = new System.Windows.Forms.Label();
             this.lblLop = new System.Windows.Forms.Label();
             this.lblNhapMHS = new System.Windows.Forms.Label();
             this.lblGK = new System.Windows.Forms.Label();
@@ -49,8 +48,9 @@
             this.btntimmhs = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.timmalop = new System.Windows.Forms.Button();
             this.MaLop = new System.Windows.Forms.TextBox();
+            this.btnHK = new System.Windows.Forms.Button();
             this.grbNhapDiem.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,17 +99,6 @@
             // 
             this.clnTB.Text = "Điểm trung bình";
             this.clnTB.Width = 100;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.SandyBrown;
-            this.label1.Location = new System.Drawing.Point(84, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Môn: Toán";
             // 
             // lblLop
             // 
@@ -221,16 +210,17 @@
             this.imageList1.Images.SetKeyName(0, "Lưu");
             this.imageList1.Images.SetKeyName(1, "Thoát");
             // 
-            // button1
+            // timmalop
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(699, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.timmalop.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timmalop.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.timmalop.Location = new System.Drawing.Point(699, 15);
+            this.timmalop.Name = "timmalop";
+            this.timmalop.Size = new System.Drawing.Size(75, 23);
+            this.timmalop.TabIndex = 16;
+            this.timmalop.Text = "Tìm kiếm";
+            this.timmalop.UseVisualStyleBackColor = true;
+            this.timmalop.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // MaLop
             // 
@@ -239,17 +229,29 @@
             this.MaLop.Size = new System.Drawing.Size(156, 20);
             this.MaLop.TabIndex = 17;
             // 
+            // btnHK
+            // 
+            this.btnHK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHK.ForeColor = System.Drawing.Color.SandyBrown;
+            this.btnHK.Location = new System.Drawing.Point(56, 12);
+            this.btnHK.Name = "btnHK";
+            this.btnHK.Size = new System.Drawing.Size(75, 23);
+            this.btnHK.TabIndex = 19;
+            this.btnHK.Text = "Học kỳ 2\r\n";
+            this.btnHK.UseVisualStyleBackColor = true;
+            // 
             // NhapDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(818, 535);
+            this.Controls.Add(this.btnHK);
             this.Controls.Add(this.MaLop);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.timmalop);
             this.Controls.Add(this.grbNhapDiem);
             this.Controls.Add(this.lblLop);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lvDiem);
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -273,7 +275,6 @@
         private System.Windows.Forms.ColumnHeader clnGK;
         private System.Windows.Forms.ColumnHeader clnCK;
         private System.Windows.Forms.ColumnHeader clnTB;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblNhapMHS;
         private System.Windows.Forms.Label lblGK;
         private System.Windows.Forms.Label lblCK;
@@ -285,7 +286,8 @@
         public System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Label lblLop;
         private System.Windows.Forms.Button btntimmhs;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button timmalop;
         private System.Windows.Forms.TextBox MaLop;
+        private System.Windows.Forms.Button btnHK;
     }
 }

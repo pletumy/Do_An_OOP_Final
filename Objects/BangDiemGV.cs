@@ -14,7 +14,7 @@ namespace Thiet_ke.Objects
         //thực hiện thao tác chỉnh sửa nhập điểm
         public string maGiaoVien { get; set; }
         public string maLop { get; set; }
-
+        public string maHS { get; set; }
 
         protected override void xemBangDiem() { }
         //protected override void inBangDiem() { }
@@ -29,6 +29,7 @@ namespace Thiet_ke.Objects
         {
             maGiaoVien = info.GetString("maGiaoVien");
             maLop = info.GetString("maLop");
+            maHS = info.GetString("maHS");
             diemGiuaKy = info.GetDouble("diemGiuaKy");
             diemCuoiKy = info.GetDouble("diemCuoiKy");
         }
@@ -36,6 +37,7 @@ namespace Thiet_ke.Objects
         {
             info.AddValue("maGiaoVien", diemGiuaKy);
             info.AddValue("maLop", diemGiuaKy);
+            info.AddValue("maHS", maHS);
             info.AddValue("diemGiuaKy", diemGiuaKy);
             info.AddValue("diemCuoiKy", diemCuoiKy);
         }

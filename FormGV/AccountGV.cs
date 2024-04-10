@@ -27,18 +27,38 @@ namespace Thiet_ke
         {
             string password = txtMatKhau.Text;
         }
+        GiaoVien matchedAccount = null;
 
-        private void btnDangNhap_Click(object sender, EventArgs e)
+        private void AccountGV_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDangNhap_Click_1(object sender, EventArgs e)
         {
             string username = txtTenDangNhap.Text;
             string password = txtMatKhau.Text;
             TaiKhoanGV taiKhoanGV = new TaiKhoanGV();
             taiKhoanGV.DangNhap(username, password);
+
+            if (TaiKhoanGV.CurrentUser != null)
+            {
+                // If the login credentials match a teacher account, open the corresponding form and pass the matched account to it
+                QuanLyDiem quanLyDiem = new QuanLyDiem(TaiKhoanGV.CurrentUser);
+                quanLyDiem.ShowDialog();
+            }
+            else
+            {
+                // If the login credentials do not match any teacher account, display an error message
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không chính xác.");
+            }
         }
 
-        private void AccountGV_Load(object sender, EventArgs e)
+        private void btnThoat_Click(object sender, EventArgs e)
         {
-
+            DangNhap dangNhap = new DangNhap();
+            dangNhap.ShowDialog();
+            this.Hide();
         }
     }
 }

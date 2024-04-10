@@ -9,12 +9,13 @@ namespace Thiet_ke.Objects
     public class TaiKhoanGV : ITaiKhoan
     {
         private List<GiaoVien> teacherAccounts = new List<GiaoVien>();
+        private static GiaoVien currentUser;
 
         public TaiKhoanGV()
         {
             // Initialize the list of teacher accounts
-            teacherAccounts.Add(new GiaoVien { maGV = "GVTOAN", tenDangNhap = "userGVTOAN", matKhau = "passwordGVTOAN" });
-            teacherAccounts.Add(new GiaoVien { maGV = "GVLY", tenDangNhap = "userGVLY", matKhau = "passwordGVLY" });
+            teacherAccounts.Add(new GiaoVien { maGV = "GVTOAN", hoVaTenLot = "Nguyễn Trường", ten = "An", gioiTinh = 1, soDienThoai = "0204019960", tenDangNhap = "userGVTOAN", matKhau = "passwordGVTOAN" });
+            teacherAccounts.Add(new GiaoVien { maGV = "GVLY", hoVaTenLot = "Nguyễn Quang ", ten = "Anh", gioiTinh = 1, soDienThoai = "0230515773", tenDangNhap = "userGVLY", matKhau = "passwordGVLY" });
             // Add more teacher accounts here...
         }
 
@@ -25,27 +26,18 @@ namespace Thiet_ke.Objects
 
             if (matchedAccount != null)
             {
-                // If the login credentials match a teacher account, open the corresponding form
-                switch (matchedAccount.maGV)
-                {
-                    case "GVTOAN":
-                        QuanLyDiem quanLyDiem = new QuanLyDiem();
-                        quanLyDiem.ShowDialog();
-
-                        break;
-                    case "GVLY":
-                        // Open the form for the literature teacher
-                        break;
-                    // Add more cases here for other teacher accounts...
-                    default:
-                        break;
-                }
+                // If the login credentials match a teacher account, set the current user to the matched account
+                currentUser = matchedAccount;
             }
             else
             {
                 // If the login credentials do not match any teacher account, display an error message
                 Console.WriteLine("Tên đăng nhập hoặc mật khẩu không chính xác.");
             }
+        }
+        public static GiaoVien CurrentUser
+        {
+            get { return currentUser; }
         }
     }
 }
