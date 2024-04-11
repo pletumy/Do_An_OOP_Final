@@ -139,5 +139,21 @@ namespace Thiet_ke
             }
         }
 
+        private void btnXoaLop_Click(object sender, EventArgs e)
+        {
+            // Lấy lớp được chọn trong listViewStudents
+            ListViewItem selectedItem = lvLop.SelectedItems[0];
+            string maLop = selectedItem.SubItems[0].Text;
+            string tenHK = selectedItem.SubItems[2].Text;
+
+            XoaLop xoalop = new XoaLop(maLop, tenHK, this);
+            xoalop.ShowDialog();
+        }
+
+        private void btnNhapLop_Click(object sender, EventArgs e)
+        {
+            ThemLop themlop = new ThemLop(this);
+            themlop.ShowDialog();
+        }
     }
 }

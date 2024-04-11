@@ -70,5 +70,29 @@
     "tenLop": "12A2",
     "tenHK": "HK2",
     "tenNamHoc": 2024
+  },
+  {
+    "maLop": "4",
+    "tenLop": "3",
+    "tenHK": "4",
+    "tenNamHoc": 2
+  },
+  {
+    "maLop": "4",
+    "tenLop": "3",
+    "tenHK": "4",
+    "tenNamHoc": 2
+  },
+  {
+    "maLop": "2024L10A3",
+    "tenLop": "10A3",
+    "tenHK": "HK2",
+    "tenNamHoc": 2024
+  },
+  {
+    "maLop": "2024L10A2",
+    "tenLop": "10A2",
+    "tenHK": "Hk3",
+    "tenNamHoc": 2024
   }
 ]
