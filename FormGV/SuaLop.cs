@@ -19,6 +19,7 @@ namespace Thiet_ke
         private QuanLyDiem parentForm; // Tham chiếu đến lớp QuanLyDiem
         private string maLop;
         private string tenHK;
+        string FilePath = "lophocs.json";
         // Sửa mã lớp, tên lớp, Năm học
         // Nên để mới dô sẽ hiện thông tin mã, tên, năm học cũ để dễ sửa thông tin
         public SuaLop(string maLop, string tenHK, QuanLyDiem parent)
@@ -31,11 +32,8 @@ namespace Thiet_ke
 
         private void SuaLop_Load(object sender, EventArgs e)
         {
-            string FilePath = "lophocs.json";
-            // Đọc lớp học từ tệp JSON
-            string json = File.ReadAllText(FilePath);
-            // Chuyển đổi JSON thành đối tượng LopHoc
-            LopHoc[] danhsachlophocs= JsonConvert.DeserializeObject<LopHoc[]>(json);
+            // Đọc tệp lớp học JSON và chuyển đổi đối tượng 
+            LopHoc[] danhsachlophocs = DSLopHoc.DocfileLop<LopHoc[]>(FilePath);
 
             // Tìm đối tượng lớp học có maLop trùng vs maLop được truyển vào
             LopHoc lophoc = null;
@@ -59,23 +57,34 @@ namespace Thiet_ke
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            string FilePath = "lophocs.json";
-            string json= File.ReadAllText(FilePath);
+            //ĐỌc file LopHoc hiện tại dưới dạng List
+            List<LopHoc> danhsachlophocs=DSLopHoc.DocfileLop<List<LopHoc>>(FilePath);
 
-            // Chuyển đổi JSON thành đối tượng LopHoc
-            List<LopHoc> danhsachlophocs= JsonConvert.DeserializeObject<List<LopHoc>>(json);
+            // Sử dụng lvLop từ lớp QuanLyDiem thông qua tham chiếu parentForm
+            ListView lvLop = parentForm.lvLop;
+            string MaLop = string.Empty;
+            string TenHk = string.Empty;
+            // Lấy ra MaLop và TenHk ban đầu của dòng đang được chọn
+            foreach (ListViewItem item in lvLop.Items)
+            {
+                if (item.Selected)
+                {
+                    MaLop = item.SubItems[0].Text;
+                    TenHk = item.SubItems[2].Text;
+                    break;
+                }
+            }
+            //*1 Tìm và xóa đối tượng LopHoc có mã trùng với mã lớp đang chọn để sửa
+            LopHoc.XoaLop(danhsachlophocs, MaLop, TenHk);
 
-            // Tìm và xóa đối tượng LopHoc có mã trùng với mã lớp đang chọn để sửa
-            danhsachlophocs.RemoveAll(lh => lh.maLop == txtMalop.Text && lh.tenHK==txtHocKy.Text);
-
-            //Tạo đối tượng lớp học mới để lưu vào file Json
+            //*2 Tạo đối tượng lớp học mới để lưu vào file Json
             LopHoc SuaLop = new LopHoc();
             SuaLop.maLop = txtMalop.Text;
             SuaLop.tenLop= txtTenlop.Text;
             SuaLop.tenHK= txtHocKy.Text;
             SuaLop.tenNamHoc = int.Parse(txtNamHoc.Text);
 
-            //Kiểm tra xem đối tượng LopHoc mới tạo có bị trùng không 
+            //*3 Kiểm tra xem đối tượng LopHoc mới tạo có bị trùng không 
             bool existed=false;
             foreach (var lh in danhsachlophocs)
             {
@@ -88,29 +97,29 @@ namespace Thiet_ke
             }
             else
             {
-                // Sử dụng lvLop từ lớp QuanLyDiem thông qua tham chiếu parentForm
-                ListView lvLop = parentForm.lvLop;
-
-                // Duyệt qua từng mục trong ListView để hiển thị ra màn hình
+                //*4  Duyệt qua từng mục trong ListView để hiển thị ra màn hình
                 foreach (ListViewItem item in lvLop.Items)
                 {
-                    if (item.SubItems[0].Text == SuaLop.maLop && item.SubItems[2].Text == SuaLop.tenHK)
+                    //if (item.SubItems[0].Text == SuaLop.maLop && item.SubItems[2].Text == SuaLop.tenHK)
+                    if (item.Selected)
                     {
                         // Nếu mã lớp của mục trong ListView trùng với mã lớp của đối tượng đã sửa
                         // thì cập nhật thông tin của mục đó với thông tin mới từ đối tượng đã sửa
+                        item.SubItems[0].Text = SuaLop.maLop;
                         item.SubItems[1].Text = SuaLop.tenLop;
+                        item.SubItems[2].Text = SuaLop.tenHK;
                         item.SubItems[3].Text = SuaLop.tenNamHoc.ToString();
+                        // Di chuyển mục đã cập nhật xuống hàng cuối cùng trong ListView
+                        lvLop.Items.Remove(item);
+                        lvLop.Items.Add(item);
                         break;
                     }
                 }
                 //Thêm đối tượng vào danhsachlophocs
                 danhsachlophocs.Add(SuaLop);
 
-                //Chuyển đổi danhsachlophocs mới thành chuỗi JSON
-                string newJson = JsonConvert.SerializeObject(danhsachlophocs, Formatting.Indented);
-
-                // Ghi chuỗi JSON mới vào tệp lophocs.json
-                File.WriteAllText(FilePath, newJson);
+                //*5 Ghi file 
+                DSLopHoc.GhiFile<List<LopHoc>>(FilePath,danhsachlophocs);
 
                 // Thông báo cho người dùng rằng lớp học đã được sửa đổi thành công
                 MessageBox.Show("Lớp học đã được sửa đổi thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

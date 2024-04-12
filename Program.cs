@@ -61,7 +61,7 @@ namespace Thiet_ke
             GhiFile(filePath_students, hocSinhs);
             GhiFile(filePath_teachers, giaoViens);
             GhiFile(filePath_monHocs, monHocs);
-            GhiFile(filePath_lophocs, lophocs);
+            //GhiFile(filePath_lophocs, lophocs);
 
             // Đọc danh sách học sinh từ file JSON
             HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath_students);

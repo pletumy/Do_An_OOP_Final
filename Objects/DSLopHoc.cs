@@ -43,6 +43,33 @@ namespace Thiet_ke.Objects
             };
             return lophoc;
         }
+        public static T DocfileLop<T>(string FilePath)
+        {
+            try
+            {
+                if (File.Exists(FilePath))
+                {
+                    string json = File.ReadAllText(FilePath);
+                    T data = JsonConvert.DeserializeObject<T>(json);
+                    return data;
+                }
+                else
+                {
+                    Console.WriteLine("File không tồn tại.");
+                    return default(T);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Đã xảy ra lỗi khi đọc tệp: " + ex.Message);
+                return default(T);
+            }
+        }
+        public static void GhiFile<T>(string FilePath, T data)
+        {
+            string json=JsonConvert.SerializeObject(data, Formatting.Indented);
+            File.WriteAllText(FilePath, json);
+        }
         public LopHoc Nhap()
         {
             throw new NotImplementedException();

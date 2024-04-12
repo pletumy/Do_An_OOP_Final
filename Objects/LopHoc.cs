@@ -18,9 +18,7 @@ namespace Thiet_ke.Objects
          * Lớp 11: 2L
          * Lớp 12: 2L
          */
-        public string maLop { get; set; } //2024K1L10A1; 2024K1L10A2;
-                                          //2023K1L11A1; 2023L11A2;
-                                          //2022L12A1; 2022L12A2
+        public string maLop { get; set; } //2024L10A1; 2024L10A2;
         public string tenLop { get; set; } //10A1
        // public string maMonHoc { get; set; } //
         public int tenNamHoc { get; set; }  //2024 2023 2022
@@ -46,5 +44,10 @@ namespace Thiet_ke.Objects
             info.AddValue("tenHK", tenHK);
             info.AddValue("tenNamHoc", tenNamHoc);
         }
+        public static void XoaLop(List<LopHoc> danhSachLopHocs, string maLop, string tenHK)
+        {
+            danhSachLopHocs.RemoveAll(lh => lh.maLop == maLop && lh.tenHK == tenHK);
+        }
+
     }
 }
