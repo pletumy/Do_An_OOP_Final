@@ -23,28 +23,6 @@ namespace Thiet_ke
             InitializeComponent();
             this.maHS = maHS;
         }
-        //enable-disable textbox
-        private void EnableAllControls(Control control, bool enable)
-        {
-            foreach (Control childControl in control.Controls)
-            {
-                if (childControl is System.Windows.Forms.TextBox || childControl is RadioButton)
-                {
-                    if (childControl.Name == "txtMahs")
-                    {
-                        childControl.Enabled = false;
-                    }
-                    else
-                    {
-                        childControl.Enabled = enable;
-                    }
-                }
-                else if (childControl.HasChildren)
-                {
-                    EnableAllControls(childControl, enable);
-                }
-            }
-        }
 
         private void SuaHs_Load(object sender, EventArgs e)
         {
@@ -75,16 +53,19 @@ namespace Thiet_ke
                 }
                 else { rBtnNu.Checked = true; }
                 txtSDT.Text = hocSinh.soDienThoai;
-                EnableAllControls(this, false);
             }
         }
 
-        bool isEditing = false;
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            isEditing = !isEditing;
-            EnableAllControls(this, isEditing);
+            
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+       
     }
 }

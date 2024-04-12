@@ -40,7 +40,7 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Sua()
+        public void Sua(BangDiemGV bangDiemGV)
         {
             throw new NotImplementedException();
         }

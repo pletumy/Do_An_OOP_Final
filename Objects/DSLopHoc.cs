@@ -48,7 +48,7 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Sua()
+        public void Sua(LopHoc lopHoc)
         {
             throw new NotImplementedException();
         }

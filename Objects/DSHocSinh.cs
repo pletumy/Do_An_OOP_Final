@@ -53,9 +53,10 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Sua()
+        public void Sua(HocSinh hocSinh)
         {
-            throw new NotImplementedException();
+            //lấy đối tượng HocSinh được tạo từ form -> xóa đối tượng hocSinh dùng phương thức Xoa() -> thay với chỉ số
+
         }
 
         public void Xoa()
@@ -67,5 +68,6 @@ namespace Thiet_ke.Objects
         {
             throw new NotImplementedException();
         }
+
     }
 }

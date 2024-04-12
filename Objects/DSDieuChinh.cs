@@ -9,7 +9,7 @@ namespace Thiet_ke.Objects
     public interface DSDieuChinh<T>
     {
        T Nhap();
-       void Sua();
+       void Sua(T doiTuong);
        void Xoa();
        void TimKiem();
     }

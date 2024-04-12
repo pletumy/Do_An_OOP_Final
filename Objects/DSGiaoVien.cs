@@ -51,7 +51,7 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Sua()
+        public void Sua(GiaoVien giaoVien)
         {
             throw new NotImplementedException();
         }
