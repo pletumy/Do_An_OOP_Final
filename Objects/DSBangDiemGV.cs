@@ -37,32 +37,7 @@ namespace Thiet_ke.Objects
             return giaoViens;
         }
 
-        public DSBangDiemGV Nhap()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Sua(DSBangDiemGV[] dsDoiTuong, DSBangDiemGV doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(DSBangDiemGV[] dsDoiTuong, string maDoiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TimKiem()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void GhiFile(string filePath, DSBangDiemGV[] data)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(string filePath, string maDoiTuong)
+        public void Nhap(string filePath, DSBangDiemGV doiTuong)
         {
             throw new NotImplementedException();
         }
@@ -72,7 +47,12 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Nhap(string filePath, DSBangDiemGV doiTuong)
+        public void Xoa(string filePath, string maDoiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TimKiem()
         {
             throw new NotImplementedException();
         }

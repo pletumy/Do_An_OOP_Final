@@ -74,20 +74,10 @@
     "maLop": "2024L11A1",
     "hoVaTenLot": "Mai Hồng",
     "ten": "Vũ",
-    "gioiTinh": 1,
+    "gioiTinh": 0,
     "soDienThoai": "0709710523",
     "tenDangNhap": "userHS8",
     "matKhau": "passwordHS8"
-  },
-  {
-    "maHS": "HS9",
-    "maLop": "2024L11A1",
-    "hoVaTenLot": "Nguyễn Thanh",
-    "ten": "Tùng",
-    "gioiTinh": 1,
-    "soDienThoai": "0584462094",
-    "tenDangNhap": "userHS9",
-    "matKhau": "passwordHS9"
   },
   {
     "maHS": "HS10",
@@ -180,13 +170,13 @@
     "matKhau": "passwordHS18"
   },
   {
-    "maHS": "HS19",
-    "maLop": "2024L11A1",
-    "hoVaTenLot": "Phan",
-    "ten": "My",
-    "gioiTinh": 0,
-    "soDienThoai": "0912",
-    "tenDangNhap": "userHS19",
-    "matKhau": "passwordHS19"
+    "maHS": "HS18",
+    "maLop": "2024L12A2",
+    "hoVaTenLot": "Trần Thiện Thanh",
+    "ten": "Bảo",
+    "gioiTinh": 1,
+    "soDienThoai": "0905043801",
+    "tenDangNhap": "userHS18",
+    "matKhau": "passwordHS18"
   }
 ]

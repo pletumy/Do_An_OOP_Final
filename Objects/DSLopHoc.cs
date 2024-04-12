@@ -66,32 +66,7 @@ namespace Thiet_ke.Objects
             }
         }
 
-        public LopHoc Nhap()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Sua(LopHoc[] dsDoiTuong, LopHoc doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(LopHoc[] dsDoiTuong, string maDoiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TimKiem()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void GhiFile(string filePath, LopHoc[] data)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(string filePath, string maDoiTuong)
+        public void Nhap(string filePath, LopHoc doiTuong)
         {
             throw new NotImplementedException();
         }
@@ -101,7 +76,12 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Nhap(string filePath, LopHoc doiTuong)
+        public void Xoa(string filePath, string maDoiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TimKiem()
         {
             throw new NotImplementedException();
         }
