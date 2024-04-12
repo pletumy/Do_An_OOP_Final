@@ -178,5 +178,15 @@
     "soDienThoai": "0905043801",
     "tenDangNhap": "userHS18",
     "matKhau": "passwordHS18"
+  },
+  {
+    "maHS": "HS19",
+    "maLop": "2024L11A1",
+    "hoVaTenLot": "Phan",
+    "ten": "My",
+    "gioiTinh": 0,
+    "soDienThoai": "0912",
+    "tenDangNhap": "userHS19",
+    "matKhau": "passwordHS19"
   }
 ]

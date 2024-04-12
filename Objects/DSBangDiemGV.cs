@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -40,17 +42,37 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Sua(BangDiemGV bangDiemGV)
+        public void Sua(DSBangDiemGV[] dsDoiTuong, DSBangDiemGV doiTuong)
         {
             throw new NotImplementedException();
         }
 
-        public void Xoa()
+        public void Xoa(DSBangDiemGV[] dsDoiTuong, string maDoiTuong)
         {
             throw new NotImplementedException();
         }
 
         public void TimKiem()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GhiFile(string filePath, DSBangDiemGV[] data)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Xoa(string filePath, string maDoiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Sua(string filePath, DSBangDiemGV doiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Nhap(string filePath, DSBangDiemGV doiTuong)
         {
             throw new NotImplementedException();
         }

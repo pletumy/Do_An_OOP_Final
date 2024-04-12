@@ -36,7 +36,7 @@ namespace Thiet_ke
             LopHoc.XoaLop(danhsachlophocs,this.maLop,this.tenHK);
 
             //*3 Lưu lại vào file 
-            DSLopHoc.GhiFile<List<LopHoc>>(FilePath, danhsachlophocs);
+            //DSLopHoc.GhiFile<List<LopHoc>>(FilePath, danhsachlophocs);
 
             //Lấy lvLop của QuanLyDiem
             ListView lvlop = parent.lvLop;
@@ -55,6 +55,11 @@ namespace Thiet_ke
         private void btnHuy_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void XoaLop_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

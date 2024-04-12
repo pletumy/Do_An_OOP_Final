@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -48,25 +50,94 @@ namespace Thiet_ke.Objects
             return hocSinhs;
         }
 
-        public HocSinh Nhap()
+        public void Nhap(string filePath, HocSinh hs)
         {
-            throw new NotImplementedException();
+            HocSinh[] hocSinhs = DocFile<HocSinh[]>(filePath);
+            List<HocSinh> danhSachHocSinhs = hocSinhs.ToList();
+
+            danhSachHocSinhs.Add(hs);
+
+            hocSinhs = (HocSinh[])danhSachHocSinhs.ToArray();
+
+            GhiFile("students.json", hocSinhs);
         }
 
-        public void Sua(HocSinh hocSinh)
+        public void Sua(string filePath, HocSinh hs)
         {
             //lấy đối tượng HocSinh được tạo từ form -> xóa đối tượng hocSinh dùng phương thức Xoa() -> thay với chỉ số
-
+            HocSinh[] hocSinhs = DocFile<HocSinh[]>(filePath);
+            for (int i = 0; i < hocSinhs.Length; i++)
+            {
+                if (hocSinhs[i].maHS == hs.maHS)
+                {
+                    hocSinhs[i].maHS = hs.maHS;
+                    hocSinhs[i].hoVaTenLot = hs.hoVaTenLot;
+                    hocSinhs[i].ten = hs.ten;
+                    hocSinhs[i].gioiTinh = hs.gioiTinh;
+                    hocSinhs[i].soDienThoai = hs.soDienThoai;
+                }
+            }
+            GhiFile("students.json", hocSinhs);
         }
 
-        public void Xoa()
+        public void Xoa(string filePath, string maHS)
         {
-            throw new NotImplementedException();
+            /*
+            for (int i = 0; i < hocSinhs.Length; i++)
+            {
+                if (hocSinhs[i].maHS == maHS)
+                {
+                    for (int j = i + 1; j < hocSinhs.Length; j++)
+                    {
+                        hocSinhs[j - 1] = hocSinhs[j];
+                    }
+                    //Array.Resize(ref hocSinhs, hocSinhs.Length - 1);
+                    return;
+                }
+            }
+            GhiFile("students.json", hocSinhs);
+            */
+            HocSinh[] hocSinhs = DocFile<HocSinh[]>(filePath);
+            ;
+            for (int i = 0; i < hocSinhs.Length; i++)
+            {
+                if (hocSinhs[i].maHS == maHS)
+                {
+                    for (int j = i + 1; j < hocSinhs.Length; j++)
+                    {
+                        hocSinhs[j - 1] = hocSinhs[j];
+                    }
+                    //Array.Resize(ref hocSinhs, hocSinhs.Length - 1);
+                }
+            }
+            GhiFile("students.json", hocSinhs);
         }
+
 
         public void TimKiem()
         {
             throw new NotImplementedException();
+        }
+
+        public static void GhiFile<T>(string filePath, T data)
+        {
+            string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(filePath, json);
+            Console.WriteLine("Đã ghi file JSON thành công.");
+        }
+        public static T DocFile<T>(string filePath)
+        {
+            if (File.Exists(filePath))
+            {
+                string json = File.ReadAllText(filePath);
+                T data = JsonConvert.DeserializeObject<T>(json);
+                return data;
+            }
+            else
+            {
+                Console.WriteLine("File không tồn tại.");
+                return default(T);
+            }
         }
 
     }

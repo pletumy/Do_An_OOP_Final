@@ -47,7 +47,7 @@ namespace Thiet_ke
             danhsachlophocs.Add(SuaLop);
 
             //*4 Lưu vào file
-            DSLopHoc.GhiFile(FilePath, danhsachlophocs);
+            //DSLopHoc.GhiFile(FilePath, danhsachlophocs);
             this.Close();
         }
 

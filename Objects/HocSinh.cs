@@ -20,10 +20,11 @@ namespace Thiet_ke.Objects
         public HocSinh()
         {
         }
-        /*
-        public HocSinh(string maHS, string hoVaTenLot, string ten, int gioiTinh, string soDienThoai, string tenDangNhap, string matKhau)
+        
+        public HocSinh(string maHS, string maLop, string hoVaTenLot, string ten, int gioiTinh, string soDienThoai, string tenDangNhap, string matKhau)
         {
             this.maHS = maHS;
+            this.maLop = maLop; 
             this.hoVaTenLot = hoVaTenLot;
             this.ten = ten;
             this.gioiTinh = gioiTinh;
@@ -31,7 +32,7 @@ namespace Thiet_ke.Objects
             this.tenDangNhap = tenDangNhap;
             this.matKhau = matKhau;
         }
-        */
+        
         public HocSinh(SerializationInfo info, StreamingContext context)
         {
             // Đọc dữ liệu từ SerializationInfo và khôi phục các thuộc tính của đối tượng Student

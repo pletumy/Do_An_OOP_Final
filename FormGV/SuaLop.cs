@@ -119,7 +119,7 @@ namespace Thiet_ke
                 danhsachlophocs.Add(SuaLop);
 
                 //*5 Ghi file 
-                DSLopHoc.GhiFile<List<LopHoc>>(FilePath,danhsachlophocs);
+                //DSLopHoc.GhiFile<List<LopHoc>>(FilePath,danhsachlophocs);
 
                 // Thông báo cho người dùng rằng lớp học đã được sửa đổi thành công
                 MessageBox.Show("Lớp học đã được sửa đổi thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

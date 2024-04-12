@@ -65,27 +65,43 @@ namespace Thiet_ke.Objects
                 return default(T);
             }
         }
-        public static void GhiFile<T>(string FilePath, T data)
-        {
-            string json=JsonConvert.SerializeObject(data, Formatting.Indented);
-            File.WriteAllText(FilePath, json);
-        }
+
         public LopHoc Nhap()
         {
             throw new NotImplementedException();
         }
 
-        public void Sua(LopHoc lopHoc)
+        public void Sua(LopHoc[] dsDoiTuong, LopHoc doiTuong)
         {
             throw new NotImplementedException();
         }
 
-        public void Xoa()
+        public void Xoa(LopHoc[] dsDoiTuong, string maDoiTuong)
         {
             throw new NotImplementedException();
         }
 
         public void TimKiem()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GhiFile(string filePath, LopHoc[] data)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Xoa(string filePath, string maDoiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Sua(string filePath, LopHoc doiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Nhap(string filePath, LopHoc doiTuong)
         {
             throw new NotImplementedException();
         }

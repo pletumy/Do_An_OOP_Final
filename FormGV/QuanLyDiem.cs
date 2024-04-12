@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,7 +17,7 @@ namespace Thiet_ke
     public partial class QuanLyDiem : Form
     {
         // Thêm dữ liệu học sinh
-        public string filePath = "students.json";
+        public string filePath { get; set; } 
 
         private GiaoVien CurrentTeacher;
 
@@ -69,7 +70,7 @@ namespace Thiet_ke
 
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnSuaSv_Click(object sender, EventArgs e)
@@ -80,10 +81,11 @@ namespace Thiet_ke
                 ListViewItem selectedItem = lvSinhVien.SelectedItems[0];
                 string maHocSinh = selectedItem.SubItems[0].Text;
 
-                SuaHs suaHS = new SuaHs(maHocSinh);
+                SuaHs suaHS = new SuaHs(maHocSinh, this);
                 suaHS.ShowDialog();
             }
-            else {
+            else
+            {
                 MessageBox.Show("Vui lòng chọn Lớp và Học Sinh cần chỉnh sửa", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
@@ -98,7 +100,7 @@ namespace Thiet_ke
                 string tenHK = selectedItem.SubItems[2].Text;
 
                 // Hiển thị form EditForm và truyền maLop vào
-                SuaLop suaLop = new SuaLop(maLop,tenHK,this);
+                SuaLop suaLop = new SuaLop(maLop, tenHK, this);
                 suaLop.ShowDialog();
             }
             else
@@ -121,12 +123,13 @@ namespace Thiet_ke
         }
         private void HienThiDanhSachHocSinhTheoLop(string maLop)
         {
+            filePath = "students.json";
             lvSinhVien.Items.Clear();
             HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
             foreach (HocSinh hocSinh in danhSachHocSinhs)
             {
                 if (hocSinh.maLop == maLop)
-                { 
+                {
                     ListViewItem item = new ListViewItem(hocSinh.maHS);
                     item.SubItems.Add(hocSinh.hoVaTenLot);
                     item.SubItems.Add(hocSinh.ten);
@@ -154,6 +157,38 @@ namespace Thiet_ke
         {
             ThemLop themlop = new ThemLop(this);
             themlop.ShowDialog();
+        }
+
+        private void btnXoaSv_Click(object sender, EventArgs e)
+        {
+            if (lvSinhVien.SelectedItems.Count > 0 && lvLop.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = lvSinhVien.SelectedItems[0];
+                string maHocSinh = selectedItem.SubItems[0].Text;
+
+                XoaHs xoaHS = new XoaHs(maHocSinh, this);
+                xoaHS.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn Lớp và Học Sinh cần xóa", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnNhapHS_Click(object sender, EventArgs e)
+        {
+            if (lvLop.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = lvLop.SelectedItems[0];
+                string maLop = selectedItem.SubItems[0].Text;
+
+                ThemHs themHS = new ThemHs(this, maLop);
+                themHS.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn Lớp cần thêm Học sinh!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

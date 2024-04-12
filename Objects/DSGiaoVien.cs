@@ -51,17 +51,37 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void Sua(GiaoVien giaoVien)
+        public void Sua(GiaoVien[] dsDoiTuong, GiaoVien doiTuong)
         {
             throw new NotImplementedException();
         }
 
-        public void Xoa()
+        public void Xoa(GiaoVien[] dsDoiTuong, string maDoiTuong)
         {
             throw new NotImplementedException();
         }
 
         public void TimKiem()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GhiFile(string filePath, GiaoVien[] data)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Xoa(string filePath, string maDoiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Sua(string filePath, GiaoVien doiTuong)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Nhap(string filePath, GiaoVien doiTuong)
         {
             throw new NotImplementedException();
         }
