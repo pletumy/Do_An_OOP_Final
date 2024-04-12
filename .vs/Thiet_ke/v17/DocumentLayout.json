@@ -3,80 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dsbangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsbangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -87,32 +19,128 @@
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\nhapdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\nhapdiem.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\accountgv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dsbangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsbangdiemgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoanhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\taikhoangv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dshocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\objects\\dsgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\nhapdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formhs\\xemdiem(hs).designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\xemdiem(hs).designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formhs\\xemdiem(hs).resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\xemdiem(hs).resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\dell\\documents\\do_an_oop_final\\formgv\\themhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\xemdiem(hs).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\nhapdiem.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiemhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\bangdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\suahs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dsmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\accountgv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\connguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -129,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,17 +187,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "QuanLyDiem.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
               "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
               "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
               "RelativeToolTip": "FormGV\\QuanLyDiem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T21:15:09.282Z",
               "IsPinned": true,
@@ -181,13 +205,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "NhapDiem.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
               "RelativeDocumentMoniker": "FormGV\\NhapDiem.cs",
               "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
               "RelativeToolTip": "FormGV\\NhapDiem.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwJAAAAAxAAAA",
+              "ViewState": "AQIAAE4BAAC4mZmZmVkwwG4BAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T06:59:20.408Z",
               "IsPinned": true,
@@ -195,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "NhapDiem.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
               "RelativeDocumentMoniker": "FormGV\\NhapDiem.cs",
@@ -208,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "QuanLyDiem.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
               "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
@@ -221,28 +245,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BangDiemHS.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
-              "RelativeDocumentMoniker": "Objects\\BangDiemHS.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
-              "RelativeToolTip": "Objects\\BangDiemHS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "DocumentIndex": 4,
+              "Title": "AccountHS.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeToolTip": "FormHS\\AccountHS.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswDAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T08:24:09.013Z",
+              "WhenOpened": "2024-04-06T06:47:40.731Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BangDiemGV.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
-              "RelativeDocumentMoniker": "Objects\\BangDiemGV.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
-              "RelativeToolTip": "Objects\\BangDiemGV.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwCkAAAAgAAAA",
+              "DocumentIndex": 5,
+              "Title": "AccountGV.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeDocumentMoniker": "FormGV\\AccountGV.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeToolTip": "FormGV\\AccountGV.cs",
+              "ViewState": "AQIAABgAAACAMTMzMzMhwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T08:23:53.948Z",
+              "WhenOpened": "2024-04-12T18:57:45.654Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -259,123 +285,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwDYAAAAvAAAA",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\DangNhap.cs",
+              "RelativeToolTip": "DangNhap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwB0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.115Z",
+              "WhenOpened": "2024-04-04T06:55:19.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HocSinh.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
-              "RelativeDocumentMoniker": "Objects\\HocSinh.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
-              "RelativeToolTip": "Objects\\HocSinh.cs",
-              "ViewState": "AQIAABoAAAAA1MzMzMz8vzEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BangDiem.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
-              "RelativeDocumentMoniker": "Objects\\BangDiem.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
-              "RelativeToolTip": "Objects\\BangDiem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DSHocSinh.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
-              "RelativeDocumentMoniker": "Objects\\DSHocSinh.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
-              "RelativeToolTip": "Objects\\DSHocSinh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GiaoVien.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
-              "RelativeDocumentMoniker": "Objects\\GiaoVien.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
-              "RelativeToolTip": "Objects\\GiaoVien.cs",
-              "ViewState": "AQIAAAgAAAAIZ2ZmZqYuwEIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaiKhoanGV.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
-              "RelativeDocumentMoniker": "Objects\\TaiKhoanGV.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
-              "RelativeToolTip": "Objects\\TaiKhoanGV.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAADHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DSMonHoc.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\DSMonHoc.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
-              "RelativeToolTip": "Objects\\DSMonHoc.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SuaHs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\SuaHs.cs",
-              "RelativeDocumentMoniker": "FormGV\\SuaHs.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\SuaHs.cs [Design]",
-              "RelativeToolTip": "FormGV\\SuaHs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.104Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DSBangDiemGV.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSBangDiemGV.cs",
-              "RelativeDocumentMoniker": "Objects\\DSBangDiemGV.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSBangDiemGV.cs",
-              "RelativeToolTip": "Objects\\DSBangDiemGV.cs",
-              "ViewState": "AQIAAA4AAACgmZmZmZkwwDkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T06:49:49.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "DangNhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\DangNhap.cs",
               "RelativeDocumentMoniker": "DangNhap.cs",
@@ -387,71 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ITaiKhoan.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
-              "RelativeDocumentMoniker": "Objects\\ITaiKhoan.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
-              "RelativeToolTip": "Objects\\ITaiKhoan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TaiKhoanHS.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
-              "RelativeDocumentMoniker": "Objects\\TaiKhoanHS.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
-              "RelativeToolTip": "Objects\\TaiKhoanHS.cs",
-              "ViewState": "AQIAABYAAAAANjMzMzMFwDcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MonHoc.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\MonHoc.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
-              "RelativeToolTip": "Objects\\MonHoc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "XemDiem(HS).cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
-              "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
-              "RelativeToolTip": "FormHS\\XemDiem(HS).cs",
-              "ViewState": "AQIAAAUAAAC4mZmZmZkuwCgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:39:18.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AccountHS.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
-              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs [Design]",
-              "RelativeToolTip": "FormHS\\AccountHS.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.112Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 2,
               "Title": "XemDiem(HS).cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
               "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).cs",
@@ -463,7 +322,225 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountHS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs [Design]",
+              "RelativeToolTip": "FormHS\\AccountHS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.112Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountGV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeDocumentMoniker": "FormGV\\AccountGV.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\AccountGV.cs [Design]",
+              "RelativeToolTip": "FormGV\\AccountGV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T18:57:38.982Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BangDiemGV.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
+              "RelativeDocumentMoniker": "Objects\\BangDiemGV.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemGV.cs",
+              "RelativeToolTip": "Objects\\BangDiemGV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:23:53.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DSBangDiemGV.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSBangDiemGV.cs",
+              "RelativeDocumentMoniker": "Objects\\DSBangDiemGV.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSBangDiemGV.cs",
+              "RelativeToolTip": "Objects\\DSBangDiemGV.cs",
+              "ViewState": "AQIAAAkAAACAMzMzM7MywHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:49:49.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GiaoVien.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
+              "RelativeDocumentMoniker": "Objects\\GiaoVien.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\GiaoVien.cs",
+              "RelativeToolTip": "Objects\\GiaoVien.cs",
+              "ViewState": "AQIAABwAAACAMzMzM7M5wEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HocSinh.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
+              "RelativeDocumentMoniker": "Objects\\HocSinh.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\HocSinh.cs",
+              "RelativeToolTip": "Objects\\HocSinh.cs",
+              "ViewState": "AQIAACUAAACANDMzM3MkwEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaiKhoanHS.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
+              "RelativeDocumentMoniker": "Objects\\TaiKhoanHS.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanHS.cs",
+              "RelativeToolTip": "Objects\\TaiKhoanHS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAADTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaiKhoanGV.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
+              "RelativeDocumentMoniker": "Objects\\TaiKhoanGV.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\TaiKhoanGV.cs",
+              "RelativeToolTip": "Objects\\TaiKhoanGV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DSHocSinh.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
+              "RelativeDocumentMoniker": "Objects\\DSHocSinh.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSHocSinh.cs",
+              "RelativeToolTip": "Objects\\DSHocSinh.cs",
+              "ViewState": "AQIAAA8AAAAAmZmZmZkMwCcAAAC9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DSDieuChinh.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
+              "RelativeDocumentMoniker": "Objects\\DSDieuChinh.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
+              "RelativeToolTip": "Objects\\DSDieuChinh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DSGiaoVien.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSGiaoVien.cs",
+              "RelativeDocumentMoniker": "Objects\\DSGiaoVien.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSGiaoVien.cs",
+              "RelativeToolTip": "Objects\\DSGiaoVien.cs",
+              "ViewState": "AQIAAAsAAADAmZmZmVkhwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T19:20:42.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADkAAAAAZWZmZmYFwE4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NhapDiem.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.Designer.cs",
+              "RelativeDocumentMoniker": "FormGV\\NhapDiem.Designer.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.Designer.cs",
+              "RelativeToolTip": "FormGV\\NhapDiem.Designer.cs",
+              "ViewState": "AQIAAN4AAAAAAQAAAAAawCUBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:57:18.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "XemDiem(HS).Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).Designer.cs",
+              "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).Designer.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).Designer.cs",
+              "RelativeToolTip": "FormHS\\XemDiem(HS).Designer.cs",
+              "ViewState": "AQIAAKAAAAAAZGZmZmb2v+wAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T19:02:44.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "XemDiem(HS).resx",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).resx",
+              "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).resx",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).resx",
+              "RelativeToolTip": "FormHS\\XemDiem(HS).resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-12T19:18:04.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "ThemHs.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\ThemHs.cs",
+              "RelativeDocumentMoniker": "FormGV\\ThemHs.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\ThemHs.cs",
+              "RelativeToolTip": "FormGV\\ThemHs.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T19:07:36.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "XemDiem(HS).cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
+              "RelativeDocumentMoniker": "FormHS\\XemDiem(HS).cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\XemDiem(HS).cs",
+              "RelativeToolTip": "FormHS\\XemDiem(HS).cs",
+              "ViewState": "AQIAAAkAAADgmZmZmRkiwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:39:18.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "NhapDiem.resx",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.resx",
               "RelativeDocumentMoniker": "FormGV\\NhapDiem.resx",
@@ -475,20 +552,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "NhapDiem.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.Designer.cs",
-              "RelativeDocumentMoniker": "FormGV\\NhapDiem.Designer.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\NhapDiem.Designer.cs",
-              "RelativeToolTip": "FormGV\\NhapDiem.Designer.cs",
-              "ViewState": "AQIAADUAAAAAyszMzMz6v0gAAAAMAAAA",
+              "DocumentIndex": 27,
+              "Title": "BangDiemHS.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
+              "RelativeDocumentMoniker": "Objects\\BangDiemHS.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiemHS.cs",
+              "RelativeToolTip": "Objects\\BangDiemHS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T06:57:18.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T08:24:09.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
+              "Title": "BangDiem.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
+              "RelativeDocumentMoniker": "Objects\\BangDiem.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\BangDiem.cs",
+              "RelativeToolTip": "Objects\\BangDiem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DSMonHoc.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
+              "RelativeDocumentMoniker": "Objects\\DSMonHoc.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSMonHoc.cs",
+              "RelativeToolTip": "Objects\\DSMonHoc.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SuaHs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\SuaHs.cs",
+              "RelativeDocumentMoniker": "FormGV\\SuaHs.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\SuaHs.cs [Design]",
+              "RelativeToolTip": "FormGV\\SuaHs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
+              "RelativeDocumentMoniker": "Objects\\ITaiKhoan.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\ITaiKhoan.cs",
+              "RelativeToolTip": "Objects\\ITaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MonHoc.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
+              "RelativeDocumentMoniker": "Objects\\MonHoc.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\MonHoc.cs",
+              "RelativeToolTip": "Objects\\MonHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:16:36.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "AccountGV.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\AccountGV.Designer.cs",
               "RelativeDocumentMoniker": "FormGV\\AccountGV.Designer.cs",
@@ -501,19 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DSDieuChinh.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
-              "RelativeDocumentMoniker": "Objects\\DSDieuChinh.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\DSDieuChinh.cs",
-              "RelativeToolTip": "Objects\\DSDieuChinh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "ConNguoi.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\ConNguoi.cs",
               "RelativeDocumentMoniker": "Objects\\ConNguoi.cs",
@@ -525,20 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AccountHS.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
-              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
-              "RelativeToolTip": "FormHS\\AccountHS.cs",
-              "ViewState": "AQIAAAoAAABAzczMzAwgwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T06:47:40.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "SuaLop.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
               "RelativeDocumentMoniker": "FormGV\\SuaLop.cs",
@@ -548,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "XoaHs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\XoaHs.cs",
               "RelativeDocumentMoniker": "FormGV\\XoaHs.cs",
@@ -558,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "ThemLop.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
               "RelativeDocumentMoniker": "FormGV\\ThemLop.cs",
@@ -568,30 +678,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "ThemHs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\ThemHs.cs",
               "RelativeDocumentMoniker": "FormGV\\ThemHs.cs",
-              "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\FormGV\\ThemHs.cs [Design]",
+              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\ThemHs.cs [Design]",
+              "RelativeToolTip": "FormGV\\ThemHs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:16:36.105Z"
+              "WhenOpened": "2024-04-02T09:16:36.105Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\DangNhap.cs",
-              "RelativeToolTip": "DangNhap.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAASwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T06:55:19.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "Diem.cs",
               "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs",
               "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\Diem.cs",
@@ -601,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "LopHoc.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
               "RelativeDocumentMoniker": "Objects\\LopHoc.cs",
@@ -613,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "NamHoc.cs",
               "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
               "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\NamHoc.cs",
@@ -623,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "HocKy.cs",
               "DocumentMoniker": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs",
               "ToolTip": "D:\\OOP\\Do_An_OOP_Final\\Objects\\HocKy.cs",
@@ -633,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "XoaLop.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\FormGV\\XoaLop.cs",
               "RelativeDocumentMoniker": "FormGV\\XoaLop.cs",
@@ -643,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\Do_An_OOP_Final\\Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",
               "RelativeDocumentMoniker": "Resources\\[removal.ai]_36df9f4d-9780-49ac-8c90-ed1a8d57619a-screenshot-2024-03-13-235543.png",

@@ -16,5 +16,18 @@ namespace Thiet_ke
         {
             InitializeComponent();
         }
+        private void btnHS_Click_1(object sender, EventArgs e)
+        {
+            AccountHS accountHS = new AccountHS();
+            accountHS.Show();
+            this.Hide();
+        }
+
+        private void btnGV_Click_1(object sender, EventArgs e)
+        {
+            AccountGV accountGV = new AccountGV();
+            accountGV.Show();
+            this.Hide();
+        }
     }
 }

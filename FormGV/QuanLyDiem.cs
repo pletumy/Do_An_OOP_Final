@@ -70,7 +70,9 @@ namespace Thiet_ke
 
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
+            NhapDiem nhapDiem = new NhapDiem(lblMon.Text);
 
+            nhapDiem.ShowDialog();
         }
 
         private void btnSuaSv_Click(object sender, EventArgs e)

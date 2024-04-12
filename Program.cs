@@ -44,6 +44,7 @@ namespace Thiet_ke
             string filePath_teachers = "teachers.json";
             string filePath_monHocs = "monHocs.json";
             string filePath_lophocs = "lophocs.json";
+            string filePath_BDGVs = "BDGV.json";
 
             // Ghi danh sách học sinh vào file JSON => 18 bạn, một lớp 3 bạn
             DSHocSinh dsHocSinh = new DSHocSinh();
@@ -57,21 +58,26 @@ namespace Thiet_ke
             // Ghi danh sách lớp học vào file JSON => 6 bạn, 3 lớp 10, 2 lớp 11, 1 lớp 12
             DSLopHoc dsLopHoc = new DSLopHoc();
             LopHoc[] lophocs = dsLopHoc.taoDSLopHoc();
+            //ghi bảng điểm giáo viên và json => 2gv - 6 lớp - 18 bạn
+            DSBangDiemGV dSBangDiemGV = new DSBangDiemGV();
+            BangDiemGV[] bangDiemGVs = dSBangDiemGV.taoDSBDGV();
 
             GhiFile(filePath_students, hocSinhs);
             GhiFile(filePath_teachers, giaoViens);
             GhiFile(filePath_monHocs, monHocs);
-            //GhiFile(filePath_lophocs, lophocs);
+            GhiFile(filePath_lophocs, lophocs);
+            GhiFile(filePath_BDGVs, bangDiemGVs);
 
             // Đọc danh sách học sinh từ file JSON
             HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath_students);
             GiaoVien[] danhSachGiaoViens = DocFile<GiaoVien[]>(filePath_teachers);
             MonHoc[] danhSachMonHocs = DocFile<MonHoc[]>(filePath_monHocs);
+            BangDiemGV[] dsbdgvcs = DocFile<BangDiemGV[]>(filePath_BDGVs);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AccountGV());
-            
+            Application.Run(new AccountHS());
+
         }
     }
 }

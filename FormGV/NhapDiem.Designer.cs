@@ -41,11 +41,11 @@
             this.lblNhapMHS = new System.Windows.Forms.Label();
             this.lblGK = new System.Windows.Forms.Label();
             this.lblCK = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMaHS = new System.Windows.Forms.TextBox();
+            this.txtDiemGK = new System.Windows.Forms.TextBox();
+            this.txtDiemCK = new System.Windows.Forms.TextBox();
             this.grbNhapDiem = new System.Windows.Forms.GroupBox();
-            this.btntimmhs = new System.Windows.Forms.Button();
+            this.lblmaGV = new System.Windows.Forms.Label();
             this.btnLuu = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.timmalop = new System.Windows.Forms.Button();
@@ -114,7 +114,7 @@
             // lblNhapMHS
             // 
             this.lblNhapMHS.AutoSize = true;
-            this.lblNhapMHS.Location = new System.Drawing.Point(41, 32);
+            this.lblNhapMHS.Location = new System.Drawing.Point(41, 50);
             this.lblNhapMHS.Name = "lblNhapMHS";
             this.lblNhapMHS.Size = new System.Drawing.Size(130, 16);
             this.lblNhapMHS.TabIndex = 4;
@@ -123,7 +123,7 @@
             // lblGK
             // 
             this.lblGK.AutoSize = true;
-            this.lblGK.Location = new System.Drawing.Point(41, 110);
+            this.lblGK.Location = new System.Drawing.Point(40, 95);
             this.lblGK.Name = "lblGK";
             this.lblGK.Size = new System.Drawing.Size(136, 16);
             this.lblGK.TabIndex = 6;
@@ -138,37 +138,37 @@
             this.lblCK.TabIndex = 7;
             this.lblCK.Text = "Nhập điểm cuối kỳ";
             // 
-            // textBox1
+            // txtMaHS
             // 
-            this.textBox1.Location = new System.Drawing.Point(190, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(199, 22);
-            this.textBox1.TabIndex = 9;
+            this.txtMaHS.Location = new System.Drawing.Point(190, 50);
+            this.txtMaHS.Name = "txtMaHS";
+            this.txtMaHS.Size = new System.Drawing.Size(199, 22);
+            this.txtMaHS.TabIndex = 9;
             // 
-            // textBox3
+            // txtDiemGK
             // 
-            this.textBox3.Location = new System.Drawing.Point(190, 108);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(199, 22);
-            this.textBox3.TabIndex = 11;
+            this.txtDiemGK.Location = new System.Drawing.Point(190, 92);
+            this.txtDiemGK.Name = "txtDiemGK";
+            this.txtDiemGK.Size = new System.Drawing.Size(199, 22);
+            this.txtDiemGK.TabIndex = 11;
             // 
-            // textBox4
+            // txtDiemCK
             // 
-            this.textBox4.Location = new System.Drawing.Point(190, 134);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(199, 22);
-            this.textBox4.TabIndex = 12;
+            this.txtDiemCK.Location = new System.Drawing.Point(190, 134);
+            this.txtDiemCK.Name = "txtDiemCK";
+            this.txtDiemCK.Size = new System.Drawing.Size(199, 22);
+            this.txtDiemCK.TabIndex = 12;
             // 
             // grbNhapDiem
             // 
-            this.grbNhapDiem.Controls.Add(this.btntimmhs);
+            this.grbNhapDiem.Controls.Add(this.lblmaGV);
             this.grbNhapDiem.Controls.Add(this.btnLuu);
-            this.grbNhapDiem.Controls.Add(this.textBox1);
+            this.grbNhapDiem.Controls.Add(this.txtMaHS);
             this.grbNhapDiem.Controls.Add(this.lblCK);
             this.grbNhapDiem.Controls.Add(this.lblNhapMHS);
             this.grbNhapDiem.Controls.Add(this.lblGK);
-            this.grbNhapDiem.Controls.Add(this.textBox4);
-            this.grbNhapDiem.Controls.Add(this.textBox3);
+            this.grbNhapDiem.Controls.Add(this.txtDiemCK);
+            this.grbNhapDiem.Controls.Add(this.txtDiemGK);
             this.grbNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbNhapDiem.ForeColor = System.Drawing.Color.SandyBrown;
             this.grbNhapDiem.Location = new System.Drawing.Point(12, 290);
@@ -178,15 +178,14 @@
             this.grbNhapDiem.TabStop = false;
             this.grbNhapDiem.Text = "Nhập điểm";
             // 
-            // btntimmhs
+            // lblmaGV
             // 
-            this.btntimmhs.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btntimmhs.Location = new System.Drawing.Point(158, 68);
-            this.btntimmhs.Name = "btntimmhs";
-            this.btntimmhs.Size = new System.Drawing.Size(75, 23);
-            this.btntimmhs.TabIndex = 15;
-            this.btntimmhs.Text = "Tìm kiếm";
-            this.btntimmhs.UseVisualStyleBackColor = true;
+            this.lblmaGV.AutoSize = true;
+            this.lblmaGV.Location = new System.Drawing.Point(664, 30);
+            this.lblmaGV.Name = "lblmaGV";
+            this.lblmaGV.Size = new System.Drawing.Size(49, 16);
+            this.lblmaGV.TabIndex = 20;
+            this.lblmaGV.Text = "maGV";
             // 
             // btnLuu
             // 
@@ -202,6 +201,7 @@
             this.btnLuu.TabIndex = 14;
             this.btnLuu.Text = "    Lưu";
             this.btnLuu.UseVisualStyleBackColor = false;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click_1);
             // 
             // imageList1
             // 
@@ -236,10 +236,11 @@
             this.btnHK.ForeColor = System.Drawing.Color.SandyBrown;
             this.btnHK.Location = new System.Drawing.Point(56, 12);
             this.btnHK.Name = "btnHK";
-            this.btnHK.Size = new System.Drawing.Size(75, 23);
+            this.btnHK.Size = new System.Drawing.Size(106, 23);
             this.btnHK.TabIndex = 19;
-            this.btnHK.Text = "Học kỳ 2\r\n";
+            this.btnHK.Text = "Học kỳ II";
             this.btnHK.UseVisualStyleBackColor = true;
+            this.btnHK.Click += new System.EventHandler(this.btnHK_Click);
             // 
             // NhapDiem
             // 
@@ -278,16 +279,16 @@
         private System.Windows.Forms.Label lblNhapMHS;
         private System.Windows.Forms.Label lblGK;
         private System.Windows.Forms.Label lblCK;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtMaHS;
+        private System.Windows.Forms.TextBox txtDiemGK;
+        private System.Windows.Forms.TextBox txtDiemCK;
         private System.Windows.Forms.GroupBox grbNhapDiem;
         private System.Windows.Forms.Button btnLuu;
         public System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Label lblLop;
-        private System.Windows.Forms.Button btntimmhs;
         private System.Windows.Forms.Button timmalop;
         private System.Windows.Forms.TextBox MaLop;
         private System.Windows.Forms.Button btnHK;
+        private System.Windows.Forms.Label lblmaGV;
     }
 }

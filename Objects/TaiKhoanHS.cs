@@ -9,48 +9,37 @@ namespace Thiet_ke.Objects
     public class TaiKhoanHS : ITaiKhoan
     {
         private List<HocSinh> studentAccounts = new List<HocSinh>();
-
+        private static HocSinh currentUser;
         public TaiKhoanHS()
         {
             // Initialize the list of student accounts
-            studentAccounts.Add(new HocSinh { maHS = "HS1", tenDangNhap = "userHS1", matKhau = "passwordHS1" });
-            studentAccounts.Add(new HocSinh { maHS = "HS2", tenDangNhap = "userHS2", matKhau = "passwordHS2" });
-            studentAccounts.Add(new HocSinh { maHS = "HS3", tenDangNhap = "userHS3", matKhau = "passwordHS3" });
+            studentAccounts.Add(new HocSinh { maHS = "HS1", maLop = "2024L10A1", hoVaTenLot = "Hồ Ngọc", ten = "Hà", gioiTinh = 0, soDienThoai = "0215036840", tenDangNhap = "userHS1", matKhau = "passwordHS1" });
+            studentAccounts.Add(new HocSinh { maHS = "HS2", maLop = "2024L10A1", hoVaTenLot = "Trấn", ten = "Thành", gioiTinh = 1, soDienThoai = "0203225675", tenDangNhap = "userHS2", matKhau = "passwordHS2" });
             // Add more student accounts here...
         }
-
         public void DangNhap(string tenDangNhap, string matKhau)
         {
-            // Check if the entered login credentials match any of the student accounts
-            HocSinh matchedAccount = studentAccounts.FirstOrDefault(account => account.tenDangNhap == tenDangNhap && account.matKhau == matKhau);
-
-            if (matchedAccount != null)
+            // Check if the entered login credentials match any of the teacher accounts
+            bool isMatched = false;
+            foreach (HocSinh account in studentAccounts)
             {
-                // If the login credentials match a student account, open the corresponding form
-                switch (matchedAccount.maHS)
+                if (account.tenDangNhap == tenDangNhap && account.matKhau == matKhau)
                 {
-                    case "HS1":
-                        XemDiem_HS xemDiem_HS = new XemDiem_HS();
-                        xemDiem_HS.ShowDialog();
-                        break;
-                    case "HS2":
-                        XemDiem_HS xemDiem_HS2 = new XemDiem_HS();
-                        xemDiem_HS2.ShowDialog();
-                        break;
-                    case "HS3":
-                        XemDiem_HS xemDiem_HS3 = new XemDiem_HS();
-                        xemDiem_HS3.ShowDialog();
-                        break;
-                    // Add more cases here for other student accounts...
-                    default:
-                        break;
+                    isMatched = true;
+                    currentUser = account;
+                    break;
                 }
             }
-            else
+
+            if (!isMatched)
             {
-                // If the login credentials do not match any student account, display an error message
+                // If the login credentials do not match any teacher account, display an error message
                 Console.WriteLine("Tên đăng nhập hoặc mật khẩu không chính xác.");
             }
+        }
+        public static HocSinh CurrentUser
+        {
+            get { return currentUser; }
         }
     }
 }

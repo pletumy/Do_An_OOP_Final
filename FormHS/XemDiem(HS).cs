@@ -16,11 +16,14 @@ namespace Thiet_ke
 {
     public partial class XemDiem_HS : Form
     {
-        public XemDiem_HS()
+        public XemDiem_HS(HocSinh hocSinh)
         {
             InitializeComponent();
+            CurrentStudent = hocSinh;
+            lblMaHS.Text = CurrentStudent.maHS.ToString();
+            lblHoTen.Text = CurrentStudent.hoVaTenLot.ToString() + " " + CurrentStudent.ten.ToString();
         }
-
+        private HocSinh CurrentStudent;
         private void lblNam_Click(object sender, EventArgs e)
         {
 

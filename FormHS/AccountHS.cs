@@ -20,20 +20,40 @@ namespace Thiet_ke
 
         private void txtTenDangNhap_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnDangNhap_Click(object sender, EventArgs e)
-        {
             string username = txtTenDangNhap.Text;
-            string pass = txtMatKhau.Text;
-            TaiKhoanHS taiKhoanHS = new TaiKhoanHS();
-            taiKhoanHS.DangNhap(username, pass);
         }
 
         private void AccountHS_Load(object sender, EventArgs e)
         {
+        }
 
+        private void btnDangNhap_Click_1(object sender, EventArgs e)
+        {
+            string username = txtTenDangNhap.Text;
+            string password = txtMatKhau.Text;
+            TaiKhoanHS taiKhoanHS = new TaiKhoanHS();
+            taiKhoanHS.DangNhap(username, password);
+
+            if (TaiKhoanHS.CurrentUser != null)
+            {
+                // If the login credentials match a teacher account, open the corresponding form and pass the matched account to it
+                XemDiem_HS xemDiem_HS = new XemDiem_HS(TaiKhoanHS.CurrentUser);
+                xemDiem_HS.ShowDialog();
+                this.Hide();
+            }
+            else
+            {
+                // If the login credentials do not match any teacher account, display an error message
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không chính xác.");
+            }
+        }
+
+        private void btnThoat_Click_1(object sender, EventArgs e)
+        {
+            DangNhap dangNhap = new DangNhap();
+            dangNhap.ShowDialog();
+            this.Hide();
         }
     }
-}
+    }
+

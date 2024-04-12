@@ -22,14 +22,18 @@ namespace Thiet_ke.Objects
         public void DangNhap(string tenDangNhap, string matKhau)
         {
             // Check if the entered login credentials match any of the teacher accounts
-            GiaoVien matchedAccount = teacherAccounts.FirstOrDefault(account => account.tenDangNhap == tenDangNhap && account.matKhau == matKhau);
-
-            if (matchedAccount != null)
+            bool isMatched = false;
+            foreach (GiaoVien account in teacherAccounts)
             {
-                // If the login credentials match a teacher account, set the current user to the matched account
-                currentUser = matchedAccount;
+                if (account.tenDangNhap == tenDangNhap && account.matKhau == matKhau)
+                {
+                    isMatched = true;
+                    currentUser = account;
+                    break;
+                }
             }
-            else
+
+            if (!isMatched)
             {
                 // If the login credentials do not match any teacher account, display an error message
                 Console.WriteLine("Tên đăng nhập hoặc mật khẩu không chính xác.");

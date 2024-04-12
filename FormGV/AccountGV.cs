@@ -46,6 +46,7 @@ namespace Thiet_ke
                 // If the login credentials match a teacher account, open the corresponding form and pass the matched account to it
                 QuanLyDiem quanLyDiem = new QuanLyDiem(TaiKhoanGV.CurrentUser);
                 quanLyDiem.ShowDialog();
+                this.Hide();
             }
             else
             {

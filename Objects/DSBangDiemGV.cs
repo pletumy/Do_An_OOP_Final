@@ -1,7 +1,5 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -9,52 +7,111 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class DSBangDiemGV : DSDieuChinh<DSBangDiemGV>, ISerializable
+    public class DSBangDiemGV : ISerializable
     {
-        private BangDiemGV[] teachers = new BangDiemGV[13]; //
-        public BangDiemGV[] Teachers { get => teachers; set => teachers = value; }
+
+        private BangDiemGV[] bangDiemGVs = new BangDiemGV[18];
 
 
+        public BangDiemGV[] BangDiemGVs { get => bangDiemGVs; set => bangDiemGVs = value; }
         public DSBangDiemGV() { }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
-            info.AddValue("Teachers", teachers);
+            info.AddValue("BangDiemGVs", BangDiemGVs);
         }
-
-      
         public DSBangDiemGV(SerializationInfo info, StreamingContext context)
         {
-            Teachers = (BangDiemGV[])info.GetValue("Teachers", typeof(BangDiemGV[]));
+            BangDiemGVs = (BangDiemGV[])info.GetValue("BangDiemGVs", typeof(BangDiemGV[]));
         }
-        //Khởi tạo danh sách Giao Vien
-        public BangDiemGV[] taoDSGiaoVien()
+        public BangDiemGV[] taoDSBDGV()
         {
-            BangDiemGV[] giaoViens = new BangDiemGV[]
+            BangDiemGV[] bangDiemGVs = new BangDiemGV[]
                 {
-                    new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024K1L10A1 ", diemGiuaKy = 5.5, diemCuoiKy = 5},
-                    new BangDiemGV { maGiaoVien = "GVLY", maLop = "2023K1L10A2 ", diemGiuaKy = 5.5, diemCuoiKy = 5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A1", maHS ="HS1",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A1", maHS ="HS2",maHK ="Học kỳ I", diemGiuaKy =7, diemCuoiKy =9, diemTongKet =8},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A1", maHS ="HS3",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A2", maHS ="HS4",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A2", maHS ="HS5",maHK ="Học kỳ I", diemGiuaKy =5, diemCuoiKy =9, diemTongKet =7},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A2", maHS ="HS6",maHK ="Học kỳ I", diemGiuaKy =2, diemCuoiKy =9, diemTongKet =5.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A1", maHS ="HS7",maHK ="Học kỳ I", diemGiuaKy =6, diemCuoiKy =9, diemTongKet =7.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A1", maHS ="HS8",maHK ="Học kỳ I", diemGiuaKy =2, diemCuoiKy =9, diemTongKet =5.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A1", maHS ="HS9",maHK ="Học kỳ I", diemGiuaKy =4, diemCuoiKy =9, diemTongKet =6.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A2", maHS ="HS10",maHK ="Học kỳ I", diemGiuaKy =6, diemCuoiKy =9, diemTongKet =7.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A2", maHS ="HS11",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A2", maHS ="HS12",maHK ="Học kỳ I", diemGiuaKy =7, diemCuoiKy =9, diemTongKet =8},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A1", maHS ="HS13",maHK ="Học kỳ I", diemGiuaKy =2, diemCuoiKy =9, diemTongKet =5.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A1", maHS ="HS14",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A1", maHS ="HS5",maHK ="Học kỳ I", diemGiuaKy =6, diemCuoiKy =9, diemTongKet =7.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A2", maHS ="HS16",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A2", maHS ="HS7",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A2", maHS ="HS18",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A1", maHS ="HS1",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A1", maHS ="HS2",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A1", maHS ="HS3",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A2", maHS ="HS4",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A2", maHS ="HS5",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L10A2", maHS ="HS6",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A1", maHS ="HS7",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A1", maHS ="HS8",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A1", maHS ="HS9",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A2", maHS ="HS10",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A2", maHS ="HS11",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L11A2", maHS ="HS12",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A1", maHS ="HS13",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A1", maHS ="HS14",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A1", maHS ="HS15",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A2", maHS ="HS16",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A2", maHS ="HS17",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVTOAN", maLop = "2024L12A2", maHS ="HS18",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A1", maHS ="HS1",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A1", maHS ="HS2",maHK ="Học kỳ I", diemGiuaKy =7, diemCuoiKy =9, diemTongKet =8},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A1", maHS ="HS3",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A2", maHS ="HS4",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A2", maHS ="HS5",maHK ="Học kỳ I", diemGiuaKy =5, diemCuoiKy =9, diemTongKet =7},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A2", maHS ="HS6",maHK ="Học kỳ I", diemGiuaKy =2, diemCuoiKy =9, diemTongKet =5.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A1", maHS ="HS7",maHK ="Học kỳ I", diemGiuaKy =6, diemCuoiKy =9, diemTongKet =7.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A1", maHS ="HS8",maHK ="Học kỳ I", diemGiuaKy =2, diemCuoiKy =9, diemTongKet =5.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A1", maHS ="HS9",maHK ="Học kỳ I", diemGiuaKy =4, diemCuoiKy =9, diemTongKet =6.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A2", maHS ="HS10",maHK ="Học kỳ I", diemGiuaKy =6, diemCuoiKy =9, diemTongKet =7.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A2", maHS ="HS11",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A2", maHS ="HS12",maHK ="Học kỳ I", diemGiuaKy =7, diemCuoiKy =9, diemTongKet =8},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A1", maHS ="HS13",maHK ="Học kỳ I", diemGiuaKy =2, diemCuoiKy =9, diemTongKet =5.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A1", maHS ="HS14",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A1", maHS ="HS5",maHK ="Học kỳ I", diemGiuaKy =6, diemCuoiKy =9, diemTongKet =7.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A2", maHS ="HS16",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A2", maHS ="HS7",maHK ="Học kỳ I", diemGiuaKy =8, diemCuoiKy =9, diemTongKet =8.5},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A2", maHS ="HS18",maHK ="Học kỳ I", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A1", maHS ="HS1",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A1", maHS ="HS2",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A1", maHS ="HS3",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A2", maHS ="HS4",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A2", maHS ="HS5",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L10A2", maHS ="HS6",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A1", maHS ="HS7",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A1", maHS ="HS8",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A1", maHS ="HS9",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A2", maHS ="HS10",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A2", maHS ="HS11",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L11A2", maHS ="HS12",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A1", maHS ="HS13",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A1", maHS ="HS14",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A1", maHS ="HS15",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A2", maHS ="HS16",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A2", maHS ="HS17",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+                  new BangDiemGV { maGiaoVien = "GVLY", maLop = "2024L12A2", maHS ="HS18",maHK ="Học kỳ II", diemGiuaKy =9, diemCuoiKy =9, diemTongKet =9},
+
+
+
+
+
+
+
+
                 };
-            return giaoViens;
-        }
-
-        public void Nhap(string filePath, DSBangDiemGV doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Sua(string filePath, DSBangDiemGV doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(string filePath, string maDoiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TimKiem()
-        {
-            throw new NotImplementedException();
+            return bangDiemGVs;
         }
     }
 }
