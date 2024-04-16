@@ -43,9 +43,13 @@ namespace Thiet_ke.Objects
             };
             return lophoc;
         }
-        public void Nhap(string filePath, LopHoc doiTuong)
+        public void Nhap(string filePath, LopHoc lh)
         {
-            throw new NotImplementedException();
+            //Đọc và thêm lớp mới vào file lớp
+            List<LopHoc> danhsachlophocs = Program.DocFile<List<LopHoc>>(filePath);
+            danhsachlophocs.Add(lh);
+            //Lưuu
+            Program.GhiFile(filePath, danhsachlophocs);
         }
 
         public void Sua(string filePath, LopHoc doiTuong)

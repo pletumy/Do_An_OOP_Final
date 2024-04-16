@@ -41,8 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtTenLop = new System.Windows.Forms.TextBox();
             this.txtMalop = new System.Windows.Forms.TextBox();
+            this.txtTenLop = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,13 +99,13 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtTenLop);
             this.groupBox1.Controls.Add(this.txtNamHoc);
             this.groupBox1.Controls.Add(this.txtHocKy);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txtTenLop);
             this.groupBox1.Controls.Add(this.txtMalop);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
@@ -126,7 +126,6 @@
             this.txtNamHoc.Size = new System.Drawing.Size(200, 46);
             this.txtNamHoc.TabIndex = 19;
             this.txtNamHoc.Text = "2024";
-            this.txtNamHoc.Visible = false;
             // 
             // txtHocKy
             // 
@@ -181,14 +180,6 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Mã lớp:";
             // 
-            // txtTenLop
-            // 
-            this.txtTenLop.Location = new System.Drawing.Point(364, 152);
-            this.txtTenLop.Multiline = true;
-            this.txtTenLop.Name = "txtTenLop";
-            this.txtTenLop.Size = new System.Drawing.Size(200, 46);
-            this.txtTenLop.TabIndex = 12;
-            // 
             // txtMalop
             // 
             this.txtMalop.Location = new System.Drawing.Point(364, 60);
@@ -197,7 +188,14 @@
             this.txtMalop.ReadOnly = true;
             this.txtMalop.Size = new System.Drawing.Size(200, 46);
             this.txtMalop.TabIndex = 11;
-            this.txtMalop.Visible = false;
+            // 
+            // txtTenLop
+            // 
+            this.txtTenLop.Location = new System.Drawing.Point(364, 152);
+            this.txtTenLop.Multiline = true;
+            this.txtTenLop.Name = "txtTenLop";
+            this.txtTenLop.Size = new System.Drawing.Size(200, 46);
+            this.txtTenLop.TabIndex = 20;
             // 
             // ThemLop
             // 
@@ -209,15 +207,12 @@
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.label1);
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ThemLop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm Lớp";
-            this.TopMost = true;
-            this.TransparencyKey = System.Drawing.Color.Black;
-            this.Load += new System.EventHandler(this.ThemLop_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -237,8 +232,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtTenLop;
         private System.Windows.Forms.TextBox txtMalop;
         private System.Windows.Forms.TextBox txtNamHoc;
+        private System.Windows.Forms.TextBox txtTenLop;
     }
 }

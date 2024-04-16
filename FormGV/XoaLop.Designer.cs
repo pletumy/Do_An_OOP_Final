@@ -107,7 +107,6 @@
             this.Name = "XoaLop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Xác nhận xóa";
-            this.Load += new System.EventHandler(this.XoaLop_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

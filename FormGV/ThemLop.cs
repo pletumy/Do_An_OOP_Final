@@ -40,10 +40,10 @@ namespace Thiet_ke
             newLop.SubItems.Add(txtHocKy.Text);
             newLop.SubItems.Add(txtNamHoc.Text);
             parent.lvLop.Items.Add(newLop);
-            danhsachlophocs.Add(SuaLop);
-
-            //*4 Lưu vào file
-            //DSLopHoc.GhiFile(FilePath, danhsachlophocs);
+            
+            //*4Thêm lớp
+            DSLopHoc dSLopHoc = new DSLopHoc();
+            dSLopHoc.Nhap(FilePath, SuaLop);
             this.Close();
         }
 
