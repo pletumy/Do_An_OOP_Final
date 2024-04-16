@@ -43,5 +43,12 @@ namespace Thiet_ke
                 listView1.Items.Add(item);
             }
         }
+
+        private void btncomeback_Click(object sender, EventArgs e)
+        {
+            AccountHS accountHS = new AccountHS();
+            accountHS.Show();
+            this.Close();
+        }
     }
 }

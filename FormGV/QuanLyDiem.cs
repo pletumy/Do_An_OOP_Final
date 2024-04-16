@@ -192,5 +192,12 @@ namespace Thiet_ke
                 MessageBox.Show("Vui lòng chọn Lớp cần thêm Học sinh!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void btncomeback_Click(object sender, EventArgs e)
+        {
+            AccountGV accountGV = new AccountGV();
+            accountGV.Show();
+            this.Close();
+        }
     }
 }

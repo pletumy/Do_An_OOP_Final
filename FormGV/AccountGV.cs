@@ -59,7 +59,7 @@ namespace Thiet_ke
         {
             DangNhap dangNhap = new DangNhap();
             dangNhap.ShowDialog();
-            this.Hide();
+            this.Close();
         }
     }
 }

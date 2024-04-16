@@ -76,7 +76,7 @@ namespace Thiet_ke
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AccountHS());
+            Application.Run(new DangNhap());
 
         }
     }

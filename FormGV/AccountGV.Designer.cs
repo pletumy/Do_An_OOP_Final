@@ -37,12 +37,12 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.MediumPurple;
-            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnThoat.Location = new System.Drawing.Point(343, 232);
+            this.btnThoat.BackColor = System.Drawing.Color.White;
+            this.btnThoat.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnThoat.Location = new System.Drawing.Point(325, 269);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(152, 58);
+            this.btnThoat.Size = new System.Drawing.Size(140, 58);
             this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -50,10 +50,10 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.BackColor = System.Drawing.Color.MediumPurple;
-            this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDangNhap.Location = new System.Drawing.Point(108, 232);
+            this.btnDangNhap.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDangNhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnDangNhap.Location = new System.Drawing.Point(141, 269);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(145, 58);
             this.btnDangNhap.TabIndex = 6;
@@ -63,20 +63,21 @@
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(301, 151);
+            this.txtMatKhau.Location = new System.Drawing.Point(241, 203);
             this.txtMatKhau.MaximumSize = new System.Drawing.Size(241, 60);
             this.txtMatKhau.MinimumSize = new System.Drawing.Size(241, 30);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(241, 20);
             this.txtMatKhau.TabIndex = 5;
+            this.txtMatKhau.UseSystemPasswordChar = true;
             // 
             // txtTenDangNhap
             // 
-            this.txtTenDangNhap.Location = new System.Drawing.Point(301, 63);
-            this.txtTenDangNhap.MaximumSize = new System.Drawing.Size(241, 30);
-            this.txtTenDangNhap.MinimumSize = new System.Drawing.Size(241, 30);
+            this.txtTenDangNhap.Location = new System.Drawing.Point(301, 113);
+            this.txtTenDangNhap.MaximumSize = new System.Drawing.Size(220, 30);
+            this.txtTenDangNhap.MinimumSize = new System.Drawing.Size(200, 30);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
-            this.txtTenDangNhap.Size = new System.Drawing.Size(241, 20);
+            this.txtTenDangNhap.Size = new System.Drawing.Size(200, 20);
             this.txtTenDangNhap.TabIndex = 4;
             // 
             // AccountGV

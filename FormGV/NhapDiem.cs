@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Thiet_ke.Objects;
 using System.IO;
 using System.Xml.Serialization;
+using System.Net.NetworkInformation;
 
 namespace Thiet_ke
 {
@@ -23,10 +24,6 @@ namespace Thiet_ke
         string filePath = "students.json";
         string filePaths = "BDGV.json";
 
-        private void NhapDiem_Load(object sender, EventArgs e)
-        {
-
-        }
         static T DocFile<T>(string filePath)
         {
             if (File.Exists(filePath))
@@ -70,58 +67,6 @@ namespace Thiet_ke
                 }
             }
         }
-        public void refresh(string maLop)
-        {
-
-            lvDiem.Items.Clear(); // Clear the list view before adding new items
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-            BangDiemGV[] bangDiemGVs = DocFiles<BangDiemGV[]>(filePaths);
-
-            List<BangDiemGV> bangDiemGVsForSemester = new List<BangDiemGV>();
-
-            foreach (BangDiemGV bangDiemGV in bangDiemGVs)
-            {
-                if (bangDiemGV.maHK == "Học kỳ I")
-                {
-                    bangDiemGVsForSemester.Add(bangDiemGV);
-                }
-            }
-
-            foreach (HocSinh hocSinh in danhSachHocSinhs)
-            {
-                if (hocSinh.maLop == MaLop.Text)
-                {
-                    ListViewItem item = new ListViewItem(hocSinh.maHS);
-                    item.SubItems.Add(hocSinh.hoVaTenLot);
-                    item.SubItems.Add(hocSinh.ten);
-
-                    BangDiemGV bangDiemGV = null;
-                    foreach (BangDiemGV bdg in bangDiemGVsForSemester)
-                    {
-                        if (bdg.maHS == hocSinh.maHS)
-                        {
-                            bangDiemGV = bdg;
-                            break;
-                        }
-                    }
-
-                    if (bangDiemGV != null)
-                    {
-                        item.SubItems.Add(bangDiemGV.diemGiuaKy.ToString()); item.SubItems.Add(bangDiemGV.diemCuoiKy.ToString());
-                        item.SubItems.Add(bangDiemGV.diemTongKet.ToString());
-                    }
-                    else
-                    {
-                        item.SubItems.Add("0");
-                        item.SubItems.Add("0");
-                        item.SubItems.Add("0");
-                    }
-
-                    lvDiem.Items.Add(item);
-                }
-            }
-
-        }
         public void HienThiDanhSachTheoMaHS(string maHS)
         {
 
@@ -135,70 +80,7 @@ namespace Thiet_ke
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void lblLop_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblNhapMHS_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblGK_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblCK_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void grbNhapDiem_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btntimmhs_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLuu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MaLop_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -238,7 +120,7 @@ namespace Thiet_ke
                         BangDiemGV bangDiemGV = null;
                         foreach (BangDiemGV bdg in bangDiemGVsForSemester)
                         {
-                            if (bdg.maHS == hocSinh.maHS)
+                            if (bdg.maHS == hocSinh.maHS && bdg.maGiaoVien == lblmaGV.Text && bdg.maHK == "Học kỳ I")
                             {
                                 bangDiemGV = bdg;
                                 break;
@@ -289,7 +171,7 @@ namespace Thiet_ke
                         BangDiemGV bangDiemGV = null;
                         foreach (BangDiemGV bdg in bangDiemGVsForSemester)
                         {
-                            if (bdg.maHS == hocSinh.maHS)
+                            if (bdg.maHS == hocSinh.maHS && bdg.maGiaoVien == lblmaGV.Text && bdg.maHK == "Học kỳ II")
                             {
                                 bangDiemGV = bdg;
                                 break;
@@ -315,19 +197,16 @@ namespace Thiet_ke
         }
         public BangDiemGV[] taoDSBDGV()
         {
-            BangDiemGV[] bangDiemGVs = new BangDiemGV[]
-            {
-        new BangDiemGV { maGiaoVien = lblmaGV.Text, maLop = MaLop.Text, maHS =txtMaHS.Text,maHK=btnHK.Text, diemGiuaKy =double.Parse(txtDiemGK.Text), diemCuoiKy =double.Parse(txtDiemCK.Text), diemTongKet =(double.Parse(txtDiemGK.Text)+ double.Parse(txtDiemCK.Text))/2}
-            };
+            BangDiemGV[] bangDiemGVs = DocFile<BangDiemGV[]>(filePath);
+            // Thay đổi các giá trị điểm trong bangDiemGVs tại đây
             return bangDiemGVs;
         }
 
         public void btnLuu_Click_1(object sender, EventArgs e)
         {
-
             string maHS = txtMaHS.Text;
             string maGV = lblmaGV.Text;
-            string maHK = btnHK.Text;
+            string maHK = "Học kỳ II";
             double diemGK = double.Parse(txtDiemGK.Text);
             double diemCK = double.Parse(txtDiemCK.Text);
 
@@ -351,7 +230,7 @@ namespace Thiet_ke
                 BangDiemGV bangDiemGV = null;
                 for (int i = 0; i < bangDiemGVs.Length; i++)
                 {
-                    if (bangDiemGVs[i].maHS == maHS)
+                    if (bangDiemGVs[i].maHS == maHS && bangDiemGVs[i].maGiaoVien == maGV && bangDiemGVs[i].maHK == maHK)
                     {
                         bangDiemGV = bangDiemGVs[i];
                         break;
@@ -360,32 +239,22 @@ namespace Thiet_ke
 
                 if (bangDiemGV != null)
                 {
-                    // Cập nhật điểm của học sinh trong lvDiem
-                    ListViewItem item = lvDiem.FindItemWithText(maHS);
-                    if (item != null)
-                    {
-                        item.SubItems[3].Text = diemGK.ToString();
-                        item.SubItems[4].Text = diemCK.ToString();
-                        item.SubItems[5].Text = ((diemGK + diemCK) / 2).ToString();
-                    }
-
-                    // Cập nhật điểm của học sinh trong danh sách điểm của giáo viên
+                    // Tạo một đối tượng của class BangDiemGV
                     bangDiemGV.diemGiuaKy = diemGK;
                     bangDiemGV.diemCuoiKy = diemCK;
                     bangDiemGV.diemTongKet = (diemGK + diemCK) / 2;
 
-                    // Lưu danh sách điểm của giáo viên cập nhật vào file BDGV.json
-                    string json = JsonConvert.SerializeObject(bangDiemGVs, Formatting.Indented);
-                    File.WriteAllText(filePaths, json);
+                    // Cập nhật bảng điểm
+                    bangDiemGV.CapNhatBangDiem(bangDiemGV, lvDiem, filePaths);
                 }
                 else
                 {
-                    MessageBox.Show("Không tìm thấy điểm của học sinh tương ứng.");
+                    MessageBox.Show("Không tìm thấy điểm của học sinh này.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Không tìm thấy học sinh tương ứng.");
+                MessageBox.Show("Không tìm thấy học sinh này.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

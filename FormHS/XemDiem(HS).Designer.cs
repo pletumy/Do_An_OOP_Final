@@ -41,9 +41,10 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblHoTen = new System.Windows.Forms.Label();
             this.lblMaHS = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblHoTen = new System.Windows.Forms.Label();
+            this.btncomeback = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -166,6 +167,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Điểm";
             // 
+            // lblHoTen
+            // 
+            this.lblHoTen.AutoSize = true;
+            this.lblHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoTen.ForeColor = System.Drawing.Color.SeaShell;
+            this.lblHoTen.Location = new System.Drawing.Point(178, 16);
+            this.lblHoTen.Name = "lblHoTen";
+            this.lblHoTen.Size = new System.Drawing.Size(75, 16);
+            this.lblHoTen.TabIndex = 8;
+            this.lblHoTen.Text = "HoTenHS";
+            // 
             // lblMaHS
             // 
             this.lblMaHS.AutoSize = true;
@@ -184,16 +196,15 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "label1";
             // 
-            // lblHoTen
+            // btncomeback
             // 
-            this.lblHoTen.AutoSize = true;
-            this.lblHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoTen.ForeColor = System.Drawing.Color.SeaShell;
-            this.lblHoTen.Location = new System.Drawing.Point(178, 16);
-            this.lblHoTen.Name = "lblHoTen";
-            this.lblHoTen.Size = new System.Drawing.Size(75, 16);
-            this.lblHoTen.TabIndex = 8;
-            this.lblHoTen.Text = "HoTenHS";
+            this.btncomeback.Location = new System.Drawing.Point(659, 413);
+            this.btncomeback.Name = "btncomeback";
+            this.btncomeback.Size = new System.Drawing.Size(75, 23);
+            this.btncomeback.TabIndex = 8;
+            this.btncomeback.Text = "Quay lại";
+            this.btncomeback.UseVisualStyleBackColor = true;
+            this.btncomeback.Click += new System.EventHandler(this.btncomeback_Click);
             // 
             // XemDiem_HS
             // 
@@ -201,6 +212,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(855, 454);
+            this.Controls.Add(this.btncomeback);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listView1);
@@ -233,5 +245,6 @@
         private System.Windows.Forms.Label lblMaHS;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblHoTen;
+        private System.Windows.Forms.Button btncomeback;
     }
 }

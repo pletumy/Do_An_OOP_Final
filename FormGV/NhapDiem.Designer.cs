@@ -259,7 +259,6 @@
             this.Name = "NhapDiem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhập Điểm";
-            this.Load += new System.EventHandler(this.NhapDiem_Load);
             this.grbNhapDiem.ResumeLayout(false);
             this.grbNhapDiem.PerformLayout();
             this.ResumeLayout(false);

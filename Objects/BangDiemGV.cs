@@ -1,13 +1,17 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Windows.Forms;
 
 namespace Thiet_ke.Objects
 {
+
     [Serializable]
     public class BangDiemGV : BangDiem, ISerializable
     {
@@ -19,8 +23,41 @@ namespace Thiet_ke.Objects
 
         protected override void xemBangDiem() { }
         //protected override void inBangDiem() { }
-        public void chinhSuaBangDiem()
+        public void CapNhatBangDiem(BangDiemGV bangDiemGV, ListView lvDiem, string filePath)
         {
+            // Cập nhật điểm của học sinh trong danh sách điểm của giáo viên
+            this.diemGiuaKy = bangDiemGV.diemGiuaKy;
+            this.diemCuoiKy = bangDiemGV.diemCuoiKy;
+            this.diemTongKet = bangDiemGV.diemTongKet;
+
+            // Lưu danh sách điểm của giáo viên cập nhật vào file BDGV.json
+            string json = JsonConvert.SerializeObject(this, Formatting.Indented);
+
+            // Đọc toàn bộ nội dung file JSON
+            string fileContent = File.ReadAllText(filePath);
+
+            // Chuyển đổi nội dung file JSON thành một danh sách các đối tượng BangDiemGV
+            List<BangDiemGV> bangDiemGVs = JsonConvert.DeserializeObject<List<BangDiemGV>>(fileContent);
+
+            // Tìm và cập nhật điểm của học sinh tương ứng
+            BangDiemGV hsToUpdate = bangDiemGVs.FirstOrDefault(h => h.maGiaoVien == this.maGiaoVien && h.maLop == this.maLop && h.maHS == this.maHS && h.maHK == this.maHK);
+            if (hsToUpdate != null)
+            {
+                int index = bangDiemGVs.IndexOf(hsToUpdate);
+                bangDiemGVs[index] = this;
+            }
+
+            // Ghi toàn bộ nội dung file JSON lại vào file
+            File.WriteAllText(filePath, JsonConvert.SerializeObject(bangDiemGVs, Formatting.Indented));
+
+            // Cập nhật điểm của học sinh trong lvDiem
+            ListViewItem item = lvDiem.FindItemWithText(bangDiemGV.maHS);
+            if (item != null)
+            {
+                item.SubItems[3].Text = bangDiemGV.diemGiuaKy.ToString();
+                item.SubItems[4].Text = bangDiemGV.diemCuoiKy.ToString();
+                item.SubItems[5].Text = bangDiemGV.diemTongKet.ToString();
+            }
         }
         public BangDiemGV()
         {
@@ -38,8 +75,8 @@ namespace Thiet_ke.Objects
         }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
-            info.AddValue("maGiaoVien", diemGiuaKy);
-            info.AddValue("maLop", diemGiuaKy);
+            info.AddValue("maGiaoVien", maGiaoVien);
+            info.AddValue("maLop", maLop);
             info.AddValue("maHS", maHS);
             info.AddValue("maHK", maHK);
             info.AddValue("diemGiuaKy", diemGiuaKy);

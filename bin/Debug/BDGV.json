@@ -1,7 +1,7 @@
 [
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A1",
     "maHS": "HS1",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
@@ -9,8 +9,8 @@
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 7.0,
-    "maLop": 7.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A1",
     "maHS": "HS2",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 7.0,
@@ -18,8 +18,8 @@
     "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A1",
     "maHS": "HS3",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -27,8 +27,8 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A2",
     "maHS": "HS4",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -36,8 +36,8 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 5.0,
-    "maLop": 5.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A2",
     "maHS": "HS5",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 5.0,
@@ -45,8 +45,8 @@
     "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 2.0,
-    "maLop": 2.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A2",
     "maHS": "HS6",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 2.0,
@@ -54,8 +54,8 @@
     "diemTongKet": 5.5
   },
   {
-    "maGiaoVien": 6.0,
-    "maLop": 6.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A1",
     "maHS": "HS7",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 6.0,
@@ -63,8 +63,8 @@
     "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 2.0,
-    "maLop": 2.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A1",
     "maHS": "HS8",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 2.0,
@@ -72,8 +72,8 @@
     "diemTongKet": 5.5
   },
   {
-    "maGiaoVien": 4.0,
-    "maLop": 4.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A1",
     "maHS": "HS9",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 4.0,
@@ -81,8 +81,8 @@
     "diemTongKet": 6.5
   },
   {
-    "maGiaoVien": 6.0,
-    "maLop": 6.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A2",
     "maHS": "HS10",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 6.0,
@@ -90,8 +90,8 @@
     "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A2",
     "maHS": "HS11",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
@@ -99,8 +99,8 @@
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 7.0,
-    "maLop": 7.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A2",
     "maHS": "HS12",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 7.0,
@@ -108,8 +108,8 @@
     "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 2.0,
-    "maLop": 2.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A1",
     "maHS": "HS13",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 2.0,
@@ -117,8 +117,8 @@
     "diemTongKet": 5.5
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A1",
     "maHS": "HS14",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
@@ -126,17 +126,17 @@
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 6.0,
-    "maLop": 6.0,
-    "maHS": "HS5",
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A1",
+    "maHS": "HS15",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 6.0,
     "diemCuoiKy": 9.0,
     "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A2",
     "maHS": "HS16",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -144,17 +144,17 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
-    "maHS": "HS7",
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A2",
+    "maHS": "HS17",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
     "diemCuoiKy": 9.0,
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A2",
     "maHS": "HS18",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -162,17 +162,17 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A1",
     "maHS": "HS1",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
+    "diemGiuaKy": 7.0,
     "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A1",
     "maHS": "HS2",
     "maHK": "Học kỳ II",
     "diemGiuaKy": 9.0,
@@ -180,161 +180,161 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A1",
     "maHS": "HS3",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 5.0,
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 5.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A2",
     "maHS": "HS4",
     "maHK": "Học kỳ II",
     "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A2",
     "maHS": "HS5",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 8.0,
+    "diemCuoiKy": 4.0,
+    "diemTongKet": 6.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L10A2",
     "maHS": "HS6",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A1",
     "maHS": "HS7",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 6.0,
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 6.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A1",
     "maHS": "HS8",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
+    "diemGiuaKy": 7.0,
     "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A1",
     "maHS": "HS9",
     "maHK": "Học kỳ II",
     "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A2",
     "maHS": "HS10",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 8.0,
+    "diemCuoiKy": 8.0,
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A2",
     "maHS": "HS11",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 6.0,
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 6.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L11A2",
     "maHS": "HS12",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 8.0,
+    "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A1",
     "maHS": "HS13",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 5.0,
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 5.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A1",
     "maHS": "HS14",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A1",
     "maHS": "HS15",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 10.0,
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A2",
     "maHS": "HS16",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 8.0,
+    "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A2",
     "maHS": "HS17",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 8.0,
+    "diemCuoiKy": 8.0,
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVTOAN",
+    "maLop": "2024L12A2",
     "maHS": "HS18",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
+    "diemGiuaKy": 3.0,
     "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemTongKet": 6.0
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A1",
     "maHS": "HS1",
     "maHK": "Học kỳ I",
-    "diemGiuaKy": 8.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 8.5
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 7.0,
-    "maLop": 7.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A1",
     "maHS": "HS2",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 7.0,
@@ -342,8 +342,8 @@
     "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A1",
     "maHS": "HS3",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -351,8 +351,8 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A2",
     "maHS": "HS4",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -360,8 +360,8 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 5.0,
-    "maLop": 5.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A2",
     "maHS": "HS5",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 5.0,
@@ -369,8 +369,8 @@
     "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 2.0,
-    "maLop": 2.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A2",
     "maHS": "HS6",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 2.0,
@@ -378,8 +378,8 @@
     "diemTongKet": 5.5
   },
   {
-    "maGiaoVien": 6.0,
-    "maLop": 6.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A1",
     "maHS": "HS7",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 6.0,
@@ -387,8 +387,8 @@
     "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 2.0,
-    "maLop": 2.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A1",
     "maHS": "HS8",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 2.0,
@@ -396,8 +396,8 @@
     "diemTongKet": 5.5
   },
   {
-    "maGiaoVien": 4.0,
-    "maLop": 4.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A1",
     "maHS": "HS9",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 4.0,
@@ -405,8 +405,8 @@
     "diemTongKet": 6.5
   },
   {
-    "maGiaoVien": 6.0,
-    "maLop": 6.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A2",
     "maHS": "HS10",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 6.0,
@@ -414,8 +414,8 @@
     "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A2",
     "maHS": "HS11",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
@@ -423,8 +423,8 @@
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 7.0,
-    "maLop": 7.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A2",
     "maHS": "HS12",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 7.0,
@@ -432,8 +432,8 @@
     "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 2.0,
-    "maLop": 2.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A1",
     "maHS": "HS13",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 2.0,
@@ -441,8 +441,8 @@
     "diemTongKet": 5.5
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A1",
     "maHS": "HS14",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
@@ -450,17 +450,17 @@
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 6.0,
-    "maLop": 6.0,
-    "maHS": "HS5",
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A1",
+    "maHS": "HS15",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 6.0,
     "diemCuoiKy": 9.0,
     "diemTongKet": 7.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A2",
     "maHS": "HS16",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -468,17 +468,17 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 8.0,
-    "maLop": 8.0,
-    "maHS": "HS7",
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A2",
+    "maHS": "HS17",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 8.0,
     "diemCuoiKy": 9.0,
     "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A2",
     "maHS": "HS18",
     "maHK": "Học kỳ I",
     "diemGiuaKy": 9.0,
@@ -486,152 +486,152 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A1",
     "maHS": "HS1",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A1",
     "maHS": "HS2",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 8.0,
+    "diemCuoiKy": 8.0,
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A1",
     "maHS": "HS3",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 5.0,
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 5.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A2",
     "maHS": "HS4",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 6.0,
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 6.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A2",
     "maHS": "HS5",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
+    "diemGiuaKy": 8.0,
     "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemTongKet": 8.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L10A2",
     "maHS": "HS6",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 4.0,
+    "diemCuoiKy": 4.0,
+    "diemTongKet": 4.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A1",
     "maHS": "HS7",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 5.0,
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 5.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A1",
     "maHS": "HS8",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 6.5
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A1",
     "maHS": "HS9",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 6.0,
+    "diemCuoiKy": 8.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A2",
     "maHS": "HS10",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 4.0,
+    "diemCuoiKy": 4.0,
+    "diemTongKet": 4.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A2",
     "maHS": "HS11",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 5.0,
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 5.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L11A2",
     "maHS": "HS12",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 6.0,
+    "diemCuoiKy": 6.0,
+    "diemTongKet": 6.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A1",
     "maHS": "HS13",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 7.0,
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A1",
     "maHS": "HS14",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 5.0,
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 5.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A1",
     "maHS": "HS15",
     "maHK": "Học kỳ II",
     "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemCuoiKy": 5.0,
+    "diemTongKet": 7.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A2",
     "maHS": "HS16",
     "maHK": "Học kỳ II",
     "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemCuoiKy": 7.0,
+    "diemTongKet": 8.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A2",
     "maHS": "HS17",
     "maHK": "Học kỳ II",
     "diemGiuaKy": 9.0,
@@ -639,12 +639,12 @@
     "diemTongKet": 9.0
   },
   {
-    "maGiaoVien": 9.0,
-    "maLop": 9.0,
+    "maGiaoVien": "GVLY",
+    "maLop": "2024L12A2",
     "maHS": "HS18",
     "maHK": "Học kỳ II",
-    "diemGiuaKy": 9.0,
-    "diemCuoiKy": 9.0,
-    "diemTongKet": 9.0
+    "diemGiuaKy": 1.0,
+    "diemCuoiKy": 1.0,
+    "diemTongKet": 1.0
   }
 ]
