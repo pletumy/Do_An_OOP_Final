@@ -43,7 +43,7 @@ namespace Thiet_ke.Objects
             };
             return lophoc;
         }
-        public void Nhap(string filePath, LopHoc lh)
+        public void Nhap(string filePath, LopHoc lh)                              //Dùng cho thêm và sửa lớp
         {
             //Đọc và thêm lớp mới vào file lớp
             List<LopHoc> danhsachlophocs = Program.DocFile<List<LopHoc>>(filePath);
@@ -51,20 +51,8 @@ namespace Thiet_ke.Objects
             //Lưuu
             Program.GhiFile(filePath, danhsachlophocs);
         }
-
-        public void Sua(string filePath, LopHoc doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(string filePath, string maDoiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TimKiem()
-        {
-            throw new NotImplementedException();
-        }
+        public void Sua(string filePath, LopHoc doiTuong) { }
+        public void Xoa(string filePath, string maDoiTuong) { }
+        public void TimKiem() { }
     }
 }

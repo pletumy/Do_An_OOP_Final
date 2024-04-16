@@ -26,7 +26,6 @@ namespace Thiet_ke
             this.tenHK = tenHK;
             this.parent = parent;
         }
-
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //*1 Đọc file Lớp học và chuyển đổi đối tượng dưới dạng List
