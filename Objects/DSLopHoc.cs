@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class DSLopHoc : DSDieuChinh<LopHoc>, ISerializable
+    public class DSLopHoc : IDSDieuChinh<LopHoc>, ISerializable
     {
         //trả về DS lớp học với các thao tác thêm xóa sửa
         private LopHoc[] lophocs = new LopHoc[10]; //
@@ -43,29 +43,6 @@ namespace Thiet_ke.Objects
             };
             return lophoc;
         }
-        public static T DocfileLop<T>(string FilePath)
-        {
-            try
-            {
-                if (File.Exists(FilePath))
-                {
-                    string json = File.ReadAllText(FilePath);
-                    T data = JsonConvert.DeserializeObject<T>(json);
-                    return data;
-                }
-                else
-                {
-                    Console.WriteLine("File không tồn tại.");
-                    return default(T);
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Đã xảy ra lỗi khi đọc tệp: " + ex.Message);
-                return default(T);
-            }
-        }
-
         public void Nhap(string filePath, LopHoc doiTuong)
         {
             throw new NotImplementedException();

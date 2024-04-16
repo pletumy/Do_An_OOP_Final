@@ -28,7 +28,7 @@ namespace Thiet_ke
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //*1 Đọc file
-            List<LopHoc> danhsachlophocs= DSLopHoc.DocfileLop<List<LopHoc>>(FilePath);
+            List<LopHoc> danhsachlophocs= Program.DocFile<List<LopHoc>>(FilePath);
 
             //*2 Tạo đối tượng lớp học mới để lưu vào file Json
             LopHoc SuaLop = new LopHoc();

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class DSHocSinh : DSDieuChinh<HocSinh>, ISerializable
+    public class DSHocSinh : IDSDieuChinh<HocSinh>, ISerializable
     {
         //trả về DS học sinh với các thao tác thêm xóa sửa
         private HocSinh[] students = new HocSinh[50]; //

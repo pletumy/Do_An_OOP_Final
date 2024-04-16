@@ -21,7 +21,7 @@ namespace Thiet_ke.Objects
         public string maHS { get; set; }
         public string maHK { get; set; }
 
-        protected override void xemBangDiem() { }
+        public override void luuBangDiem(string filepath, string maHS, string maHK) { }
         //protected override void inBangDiem() { }
         public void CapNhatBangDiem(BangDiemGV bangDiemGV, ListView lvDiem, string filePath)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public interface DSDieuChinh<T>
+    public interface IDSDieuChinh<T>
     {
        void Nhap(string filePath, T doiTuong);
        void Sua(string filePath, T doiTuong);

@@ -30,13 +30,13 @@ namespace Thiet_ke
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //*1 Đọc file Lớp học và chuyển đổi đối tượng dưới dạng List
-            List<LopHoc> danhsachlophocs = DSLopHoc.DocfileLop<List<LopHoc>>(FilePath);
+            List<LopHoc> danhsachlophocs = Program.DocFile<List<LopHoc>>(FilePath);
 
             //*2 Tìm và xóa đối tượng LopHoc có mã trùng với mã lớp đang chọn để sửa
             LopHoc.XoaLop(danhsachlophocs,this.maLop,this.tenHK);
 
             //*3 Lưu lại vào file 
-            //DSLopHoc.GhiFile<List<LopHoc>>(FilePath, danhsachlophocs);
+            Program.GhiFile<List<LopHoc>>(FilePath, danhsachlophocs);
 
             //Lấy lvLop của QuanLyDiem
             ListView lvlop = parent.lvLop;

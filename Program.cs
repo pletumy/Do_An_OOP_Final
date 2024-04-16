@@ -16,14 +16,14 @@ namespace Thiet_ke
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void GhiFile<T>(string filePath, T data)
+        public static void GhiFile<T>(string filePath, T data)
         {
             string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(filePath, json);
             Console.WriteLine("Đã ghi file JSON thành công.");
         }
 
-        static T DocFile<T>(string filePath)
+        public static T DocFile<T>(string filePath)
         {
             if (File.Exists(filePath))
             {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class DSGiaoVien : DSDieuChinh<GiaoVien>, ISerializable
+    public class DSGiaoVien : IDSDieuChinh<GiaoVien>, ISerializable
     {
         //trả về DS Giao Vien với các thao tác thêm xóa sửa
         private GiaoVien[] teachers = new GiaoVien[13]; //

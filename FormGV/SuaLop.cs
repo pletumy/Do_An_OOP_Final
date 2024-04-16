@@ -33,7 +33,7 @@ namespace Thiet_ke
         private void SuaLop_Load(object sender, EventArgs e)
         {
             // Đọc tệp lớp học JSON và chuyển đổi đối tượng 
-            LopHoc[] danhsachlophocs = DSLopHoc.DocfileLop<LopHoc[]>(FilePath);
+            LopHoc[] danhsachlophocs = Program.DocFile<LopHoc[]>(FilePath);
 
             // Tìm đối tượng lớp học có maLop trùng vs maLop được truyển vào
             LopHoc lophoc = null;
@@ -58,7 +58,7 @@ namespace Thiet_ke
         private void btnSua_Click(object sender, EventArgs e)
         {
             //ĐỌc file LopHoc hiện tại dưới dạng List
-            List<LopHoc> danhsachlophocs=DSLopHoc.DocfileLop<List<LopHoc>>(FilePath);
+            List<LopHoc> danhsachlophocs=Program.DocFile<List<LopHoc>>(FilePath);
 
             // Sử dụng lvLop từ lớp QuanLyDiem thông qua tham chiếu parentForm
             ListView lvLop = parentForm.lvLop;
@@ -119,7 +119,7 @@ namespace Thiet_ke
                 danhsachlophocs.Add(SuaLop);
 
                 //*5 Ghi file 
-                //DSLopHoc.GhiFile<List<LopHoc>>(FilePath,danhsachlophocs);
+                Program.GhiFile<List<LopHoc>>(FilePath,danhsachlophocs);
 
                 // Thông báo cho người dùng rằng lớp học đã được sửa đổi thành công
                 MessageBox.Show("Lớp học đã được sửa đổi thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
