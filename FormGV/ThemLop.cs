@@ -21,10 +21,6 @@ namespace Thiet_ke
             this.parent = parent;
         }
 
-        private void ThemLop_Load(object sender, EventArgs e)
-        {
-        }
-
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //*1 Đọc file

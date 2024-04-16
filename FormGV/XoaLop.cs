@@ -57,9 +57,5 @@ namespace Thiet_ke
             this.Close();
         }
 
-        private void XoaLop_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
