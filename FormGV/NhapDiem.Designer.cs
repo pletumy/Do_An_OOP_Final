@@ -52,6 +52,7 @@
             this.MaLop = new System.Windows.Forms.TextBox();
             this.btnHK = new System.Windows.Forms.Button();
             this.btncomeback = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.grbNhapDiem.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -162,6 +163,7 @@
             // 
             // grbNhapDiem
             // 
+            this.grbNhapDiem.Controls.Add(this.btncomeback);
             this.grbNhapDiem.Controls.Add(this.lblmaGV);
             this.grbNhapDiem.Controls.Add(this.btnLuu);
             this.grbNhapDiem.Controls.Add(this.txtMaHS);
@@ -232,22 +234,23 @@
             // 
             // btnHK
             // 
+            this.btnHK.BackColor = System.Drawing.SystemColors.Control;
             this.btnHK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHK.ForeColor = System.Drawing.Color.SandyBrown;
-            this.btnHK.Location = new System.Drawing.Point(56, 12);
+            this.btnHK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHK.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnHK.Location = new System.Drawing.Point(144, 12);
             this.btnHK.Name = "btnHK";
             this.btnHK.Size = new System.Drawing.Size(106, 23);
             this.btnHK.TabIndex = 19;
             this.btnHK.Text = "Học kỳ II";
-            this.btnHK.UseVisualStyleBackColor = true;
+            this.btnHK.UseVisualStyleBackColor = false;
             this.btnHK.Click += new System.EventHandler(this.btnHK_Click);
             // 
             // btncomeback
             // 
             this.btncomeback.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btncomeback.ForeColor = System.Drawing.Color.Brown;
-            this.btncomeback.Location = new System.Drawing.Point(651, 500);
+            this.btncomeback.Location = new System.Drawing.Point(649, 118);
             this.btncomeback.Name = "btncomeback";
             this.btncomeback.Size = new System.Drawing.Size(101, 23);
             this.btncomeback.TabIndex = 20;
@@ -255,13 +258,23 @@
             this.btncomeback.UseVisualStyleBackColor = true;
             this.btncomeback.Click += new System.EventHandler(this.btncomeback_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.SandyBrown;
+            this.label1.Location = new System.Drawing.Point(27, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 13);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Bấm để chọn học kỳ -->";
+            // 
             // NhapDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(818, 535);
-            this.Controls.Add(this.btncomeback);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnHK);
             this.Controls.Add(this.MaLop);
             this.Controls.Add(this.timmalop);
@@ -304,5 +317,6 @@
         private System.Windows.Forms.Button btnHK;
         private System.Windows.Forms.Label lblmaGV;
         private System.Windows.Forms.Button btncomeback;
+        private System.Windows.Forms.Label label1;
     }
 }

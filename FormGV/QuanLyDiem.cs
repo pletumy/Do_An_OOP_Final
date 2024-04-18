@@ -56,7 +56,6 @@ namespace Thiet_ke
         }
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
-            this.Close();
             NhapDiem nhapDiem = new NhapDiem(lblMon.Text);
             nhapDiem.ComebackButtonClicked += btncomeback_Click;
             nhapDiem.ShowDialog();

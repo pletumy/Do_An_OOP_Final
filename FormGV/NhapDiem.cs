@@ -216,8 +216,16 @@ namespace Thiet_ke
                     bangDiemGV.diemCuoiKy = diemCK;
                     bangDiemGV.diemTongKet = (diemGK + diemCK) / 2;
 
-                    // Cập nhật bảng điểm
-                    bangDiemGV.CapNhatBangDiem(bangDiemGV, lvDiem, filePaths);
+                    try
+                    {
+                        // Cập nhật bảng điểm
+                        bangDiemGV.CapNhatBangDiem(bangDiemGV, lvDiem, filePaths);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Lỗi cập nhật bảng điểm: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
