@@ -51,6 +51,7 @@
             this.timmalop = new System.Windows.Forms.Button();
             this.MaLop = new System.Windows.Forms.TextBox();
             this.btnHK = new System.Windows.Forms.Button();
+            this.btncomeback = new System.Windows.Forms.Button();
             this.grbNhapDiem.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -242,12 +243,25 @@
             this.btnHK.UseVisualStyleBackColor = true;
             this.btnHK.Click += new System.EventHandler(this.btnHK_Click);
             // 
+            // btncomeback
+            // 
+            this.btncomeback.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btncomeback.ForeColor = System.Drawing.Color.Brown;
+            this.btncomeback.Location = new System.Drawing.Point(651, 500);
+            this.btncomeback.Name = "btncomeback";
+            this.btncomeback.Size = new System.Drawing.Size(101, 23);
+            this.btncomeback.TabIndex = 20;
+            this.btncomeback.Text = "Đăng xuất";
+            this.btncomeback.UseVisualStyleBackColor = true;
+            this.btncomeback.Click += new System.EventHandler(this.btncomeback_Click);
+            // 
             // NhapDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(818, 535);
+            this.Controls.Add(this.btncomeback);
             this.Controls.Add(this.btnHK);
             this.Controls.Add(this.MaLop);
             this.Controls.Add(this.timmalop);
@@ -289,5 +303,6 @@
         private System.Windows.Forms.TextBox MaLop;
         private System.Windows.Forms.Button btnHK;
         private System.Windows.Forms.Label lblmaGV;
+        private System.Windows.Forms.Button btncomeback;
     }
 }

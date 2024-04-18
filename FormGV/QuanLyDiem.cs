@@ -25,6 +25,7 @@ namespace Thiet_ke
         {
             InitializeComponent();
             CurrentTeacher = teacher;
+            btncomeback.Click += btncomeback_Click;
             lblTenGV.Text = CurrentTeacher.hoVaTenLot + " " + CurrentTeacher.ten;
             lblMon.Text = CurrentTeacher.maGV;
         }
@@ -55,9 +56,11 @@ namespace Thiet_ke
         }
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
+            this.Close();
             NhapDiem nhapDiem = new NhapDiem(lblMon.Text);
-
+            nhapDiem.ComebackButtonClicked += btncomeback_Click;
             nhapDiem.ShowDialog();
+            
         }
 
         private void btnSuaSv_Click(object sender, EventArgs e)

@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\",
+  "WorkspaceRootPath": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\administrator\\source\\repos\\do_an_oop_final\\objects\\dslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\dslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\administrator\\source\\repos\\do_an_oop_final\\objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\nhapdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\administrator\\source\\repos\\do_an_oop_final\\formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\quanlydiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\accountgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formhs\\accounths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|d:\\oop\\do_an_final7\\do_an_oop_final\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\administrator\\source\\repos\\do_an_oop_final\\formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:formgv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|c:\\users\\administrator\\source\\repos\\do_an_oop_final\\objects\\idsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8270381-9739-4CBE-82BC-6E7991CA224D}|Thiet_ke.csproj|solutionrelative:objects\\idsdieuchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,53 +58,31 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDSDieuChinh.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\Objects\\IDSDieuChinh.cs",
-              "RelativeDocumentMoniker": "Objects\\IDSDieuChinh.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\Objects\\IDSDieuChinh.cs",
-              "RelativeToolTip": "Objects\\IDSDieuChinh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "QuanLyDiem.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
+              "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
+              "RelativeToolTip": "FormGV\\QuanLyDiem.cs",
+              "ViewState": "AQIAABQAAACwmZmZmVkwwEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T16:12:35.566Z",
+              "WhenOpened": "2024-04-18T10:36:49.111Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DSLopHoc.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\Objects\\DSLopHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\DSLopHoc.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\Objects\\DSLopHoc.cs*",
-              "RelativeToolTip": "Objects\\DSLopHoc.cs*",
-              "ViewState": "AQIAACUAAAAAAAAAAAAcwDYAAAAEAAAA",
+              "Title": "NhapDiem.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
+              "RelativeDocumentMoniker": "FormGV\\NhapDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
+              "RelativeToolTip": "FormGV\\NhapDiem.cs",
+              "ViewState": "AQIAAG4AAAAANzMzMzMUwOsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T16:12:48.027Z",
+              "WhenOpened": "2024-04-18T10:19:46.382Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LopHoc.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
-              "RelativeDocumentMoniker": "Objects\\LopHoc.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\Objects\\LopHoc.cs",
-              "RelativeToolTip": "Objects\\LopHoc.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T18:55:45.29Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -96,29 +98,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ThemLop.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
-              "RelativeDocumentMoniker": "FormGV\\ThemLop.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
-              "RelativeToolTip": "FormGV\\ThemLop.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "AccountGV.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeDocumentMoniker": "FormGV\\AccountGV.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeToolTip": "FormGV\\AccountGV.cs",
+              "ViewState": "AQIAABMAAADuzMzMzAwnwD0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T18:59:26.566Z",
+              "WhenOpened": "2024-04-18T10:46:47.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "AccountHS.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormHS\\AccountHS.cs [Design]",
+              "RelativeToolTip": "FormHS\\AccountHS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:46:16.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:46:14.769Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhapDiem.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs",
+              "RelativeDocumentMoniker": "FormGV\\NhapDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\NhapDiem.cs [Design]",
+              "RelativeToolTip": "FormGV\\NhapDiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:19:16.533Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyDiem.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs",
+              "RelativeDocumentMoniker": "FormGV\\QuanLyDiem.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\QuanLyDiem.cs [Design]",
+              "RelativeToolTip": "FormGV\\QuanLyDiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:18:27.641Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountHS.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeDocumentMoniker": "FormHS\\AccountHS.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormHS\\AccountHS.cs",
+              "RelativeToolTip": "FormHS\\AccountHS.cs",
+              "ViewState": "AQIAAAgAAABwmpmZmVklwDQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:46:19.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountGV.cs [Design]",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\AccountGV.cs",
+              "RelativeDocumentMoniker": "FormGV\\AccountGV.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\AccountGV.cs [Design]",
+              "RelativeToolTip": "FormGV\\AccountGV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:19:22.391Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThemLop.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
+              "RelativeDocumentMoniker": "FormGV\\ThemLop.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\ThemLop.cs",
+              "RelativeToolTip": "FormGV\\ThemLop.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:59:26.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SuaLop.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
+              "DocumentMoniker": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
               "RelativeDocumentMoniker": "FormGV\\SuaLop.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
+              "ToolTip": "D:\\OOP\\Do_an_final7\\Do_An_OOP_Final\\FormGV\\SuaLop.cs",
               "RelativeToolTip": "FormGV\\SuaLop.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAcwHUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:40:21.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T17:40:21.54Z"
             }
           ]
         }

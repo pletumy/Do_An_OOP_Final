@@ -24,38 +24,10 @@ namespace Thiet_ke
         string filePath = "students.json";
         string filePaths = "BDGV.json";
 
-        static T DocFile<T>(string filePath)
-        {
-            if (File.Exists(filePath))
-            {
-                string json = File.ReadAllText(filePath);
-                T data = JsonConvert.DeserializeObject<T>(json);
-                return data;
-            }
-            else
-            {
-                Console.WriteLine("File không tồn tại.");
-                return default(T);
-            }
-        }
-        static T DocFiles<T>(string filePaths)
-        {
-            if (File.Exists(filePaths))
-            {
-                string json = File.ReadAllText(filePaths);
-                T data = JsonConvert.DeserializeObject<T>(json);
-                return data;
-            }
-            else
-            {
-                Console.WriteLine("File không tồn tại.");
-                return default(T);
-            }
-        }
         public void HienThiDanhSachHocSinhTheoLop(string maLop)
         {
             lvDiem.Items.Clear();
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
+            HocSinh[] danhSachHocSinhs = Program.DocFile<HocSinh[]>(filePath);
             foreach (HocSinh hocSinh in danhSachHocSinhs)
             {
                 if (hocSinh.maLop == maLop)
@@ -96,8 +68,8 @@ namespace Thiet_ke
                 grbNhapDiem.Visible = false;
 
                 lvDiem.Items.Clear(); // Clear the list view before adding new items
-                HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-                BangDiemGV[] bangDiemGVs = DocFiles<BangDiemGV[]>(filePaths);
+                HocSinh[] danhSachHocSinhs = Program.DocFile<HocSinh[]>(filePath);
+                BangDiemGV[] bangDiemGVs = Program.DocFile<BangDiemGV[]>(filePaths);
 
                 List<BangDiemGV> bangDiemGVsForSemester = new List<BangDiemGV>();
 
@@ -147,8 +119,8 @@ namespace Thiet_ke
             {
                 grbNhapDiem.Visible = true;
                 lvDiem.Items.Clear(); // Clear the list view before adding new items
-                HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-                BangDiemGV[] bangDiemGVs = DocFiles<BangDiemGV[]>(filePaths);
+                HocSinh[] danhSachHocSinhs = Program.DocFile<HocSinh[]>(filePath);
+                BangDiemGV[] bangDiemGVs = Program.DocFile<BangDiemGV[]>(filePaths);
 
                 List<BangDiemGV> bangDiemGVsForSemester = new List<BangDiemGV>();
 
@@ -197,7 +169,7 @@ namespace Thiet_ke
         }
         public BangDiemGV[] taoDSBDGV()
         {
-            BangDiemGV[] bangDiemGVs = DocFile<BangDiemGV[]>(filePath);
+            BangDiemGV[] bangDiemGVs = Program.DocFile<BangDiemGV[]>(filePaths);
             // Thay đổi các giá trị điểm trong bangDiemGVs tại đây
             return bangDiemGVs;
         }
@@ -210,8 +182,8 @@ namespace Thiet_ke
             double diemGK = double.Parse(txtDiemGK.Text);
             double diemCK = double.Parse(txtDiemCK.Text);
 
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
-            BangDiemGV[] bangDiemGVs = DocFiles<BangDiemGV[]>(filePaths);
+            HocSinh[] danhSachHocSinhs = Program.DocFile<HocSinh[]>(filePath);
+            BangDiemGV[] bangDiemGVs = Program.DocFile<BangDiemGV[]>(filePaths);
 
             // Tìm kiếm học sinh tương ứng
             HocSinh hocSinh = null;
@@ -256,6 +228,12 @@ namespace Thiet_ke
             {
                 MessageBox.Show("Không tìm thấy học sinh này.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        public event EventHandler ComebackButtonClicked;
+        private void btncomeback_Click(object sender, EventArgs e)
+        {
+            ComebackButtonClicked?.Invoke(sender, e);
+            this.Close();
         }
     }
 }

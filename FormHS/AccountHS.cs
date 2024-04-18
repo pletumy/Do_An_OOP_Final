@@ -39,7 +39,7 @@ namespace Thiet_ke
                 // If the login credentials match a teacher account, open the corresponding form and pass the matched account to it
                 XemDiem_HS xemDiem_HS = new XemDiem_HS(TaiKhoanHS.CurrentUser);
                 xemDiem_HS.ShowDialog();
-                this.Hide();
+                this.Close();
             }
             else
             {
@@ -52,7 +52,7 @@ namespace Thiet_ke
         {
             DangNhap dangNhap = new DangNhap();
             dangNhap.ShowDialog();
-            this.Hide();
+            this.Close();
         }
     }
     }
