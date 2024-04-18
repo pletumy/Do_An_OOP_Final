@@ -13,6 +13,6 @@ namespace Thiet_ke.Objects
        void Nhap(string filePath, T doiTuong);
        void Sua(string filePath, T doiTuong);
        void Xoa(string filePath, string maDoiTuong);
-        void TimKiem(ListView listView, string searchText);
+       void TimKiem(ListView listView, string searchText);
     }
 }

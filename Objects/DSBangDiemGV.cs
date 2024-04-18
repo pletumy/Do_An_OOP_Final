@@ -11,9 +11,11 @@ namespace Thiet_ke.Objects
     {
 
         private BangDiemGV[] bangDiemGVs = new BangDiemGV[18];
-
-
-        public BangDiemGV[] BangDiemGVs { get => bangDiemGVs; set => bangDiemGVs = value; }
+        public BangDiemGV[] BangDiemGVs
+        {
+            get { return bangDiemGVs; }
+            set { bangDiemGVs = value; }
+        }
         public DSBangDiemGV() { }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {

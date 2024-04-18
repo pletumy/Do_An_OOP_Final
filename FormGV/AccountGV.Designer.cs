@@ -96,7 +96,6 @@
             this.Name = "AccountGV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AccountGV";
-            this.Load += new System.EventHandler(this.AccountGV_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

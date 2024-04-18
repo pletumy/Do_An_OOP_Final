@@ -39,15 +39,6 @@ namespace Thiet_ke.Objects
             // Chuyển đổi nội dung file JSON thành một danh sách các đối tượng BangDiemGV
             List<BangDiemGV> bangDiemGVs = JsonConvert.DeserializeObject<List<BangDiemGV>>(fileContent);
 
-            ////////LINQ Ở ĐÂY - SỬA Ở DƯỚI: TEST LẠI CHƯƠNG TRÌNH SỬA LẠI CHAYJ CÓ ĐÚNG K HỘ BẠN
-            // Tìm và cập nhật điểm của học sinh tương ứng
-            //BangDiemGV hsToUpdate = bangDiemGVs.FirstOrDefault(h => h.maGiaoVien == this.maGiaoVien && h.maLop == this.maLop && h.maHS == this.maHS && h.maHK == this.maHK);
-            //if (hsToUpdate != null)
-            //{
-            //    int index = bangDiemGVs.IndexOf(hsToUpdate);
-            //    bangDiemGVs[index] = this;
-            //}
-
             // Tìm và cập nhật điểm của học sinh tương ứng
             BangDiemGV hsToUpdate = null;
             for (int i = 0; i < bangDiemGVs.Count; i++)

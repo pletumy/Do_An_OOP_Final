@@ -48,16 +48,6 @@ namespace Thiet_ke
             txtMahs.Enabled = false;
         }
 
-        private void rBtnNam_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //

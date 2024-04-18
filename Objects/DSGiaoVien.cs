@@ -12,8 +12,11 @@ namespace Thiet_ke.Objects
     {
         //trả về DS Giao Vien với các thao tác thêm xóa sửa
         private GiaoVien[] teachers = new GiaoVien[13]; //
-        public GiaoVien[] Teachers { get => teachers; set => teachers = value; }
-
+        public GiaoVien[] Teachers
+        {
+            get { return teachers; }
+            set { teachers = value; }
+        }
 
         public DSGiaoVien() { }
         public void GetObjectData(SerializationInfo info, StreamingContext context)

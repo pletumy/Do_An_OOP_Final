@@ -88,10 +88,10 @@ namespace Thiet_ke
             DSBangDiemGV dSBangDiemGV = new DSBangDiemGV();
             BangDiemGV[] bangDiemGVs = dSBangDiemGV.taoDSBDGV();
 
-            GhiFile(filePath_students, hocSinhs);
+            //GhiFile(filePath_students, hocSinhs);
             GhiFile(filePath_teachers, giaoViens);
             GhiFile(filePath_monHocs, monHocs);
-            GhiFile(filePath_lophocs, lophocs);
+            //GhiFile(filePath_lophocs, lophocs);
             GhiFile(filePath_BDGVs, bangDiemGVs);
 
             // Đọc danh sách học sinh từ file JSON

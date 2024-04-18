@@ -32,7 +32,7 @@ namespace Thiet_ke
             List<LopHoc> danhsachlophocs = Program.DocFile<List<LopHoc>>(FilePath);
 
             //*2 Tìm và xóa đối tượng LopHoc có mã trùng với mã lớp đang chọn để sửa
-            LopHoc.XoaLop(danhsachlophocs,this.maLop,this.tenHK);
+            DSLopHoc.XoaLop(danhsachlophocs,this.maLop,this.tenHK);
 
             //*3 Lưu lại vào file 
             Program.GhiFile<List<LopHoc>>(FilePath, danhsachlophocs);

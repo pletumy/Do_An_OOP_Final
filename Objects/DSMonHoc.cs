@@ -12,7 +12,11 @@ namespace Thiet_ke.Objects
     {
         //trả về DS học sinh với các thao tác thêm xóa sửa
         private MonHoc[] monHocs = new MonHoc[13]; //
-        public MonHoc[] MonHocs { get => monHocs; set => monHocs = value; }
+        public MonHoc[] MonHocs
+        {
+            get { return monHocs; }
+            set { monHocs = value; }
+        }
 
         public DSMonHoc() { }
         public void GetObjectData(SerializationInfo info, StreamingContext context)

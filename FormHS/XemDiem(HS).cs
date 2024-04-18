@@ -26,14 +26,6 @@ namespace Thiet_ke
             lblHoTen.Text = CurrentStudent.hoVaTenLot.ToString() + " " + CurrentStudent.ten.ToString();
         }
         private HocSinh CurrentStudent;
-        private void lblNam_Click(object sender, EventArgs e)
-        {
-
-        }
-        // Lấy soft theo MaHK: maHS = CurrentStudent.maHS và maGV = GVTOAN,... -> 
-        private void XemDiem_HS_Load(object sender, EventArgs e)
-        {
-        }
         private void btncomeback_Click(object sender, EventArgs e)
         {
             AccountHS accountHS = new AccountHS();

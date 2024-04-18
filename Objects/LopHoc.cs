@@ -44,10 +44,5 @@ namespace Thiet_ke.Objects
             info.AddValue("tenHK", tenHK);
             info.AddValue("tenNamHoc", tenNamHoc);
         }
-        public static void XoaLop(List<LopHoc> danhSachLopHocs, string maLop, string tenHK) //Dùng cho xoá, sửa lớp
-        {
-            danhSachLopHocs.RemoveAll(lh => lh.maLop == maLop && lh.tenHK == tenHK);
-        }
-
     }
 }

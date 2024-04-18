@@ -242,7 +242,6 @@
             this.grbDsLop.TabIndex = 9;
             this.grbDsLop.TabStop = false;
             this.grbDsLop.Text = "Danh sách Lớp";
-            this.grbDsLop.Enter += new System.EventHandler(this.grbDsLop_Enter);
             // 
             // txtSearch
             // 

@@ -14,7 +14,11 @@ namespace Thiet_ke.Objects
     {
         //trả về DS lớp học với các thao tác thêm xóa sửa
         private LopHoc[] lophocs = new LopHoc[10]; //
-        public LopHoc[] Lophocs { get => lophocs; set => lophocs = value; }
+        public LopHoc[] Lophocs
+        {
+            get { return lophocs; }
+            set { lophocs = value; }
+        }
         //Khởi tạo danh sách học sinh
         public DSLopHoc() { }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -77,6 +81,16 @@ namespace Thiet_ke.Objects
                 {
                     // Nếu từ khóa rỗng, không chọn bất kỳ mục nào
                     item.Selected = false;
+                }
+            }
+        }
+        public static void XoaLop(List<LopHoc> danhSachLopHocs, string maLop, string tenHK) //Dùng cho xoá, sửa lớp
+        {
+            for (int i = danhSachLopHocs.Count - 1; i >= 0; i--)
+            {
+                if (danhSachLopHocs[i].maLop == maLop && danhSachLopHocs[i].tenHK == tenHK)
+                {
+                    danhSachLopHocs.RemoveAt(i);
                 }
             }
         }

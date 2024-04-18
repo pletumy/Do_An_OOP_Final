@@ -29,11 +29,6 @@ namespace Thiet_ke
         }
         GiaoVien matchedAccount = null;
 
-        private void AccountGV_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnDangNhap_Click_1(object sender, EventArgs e)
         {
             string username = txtTenDangNhap.Text;
@@ -54,7 +49,6 @@ namespace Thiet_ke
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không chính xác.");
             }
         }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DangNhap dangNhap = new DangNhap();

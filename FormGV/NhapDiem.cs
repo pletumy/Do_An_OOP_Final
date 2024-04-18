@@ -51,9 +51,6 @@ namespace Thiet_ke
                 selectedItem.Selected = true;
             }
         }
-
-
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             string maLop = (string)MaLop.Text;

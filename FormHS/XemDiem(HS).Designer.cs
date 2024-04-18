@@ -220,7 +220,6 @@
             this.Name = "XemDiem_HS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Xem Điểm_HS";
-            this.Load += new System.EventHandler(this.XemDiem_HS_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -102,7 +102,6 @@
             this.label7.Size = new System.Drawing.Size(75, 32);
             this.label7.TabIndex = 27;
             this.label7.Text = "Nam";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // rBtnNu
             // 
@@ -125,7 +124,6 @@
             this.rBtnNam.TabIndex = 25;
             this.rBtnNam.TabStop = true;
             this.rBtnNam.UseVisualStyleBackColor = true;
-            this.rBtnNam.CheckedChanged += new System.EventHandler(this.rBtnNam_CheckedChanged);
             // 
             // txtTen
             // 

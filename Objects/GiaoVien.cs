@@ -55,14 +55,14 @@ namespace Thiet_ke.Objects
         }
         public GiaoVien DangNhap(string tenDangNhap, string matKhau)
         {
-            // Check if the entered login credentials match this GiaoVien object
+            // Kiểm tra thông tin đăng nhập đã nhập có khớp với đối tượng GiaoVien này không
             if (tenDangNhap == this.tenDangNhap && matKhau == this.matKhau)
             {
-                // If the login credentials match this GiaoVien object, return this object
+                // Nếu thông tin đăng nhập khớp với đối tượng GiaoVien này, hãy trả về đối tượng này
                 return this;
             }
 
-            // If the login credentials do not match this GiaoVien object, return null
+            // Nếu thông tin đăng nhập không khớp với đối tượng GiaoVien này, trả về null
             return null;
         }
     }

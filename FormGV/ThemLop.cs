@@ -46,7 +46,6 @@ namespace Thiet_ke
             dSLopHoc.Nhap(FilePath, SuaLop);
             this.Close();
         }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();

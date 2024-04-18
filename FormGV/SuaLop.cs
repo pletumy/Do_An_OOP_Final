@@ -75,7 +75,7 @@ namespace Thiet_ke
                 }
             }
             //*1 Tìm và xóa đối tượng LopHoc có mã trùng với mã lớp đang chọn để sửa
-            LopHoc.XoaLop(danhsachlophocs, MaLop, TenHk);
+            DSLopHoc.XoaLop(danhsachlophocs, MaLop, TenHk);
 
             //*2 Tạo đối tượng lớp học mới để lưu vào file Json
             LopHoc SuaLop = new LopHoc();

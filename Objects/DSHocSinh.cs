@@ -14,7 +14,11 @@ namespace Thiet_ke.Objects
     {
         //trả về DS học sinh với các thao tác thêm xóa sửa
         private HocSinh[] students = new HocSinh[50]; //
-        public HocSinh[] Students { get => students; set => students = value; }
+        public HocSinh[] Students
+        {
+            get { return students; }
+            set { students = value; }
+        }
 
         public DSHocSinh() { }
         public void GetObjectData(SerializationInfo info, StreamingContext context)

@@ -30,11 +30,6 @@ namespace Thiet_ke
             lblMon.Text = CurrentTeacher.maGV;
         }
 
-        private void grbDsLop_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void GiaoVien_Load(object sender, EventArgs e)
         {
 
