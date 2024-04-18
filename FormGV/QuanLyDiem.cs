@@ -53,22 +53,6 @@ namespace Thiet_ke
                 lvLop.Items.Add(item);
             }
         }
-        /*
-        static T DocFile<T>(string filePath)
-        {
-            if (File.Exists(filePath))
-            {
-                string json = File.ReadAllText(filePath);
-                T data = JsonConvert.DeserializeObject<T>(json);
-                return data;
-            }
-            else
-            {
-                Console.WriteLine("File không tồn tại.");
-                return default(T);
-            }
-        }
-        */
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
             NhapDiem nhapDiem = new NhapDiem(lblMon.Text);
@@ -207,6 +191,20 @@ namespace Thiet_ke
             AccountGV accountGV = new AccountGV();
             accountGV.Show();
             this.Close();
+        }
+
+        //Tìm kiếm theo mã lớp
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            DSLopHoc dsLopHoc = new DSLopHoc();
+            dsLopHoc.TimKiem(lvLop, txtSearch.Text);
+        }
+
+        //Tìm kiếm theo mã học sinh
+        private void txtSearchhs_TextChanged(object sender, EventArgs e)
+        {
+            DSHocSinh dsHS = new DSHocSinh();
+            dsHS.TimKiem(lvSinhVien, txtSearchhs.Text);
         }
     }
 }

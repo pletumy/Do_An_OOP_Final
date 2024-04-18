@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Windows.Forms;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -82,21 +83,6 @@ namespace Thiet_ke.Objects
 
         public void Xoa(string filePath, string maHS)
         {
-            /*
-            for (int i = 0; i < hocSinhs.Length; i++)
-            {
-                if (hocSinhs[i].maHS == maHS)
-                {
-                    for (int j = i + 1; j < hocSinhs.Length; j++)
-                    {
-                        hocSinhs[j - 1] = hocSinhs[j];
-                    }
-                    //Array.Resize(ref hocSinhs, hocSinhs.Length - 1);
-                    return;
-                }
-            }
-            GhiFile("students.json", hocSinhs);
-            */
             HocSinh[] hocSinhs = Program.DocFile<HocSinh[]>(filePath);
             ;
             for (int i = 0; i < hocSinhs.Length; i++)
@@ -113,32 +99,32 @@ namespace Thiet_ke.Objects
             Program.GhiFile("students.json", hocSinhs);
         }
 
-
-        public void TimKiem()
+        // Tìm kiếm theo mã hs
+        public void TimKiem(ListView listView, string searchText)
         {
-            throw new NotImplementedException();
-        }
-        /*
-        public static void GhiFile<T>(string filePath, T data)
-        {
-            string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
-            File.WriteAllText(filePath, json);
-            Console.WriteLine("Đã ghi file JSON thành công.");
-        }
-        public static T DocFile<T>(string filePath)
-        {
-            if (File.Exists(filePath))
+            searchText = searchText.Trim().ToLower(); // Trim để loại bỏ khoảng trắng ở đầu và cuối chuỗi
+            foreach (ListViewItem item in listView.Items)
             {
-                string json = File.ReadAllText(filePath);
-                T data = JsonConvert.DeserializeObject<T>(json);
-                return data;
-            }
-            else
-            {
-                Console.WriteLine("File không tồn tại.");
-                return default(T);
+                if (searchText != "")
+                {
+                    // Kiểm tra xem từ khóa có tồn tại trong mục không
+                    if (item.Text.ToLower().Contains(searchText))
+                    {
+                        item.Selected = true;
+                        item.Focused = true;
+                        listView.EnsureVisible(item.Index);
+                    }
+                    else
+                    {
+                        item.Selected = false;
+                    }
+                }
+                else
+                {
+                    // Nếu từ khóa rỗng, không chọn bất kỳ mục nào
+                    item.Selected = false;
+                }
             }
         }
-        */
     }
 }

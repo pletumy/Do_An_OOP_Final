@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Forms;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
@@ -61,7 +62,7 @@ namespace Thiet_ke.Objects
             throw new NotImplementedException();
         }
 
-        public void TimKiem()
+        public void TimKiem(ListView listView, string searchText)
         {
             throw new NotImplementedException();
         }

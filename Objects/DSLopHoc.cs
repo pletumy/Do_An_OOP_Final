@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Windows.Forms;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,8 +52,35 @@ namespace Thiet_ke.Objects
             //Lưuu
             Program.GhiFile(filePath, danhsachlophocs);
         }
+
+        //Tìm kiếm theo mã Lớp
+        public void TimKiem(ListView listView, string searchText)
+        {
+            searchText = searchText.Trim().ToLower(); // Trim để loại bỏ khoảng trắng ở đầu và cuối chuỗi
+            foreach (ListViewItem item in listView.Items)
+            {
+                if (searchText != "")
+                {
+                    // Kiểm tra xem từ khóa có tồn tại trong mục không
+                    if (item.Text.ToLower().Contains(searchText))
+                    {
+                        item.Selected = true;
+                        item.Focused = true;
+                        listView.EnsureVisible(item.Index);
+                    }
+                    else
+                    {
+                        item.Selected = false;
+                    }
+                }
+                else
+                {
+                    // Nếu từ khóa rỗng, không chọn bất kỳ mục nào
+                    item.Selected = false;
+                }
+            }
+        }
         public void Sua(string filePath, LopHoc doiTuong) { }
         public void Xoa(string filePath, string maDoiTuong) { }
-        public void TimKiem() { }
     }
 }
