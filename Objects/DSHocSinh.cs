@@ -54,8 +54,10 @@ namespace Thiet_ke.Objects
         public void Nhap(string filePath, HocSinh hs)
         {
             HocSinh[] hocSinhs = Program.DocFile<HocSinh[]>(filePath);
-            List<HocSinh> danhSachHocSinhs = hocSinhs.ToList();
+            // Tạo danh sách từ mảng
+            List<HocSinh> danhSachHocSinhs = new List<HocSinh>(hocSinhs);
 
+            // Thêm đối tượng HocSinh mới vào danh sách
             danhSachHocSinhs.Add(hs);
 
             hocSinhs = (HocSinh[])danhSachHocSinhs.ToArray();

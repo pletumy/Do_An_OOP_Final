@@ -38,6 +38,7 @@
             this.clnGioiTinh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnSodt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.grbDssv = new System.Windows.Forms.GroupBox();
+            this.txtSearchhs = new System.Windows.Forms.TextBox();
             this.lvSinhVien = new System.Windows.Forms.ListView();
             this.clnMaHS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnHo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -51,6 +52,7 @@
             this.clnHocKy = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnNamHoc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.grbDsLop = new System.Windows.Forms.GroupBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnXoaLop = new System.Windows.Forms.Button();
             this.btnSuaLop = new System.Windows.Forms.Button();
             this.btnNhapLop = new System.Windows.Forms.Button();
@@ -63,8 +65,6 @@
             this.lblMon = new System.Windows.Forms.Label();
             this.lblGv = new System.Windows.Forms.Label();
             this.btncomeback = new System.Windows.Forms.Button();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.txtSearchhs = new System.Windows.Forms.TextBox();
             this.grbDssv.SuspendLayout();
             this.grbDsLop.SuspendLayout();
             this.grbDiemSo.SuspendLayout();
@@ -99,6 +99,14 @@
             this.grbDssv.TabIndex = 12;
             this.grbDssv.TabStop = false;
             this.grbDssv.Text = "Danh sách học sinh";
+            // 
+            // txtSearchhs
+            // 
+            this.txtSearchhs.Location = new System.Drawing.Point(686, 35);
+            this.txtSearchhs.Name = "txtSearchhs";
+            this.txtSearchhs.Size = new System.Drawing.Size(464, 44);
+            this.txtSearchhs.TabIndex = 4;
+            this.txtSearchhs.TextChanged += new System.EventHandler(this.txtSearchhs_TextChanged);
             // 
             // lvSinhVien
             // 
@@ -166,9 +174,9 @@
             this.grbSinhVien.BackColor = System.Drawing.Color.Transparent;
             this.grbSinhVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.grbSinhVien.Location = new System.Drawing.Point(166, 688);
-            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.grbSinhVien.Margin = new System.Windows.Forms.Padding(8);
             this.grbSinhVien.Name = "grbSinhVien";
-            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.grbSinhVien.Padding = new System.Windows.Forms.Padding(8);
             this.grbSinhVien.Size = new System.Drawing.Size(698, 185);
             this.grbSinhVien.TabIndex = 13;
             this.grbSinhVien.TabStop = false;
@@ -235,6 +243,14 @@
             this.grbDsLop.Text = "Danh sách Lớp";
             this.grbDsLop.Enter += new System.EventHandler(this.grbDsLop_Enter);
             // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(291, 35);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(464, 44);
+            this.txtSearch.TabIndex = 3;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
             // btnXoaLop
             // 
             this.btnXoaLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
@@ -264,7 +280,7 @@
             this.btnNhapLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapLop.Location = new System.Drawing.Point(192, 1027);
-            this.btnNhapLop.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.btnNhapLop.Margin = new System.Windows.Forms.Padding(10);
             this.btnNhapLop.Name = "btnNhapLop";
             this.btnNhapLop.Size = new System.Drawing.Size(620, 83);
             this.btnNhapLop.TabIndex = 0;
@@ -290,7 +306,7 @@
             this.btnNhapHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapHS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapHS.Location = new System.Drawing.Point(1096, 1027);
-            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.btnNhapHS.Margin = new System.Windows.Forms.Padding(8);
             this.btnNhapHS.Name = "btnNhapHS";
             this.btnNhapHS.Size = new System.Drawing.Size(700, 83);
             this.btnNhapHS.TabIndex = 0;
@@ -305,9 +321,9 @@
             this.grbDiemSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbDiemSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.grbDiemSo.Location = new System.Drawing.Point(550, 1131);
-            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.grbDiemSo.Margin = new System.Windows.Forms.Padding(8);
             this.grbDiemSo.Name = "grbDiemSo";
-            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.grbDiemSo.Padding = new System.Windows.Forms.Padding(8);
             this.grbDiemSo.Size = new System.Drawing.Size(1042, 162);
             this.grbDiemSo.TabIndex = 16;
             this.grbDiemSo.TabStop = false;
@@ -318,7 +334,7 @@
             this.btnNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapDiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnNhapDiem.Location = new System.Drawing.Point(236, 42);
-            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.btnNhapDiem.Margin = new System.Windows.Forms.Padding(8);
             this.btnNhapDiem.Name = "btnNhapDiem";
             this.btnNhapDiem.Size = new System.Drawing.Size(562, 83);
             this.btnNhapDiem.TabIndex = 0;
@@ -380,30 +396,16 @@
             // 
             // btncomeback
             // 
-            this.btncomeback.Location = new System.Drawing.Point(1832, 1173);
-            this.btncomeback.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btncomeback.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btncomeback.ForeColor = System.Drawing.Color.Brown;
+            this.btncomeback.Location = new System.Drawing.Point(1854, 1249);
+            this.btncomeback.Margin = new System.Windows.Forms.Padding(6);
             this.btncomeback.Name = "btncomeback";
-            this.btncomeback.Size = new System.Drawing.Size(150, 44);
+            this.btncomeback.Size = new System.Drawing.Size(202, 44);
             this.btncomeback.TabIndex = 18;
-            this.btncomeback.Text = "Quay Lại";
+            this.btncomeback.Text = "Đăng xuất";
             this.btncomeback.UseVisualStyleBackColor = true;
             this.btncomeback.Click += new System.EventHandler(this.btncomeback_Click);
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.Location = new System.Drawing.Point(291, 35);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(464, 44);
-            this.txtSearch.TabIndex = 3;
-            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
-            // 
-            // txtSearchhs
-            // 
-            this.txtSearchhs.Location = new System.Drawing.Point(686, 35);
-            this.txtSearchhs.Name = "txtSearchhs";
-            this.txtSearchhs.Size = new System.Drawing.Size(464, 44);
-            this.txtSearchhs.TabIndex = 4;
-            this.txtSearchhs.TextChanged += new System.EventHandler(this.txtSearchhs_TextChanged);
             // 
             // QuanLyDiem
             // 
