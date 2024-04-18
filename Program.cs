@@ -18,25 +18,51 @@ namespace Thiet_ke
         [STAThread]
         public static void GhiFile<T>(string filePath, T data)
         {
-            string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
-            File.WriteAllText(filePath, json);
-            Console.WriteLine("Đã ghi file JSON thành công.");
+            try
+            {
+                string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(filePath, json);
+                Console.WriteLine("Đã ghi file JSON thành công.");
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine($"Lỗi khi ghi file: {ex.Message}");
+            }
+            catch (JsonException ex)
+            {
+                Console.WriteLine($"Lỗi khi chuyển đổi dữ liệu sang JSON: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Đã xảy ra lỗi: {ex.Message}");
+            }
         }
 
         public static T DocFile<T>(string filePath)
         {
-            if (File.Exists(filePath))
+            try
             {
                 string json = File.ReadAllText(filePath);
                 T data = JsonConvert.DeserializeObject<T>(json);
                 Console.WriteLine("Đã đọc file JSON thành công.");
                 return data;
             }
-            else
+            catch (IOException ex)
             {
-                Console.WriteLine("File không tồn tại.");
+                Console.WriteLine($"Lỗi khi đọc file: {ex.Message}");
                 return default(T);
             }
+            catch (JsonException ex)
+            {
+                Console.WriteLine($"Lỗi khi chuyển đổi dữ liệu từ JSON: {ex.Message}");
+                return default(T);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Đã xảy ra lỗi: {ex.Message}");
+                return default(T);
+            }
+
         }
         static void Main()
         {

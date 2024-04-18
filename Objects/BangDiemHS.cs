@@ -23,7 +23,7 @@ namespace Thiet_ke.Objects
         // Tạo BDHS cho tất cả học sinh để xem
         public override void luuBangDiem(string filepath, string maHocSinh, string maHocKy)
         {
-            BangDiemGV[] bangdiems = BangDiem.DocFile<BangDiemGV[]>(filepath);
+            BangDiemGV[] bangdiems = Program.DocFile<BangDiemGV[]>(filepath);
             // kiểm tra lọc điểm học sinh theo maHS và maHK với điều kiện maGiaoVien = môn (nếu maGV = GVTOAN thì điền điểm vào item TOAN)
             // Tạo từng bảng điểm của học sinh (maHS, maMonHoc, diemCuoiKy, diemGiuaKy, diemCuoiKy)
             // Tạo danh sách để lưu trữ thông tin BDHS
@@ -58,7 +58,7 @@ namespace Thiet_ke.Objects
                 // Thêm đối tượng BDHS vào danh sách
                 BDHSItems.Add(bdhsItem);
             }
-            BangDiem.GhiFile(filepath_BangdiemHS, BDHSItems);
+            Program.GhiFile(filepath_BangdiemHS, BDHSItems);
         }
         //protected override void inBangDiem() { }
     }

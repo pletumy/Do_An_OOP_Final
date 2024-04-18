@@ -49,7 +49,7 @@ namespace Thiet_ke
             BangDiemHS BDHS = new BangDiemHS(this);
             BDHS.luuBangDiem(filePath_BDGVs, maHS, maHK);
 
-            BangDiemHS[] bangdiemHSs = BangDiem.DocFile<BangDiemHS[]>(filepath_BangdiemHS);
+            BangDiemHS[] bangdiemHSs = Program.DocFile<BangDiemHS[]>(filepath_BangdiemHS);
             //đếm số môn học có điểm của HS đang xét
             int count = 0;
             foreach (BangDiemHS diem in bangdiemHSs)
@@ -105,7 +105,7 @@ namespace Thiet_ke
             BangDiemHS BDHS = new BangDiemHS(this);
             BDHS.luuBangDiem(filePath_BDGVs, maHS, maHK);
 
-            BangDiemHS[] bangdiemHSs = BangDiem.DocFile<BangDiemHS[]>(filepath_BangdiemHS);
+            BangDiemHS[] bangdiemHSs = Program.DocFile<BangDiemHS[]>(filepath_BangdiemHS);
             //đếm số môn học có điểm của HS đang xét
             int count = 0;
             foreach (BangDiemHS diem in bangdiemHSs)

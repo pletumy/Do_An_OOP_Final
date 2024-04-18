@@ -52,20 +52,20 @@ namespace Thiet_ke.Objects
 
         public void Nhap(string filePath, HocSinh hs)
         {
-            HocSinh[] hocSinhs = DocFile<HocSinh[]>(filePath);
+            HocSinh[] hocSinhs = Program.DocFile<HocSinh[]>(filePath);
             List<HocSinh> danhSachHocSinhs = hocSinhs.ToList();
 
             danhSachHocSinhs.Add(hs);
 
             hocSinhs = (HocSinh[])danhSachHocSinhs.ToArray();
 
-            GhiFile("students.json", hocSinhs);
+            Program.GhiFile("students.json", hocSinhs);
         }
 
         public void Sua(string filePath, HocSinh hs)
         {
             //lấy đối tượng HocSinh được tạo từ form -> xóa đối tượng hocSinh dùng phương thức Xoa() -> thay với chỉ số
-            HocSinh[] hocSinhs = DocFile<HocSinh[]>(filePath);
+            HocSinh[] hocSinhs = Program.DocFile<HocSinh[]>(filePath);
             for (int i = 0; i < hocSinhs.Length; i++)
             {
                 if (hocSinhs[i].maHS == hs.maHS)
@@ -77,7 +77,7 @@ namespace Thiet_ke.Objects
                     hocSinhs[i].soDienThoai = hs.soDienThoai;
                 }
             }
-            GhiFile("students.json", hocSinhs);
+            Program.GhiFile("students.json", hocSinhs);
         }
 
         public void Xoa(string filePath, string maHS)
@@ -97,7 +97,7 @@ namespace Thiet_ke.Objects
             }
             GhiFile("students.json", hocSinhs);
             */
-            HocSinh[] hocSinhs = DocFile<HocSinh[]>(filePath);
+            HocSinh[] hocSinhs = Program.DocFile<HocSinh[]>(filePath);
             ;
             for (int i = 0; i < hocSinhs.Length; i++)
             {
@@ -110,7 +110,7 @@ namespace Thiet_ke.Objects
                     //Array.Resize(ref hocSinhs, hocSinhs.Length - 1);
                 }
             }
-            GhiFile("students.json", hocSinhs);
+            Program.GhiFile("students.json", hocSinhs);
         }
 
 
@@ -118,7 +118,7 @@ namespace Thiet_ke.Objects
         {
             throw new NotImplementedException();
         }
-
+        /*
         public static void GhiFile<T>(string filePath, T data)
         {
             string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
@@ -139,6 +139,6 @@ namespace Thiet_ke.Objects
                 return default(T);
             }
         }
-
+        */
     }
 }

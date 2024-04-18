@@ -16,6 +16,7 @@ namespace Thiet_ke.Objects
         public double diemGiuaKy;
         public double diemCuoiKy;
         public double diemTongKet;
+        /*
         public static void GhiFile<T>(string filePath, T data)
         {
             string json = JsonConvert.SerializeObject(data, Formatting.Indented);
@@ -37,6 +38,7 @@ namespace Thiet_ke.Objects
                 return default(T);
             }
         }
+        */
         public abstract void luuBangDiem(string filepath, string maHS, string maHK);
     }
 }

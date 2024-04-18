@@ -40,7 +40,7 @@ namespace Thiet_ke
             // thêm dữ liệu lớp học
             string FilePath = "lophocs.json";
             //Đọc dữ liệu lớp học từ tệp Json
-            LopHoc[] danhsachLophocs = DocFile<LopHoc[]>(FilePath);
+            LopHoc[] danhsachLophocs = Program.DocFile<LopHoc[]>(FilePath);
 
             //Hiển thị lên ListView
             foreach (LopHoc lophoc in danhsachLophocs)
@@ -53,6 +53,7 @@ namespace Thiet_ke
                 lvLop.Items.Add(item);
             }
         }
+        /*
         static T DocFile<T>(string filePath)
         {
             if (File.Exists(filePath))
@@ -67,7 +68,7 @@ namespace Thiet_ke
                 return default(T);
             }
         }
-
+        */
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
             NhapDiem nhapDiem = new NhapDiem(lblMon.Text);
@@ -127,7 +128,7 @@ namespace Thiet_ke
         {
             filePath = "students.json";
             lvSinhVien.Items.Clear();
-            HocSinh[] danhSachHocSinhs = DocFile<HocSinh[]>(filePath);
+            HocSinh[] danhSachHocSinhs = Program.DocFile<HocSinh[]>(filePath);
             foreach (HocSinh hocSinh in danhSachHocSinhs)
             {
                 if (hocSinh.maLop == maLop)
@@ -146,13 +147,21 @@ namespace Thiet_ke
 
         private void btnXoaLop_Click(object sender, EventArgs e)
         {
-            // Lấy lớp được chọn trong listViewStudents
-            ListViewItem selectedItem = lvLop.SelectedItems[0];
-            string maLop = selectedItem.SubItems[0].Text;
-            string tenHK = selectedItem.SubItems[2].Text;
+            if (lvLop.SelectedItems.Count > 0)
+            {
+                // Lấy lớp được chọn trong listViewStudents
+                ListViewItem selectedItem = lvLop.SelectedItems[0];
+                string maLop = selectedItem.SubItems[0].Text;
+                string tenHK = selectedItem.SubItems[2].Text;
 
-            XoaLop xoalop = new XoaLop(maLop, tenHK, this);
-            xoalop.ShowDialog();
+                XoaLop xoalop = new XoaLop(maLop, tenHK, this);
+                xoalop.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn Lớp cần xóa!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
 
         private void btnNhapLop_Click(object sender, EventArgs e)
