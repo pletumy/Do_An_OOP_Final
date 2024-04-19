@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Thiet_ke.Objects
 {
-    public class DSGiaoVien : IDSDieuChinh<GiaoVien>, ISerializable
+    public class DSGiaoVien :  ISerializable
     {
         //trả về DS Giao Vien với các thao tác thêm xóa sửa
         private GiaoVien[] teachers = new GiaoVien[13]; //
@@ -48,26 +48,6 @@ namespace Thiet_ke.Objects
                     new GiaoVien { maGV = "GVTIN", hoVaTenLot = "Trần Lâm ", ten ="Anh", gioiTinh =0, soDienThoai ="0392136597", tenDangNhap ="userGVTIN", matKhau ="passwordGVTIN"},
                 };
             return giaoViens;
-        }
-
-        public void Nhap(string filePath, GiaoVien doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Sua(string filePath, GiaoVien doiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Xoa(string filePath, string maDoiTuong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TimKiem(ListView listView, string searchText)
-        {
-            throw new NotImplementedException();
         }
     }
 }
