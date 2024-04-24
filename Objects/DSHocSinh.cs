@@ -90,7 +90,6 @@ namespace Thiet_ke.Objects
         public void Xoa(string filePath, string maHS)
         {
             HocSinh[] hocSinhs = Program.DocFile<HocSinh[]>(filePath);
-            ;
             for (int i = 0; i < hocSinhs.Length; i++)
             {
                 if (hocSinhs[i].maHS == maHS)
@@ -99,7 +98,6 @@ namespace Thiet_ke.Objects
                     {
                         hocSinhs[j - 1] = hocSinhs[j];
                     }
-                    //Array.Resize(ref hocSinhs, hocSinhs.Length - 1);
                 }
             }
             Program.GhiFile("students.json", hocSinhs);
@@ -108,12 +106,11 @@ namespace Thiet_ke.Objects
         // Tìm kiếm theo mã hs
         public void TimKiem(ListView listView, string searchText)
         {
-            searchText = searchText.Trim().ToLower(); // Trim để loại bỏ khoảng trắng ở đầu và cuối chuỗi
+            searchText = searchText.Trim().ToLower(); 
             foreach (ListViewItem item in listView.Items)
             {
                 if (searchText != "")
                 {
-                    // Kiểm tra xem từ khóa có tồn tại trong mục không
                     if (item.Text.ToLower().Contains(searchText))
                     {
                         item.Selected = true;
@@ -127,7 +124,6 @@ namespace Thiet_ke.Objects
                 }
                 else
                 {
-                    // Nếu từ khóa rỗng, không chọn bất kỳ mục nào
                     item.Selected = false;
                 }
             }

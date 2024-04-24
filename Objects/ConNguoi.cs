@@ -14,6 +14,5 @@ namespace Thiet_ke.Objects
         public string tenDangNhap { get; set; }
         public string matKhau { get; set; }
 
-
     }
 }

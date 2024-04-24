@@ -41,7 +41,11 @@ namespace Thiet_ke.Objects
 
                 // Tạo thông tin BDHS từ các trường thu thập được
                 string maMonHoc = maGiaoVien.Replace("GV", "");
+                
+                
                 double diemTrungBinh = (diemGiuaKy + diemCuoiKy) / 2;
+
+
 
                 // Tạo đối tượng BDHS
                 BangDiemHS bdhsItem = new BangDiemHS(parentForm)
@@ -59,6 +63,7 @@ namespace Thiet_ke.Objects
             }
             Program.GhiFile(filepath_BangdiemHS, BDHSItems);
         }
-        //protected override void inBangDiem() { }
+        //protected
+        //void inBangDiem() { }
     }
 }

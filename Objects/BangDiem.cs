@@ -16,6 +16,16 @@ namespace Thiet_ke.Objects
         public double diemGiuaKy;
         public double diemCuoiKy;
         public double diemTongKet;
-        public abstract void luuBangDiem(string filepath, string maHS, string maHK);
+
+        protected BangDiem(string monHoc, string maHK, double diemGiuaKy, double diemCuoiKy)
+        {
+            MonHoc = monHoc;
+            this.maHK = maHK;
+            this.diemGiuaKy = diemGiuaKy;
+            this.diemCuoiKy = diemCuoiKy;
+        }
+
+        //public abstract void luuBangDiem(string filepath, string maHS, string maHK);
+
     }
 }

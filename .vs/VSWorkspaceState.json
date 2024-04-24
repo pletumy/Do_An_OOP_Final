@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FormHS",
+    "\\Objects"
   ],
-  "SelectedNode": "\\Thiet_ke.sln",
+  "SelectedNode": "\\Objects\\BangDiem.cs",
   "PreviewInSolutionExplorer": false
 }
